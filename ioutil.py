@@ -7,7 +7,7 @@ def get_file_as_string(path):
     return file_input
 
 def get_noun_phrases(path):
-    tokens = nltk.word_tokenize(get_tokens_of_file(path))
+    tokens = nltk.word_tokenize(get_file_as_string(path))
     tokens_with_pos_tag = nltk.pos_tag(tokens)
     grammar = """
                 NP: {<DT|PP\$>?<JJ>*<NN>}
@@ -22,7 +22,7 @@ def get_noun_phrases(path):
         for word in subtree.leaves():
             noun_phrase += word[0] + " "
         noun_phrases.append(noun_phrase.strip())
-    print(noun_phrases)
+    return noun_phrases
 
 def get_initial_anaphora_list(path):
     noun_phrase_list = []
@@ -34,7 +34,4 @@ def get_initial_anaphora_list(path):
         if len(noun_phrase) > 0 and len(noun_id) > 0:
             pair = (noun_id[0], noun_phrase[0])
             noun_phrase_list.append(pair)
-    print(noun_phrase_list)
     return noun_phrase_list
-
-get_initial_anaphora_list('dev/a8.crf')
