@@ -6,6 +6,23 @@ def get_file_as_string(path):
         file_input = file.read().replace('\n', ' ')
     return file_input
 
+def get_files_to_check(path):
+    files_to_check = []
+    with open(path, 'r') as file:
+        for line in file:
+            files_to_check.append(line)
+    return files_to_check
+
+def write_response_file(response_directory, crf_path, responses):
+    path = response_directory + crf_path.split('/')[-1].split('.')[0] + ".response"
+    response_string = "<TXT>\n"
+    for response in responses:
+        response_string +=  '<COREF ID="' + str(response.id) + ' REF="' + str(response.coref) + '">' + response.noun_phrase + "</COREF>\n"
+    response_string += "</TXT>"
+
+    with open(path, 'w') as file:
+        file.write(response_string)
+
 def get_noun_phrases(path):
     tokens = nltk.word_tokenize(get_file_as_string(path))
     tokens_with_pos_tag = nltk.pos_tag(tokens)
@@ -54,3 +71,18 @@ def get_noun_phrase_positions(path, noun_phrases):
                 pair = (phrase, m.start(), m.end())
                 noun_phrase_list.append(pair)
     return noun_phrase_list
+
+def get_relevant_noun_phrases(coref_list, noun_phrase_list):
+    coref_set = set()
+    relevant_noun_phrases = []
+    for noun_phrase in coref_list:
+        words = noun_phrase[1].split()
+        for word in words:
+            coref_set.add(word.lower())
+    for noun_phrase in noun_phrase_list:
+        words = noun_phrase.split()
+        for word in words:
+            if word.lower() in coref_set:
+                relevant_noun_phrases.append(noun_phrase)
+                break
+    return relevant_noun_phrases

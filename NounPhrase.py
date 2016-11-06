@@ -3,4 +3,5 @@ class NounPhrase:
         self.noun_phrase = None
         self.coref = None
         self.id = None
-        self.char_number = None
+        self.start_index = None
+        self.end_index = None
