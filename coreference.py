@@ -13,6 +13,11 @@ def main():
     #response_directory = sys.argv[2]
 
     print(ioutil.get_noun_phrases('dev/a8.txt'))
+    #print(ioutil.get_initial_anaphora_list('dev/a8.crf'))
+    #print(ioutil.get_initial_anaphora_list2('dev/a8.crf'))
+
+    print(ioutil.get_noun_phrase_positions('dev/a8.crf', ioutil.get_noun_phrases('dev/a8.txt')))
+
 
 def print_usage():
     print("usage: python coreference.py <listfile> <responsedir>")
