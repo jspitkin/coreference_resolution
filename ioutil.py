@@ -133,13 +133,14 @@ def assign_refs_for_similars(sorted_combined_list):
     return sorted_combined_list
 
 def get_response_noun_phrases(assigned_list):
-    responses = []
+    responses = set()
     related_ids = set()
     for item in assigned_list:
         if item.ref is not None:
-            responses.append(item)
+            responses.add(item)
             related_ids.add(item.ref)
     for item in assigned_list:
         if item.id in related_ids:
-            responses.append(item)
-    return responses
+            responses.add(item)
+    response = list(responses)
+    return response
