@@ -1,1 +1,1 @@
-python coreference.py listfile.listfile response_files/
+python3 coreference.py listfile.listfile response_files/

@@ -1,6 +1,2 @@
-chmod +x getenv.sh
-./getenv.sh
-source virtual_env/bin/activate
-pip install nltk
-python install_pickle.py
-python coreference.py listfile.listfile response_files/
+python3 install_packages.py
+python3 coreference.py listfile.listfile response_files/
