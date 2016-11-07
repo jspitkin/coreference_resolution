@@ -63,9 +63,10 @@ def get_initial_anaphora_list(path):
 
 def get_noun_phrase_positions(path, noun_phrases):
     noun_phrase_list = []
+    noun_phrase_set = set(noun_phrases)
     file_string = get_file_as_string(path)
 
-    for noun_phrase in noun_phrases:
+    for noun_phrase in noun_phrase_set:
         pattern = re.escape(noun_phrase)
         regex = re.compile(pattern, re.IGNORECASE)
 
@@ -95,8 +96,6 @@ def get_relevant_noun_phrases(coref_list, noun_phrase_list):
     return relevant_noun_phrases
 
 def combine_anaphora_relevant_np(anaphora_list, noun_phrase_list):
-    for item in noun_phrase_list:
-        print(item)
     combined_list = []
     id_index = 1
     for np in noun_phrase_list:
@@ -110,5 +109,29 @@ def combine_anaphora_relevant_np(anaphora_list, noun_phrase_list):
             combined_list.append(np)
     for np in anaphora_list:
         combined_list.append(np)
-    return combined_list
+    sorted_combined_list = sorted(combined_list, key=lambda x: x.start_index)
+    return sorted_combined_list
    # return combined_list.sort(key=lambda x: x.start_index)
+
+def assign_refs_for_similars(sorted_combined_list):
+
+
+
+    for index, np, in enumerate(sorted_combined_list):
+
+        np_words = np.noun_phrase.split()
+        np_lower = [x.lower() for x in np_words]
+        np_contained_words = set(np_lower)
+
+        if("a" in np_contained_words):
+            np_contained_words.remove("a")
+        if("the" in np_contained_words):
+            np_contained_words.remove("the")
+        for inner_np in sorted_combined_list[index+1:]:
+            inner_np_list = inner_np.noun_phrase.split()
+            for s in inner_np_list:
+                if(s.lower() in np_contained_words and inner_np.ref is None):
+                    inner_np.ref = np.id
+    return sorted_combined_list
+
+
