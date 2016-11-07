@@ -1,5 +1,6 @@
 import nltk
 import re
+import NounPhrase as np
 
 def get_file_as_string(path):
     with open(path, 'r') as file:
@@ -52,9 +53,12 @@ def get_initial_anaphora_list(path):
         noun_id = re.findall('<COREF ID="(.*?)">', m.group())
         noun_phrase = re.findall('<COREF ID="[\d]+">(.*?)<\/COREF>', m.group())
         if len(noun_phrase) > 0 and len(noun_id) > 0:
-            pair = (noun_id[0], noun_phrase[0], m.start(), m.end())
-            noun_phrase_list.append(pair)
-        noun_phrase_list.append(pair)
+            item = np.NounPhrase()
+            item.noun_phrase = noun_phrase[0]
+            item.id = noun_id[0]
+            item.start_index = m.start()
+            item.end_index = m.end()
+            noun_phrase_list.append(item)
     return noun_phrase_list
 
 def get_noun_phrase_positions(path, noun_phrases):
@@ -68,15 +72,18 @@ def get_noun_phrase_positions(path, noun_phrases):
         for m in regex.finditer(file_string):
             phrase = m.group()
             if len(phrase) > 0:
-                pair = (phrase, m.start(), m.end())
-                noun_phrase_list.append(pair)
+                item = np.NounPhrase()
+                item.noun_phrase = phrase
+                item.start_index = m.start()
+                item.end_index = m.end()
+                noun_phrase_list.append(item)
     return noun_phrase_list
 
 def get_relevant_noun_phrases(coref_list, noun_phrase_list):
     coref_set = set()
     relevant_noun_phrases = []
     for noun_phrase in coref_list:
-        words = noun_phrase[1].split()
+        words = noun_phrase.noun_phrase.split()
         for word in words:
             coref_set.add(word.lower())
     for noun_phrase in noun_phrase_list:
@@ -86,3 +93,22 @@ def get_relevant_noun_phrases(coref_list, noun_phrase_list):
                 relevant_noun_phrases.append(noun_phrase)
                 break
     return relevant_noun_phrases
+
+def combine_anaphora_relevant_np(anaphora_list, noun_phrase_list):
+    for item in noun_phrase_list:
+        print(item)
+    combined_list = []
+    id_index = 1
+    for np in noun_phrase_list:
+        already_in_list = False
+        for anaphora in anaphora_list:
+            if np.start_index > anaphora.start_index and np.end_index < anaphora.end_index:
+                already_in_list = True
+        if not already_in_list:
+            np.id = 'X' + str(id_index)
+            id_index += 1
+            combined_list.append(np)
+    for np in anaphora_list:
+        combined_list.append(np)
+    return combined_list
+   # return combined_list.sort(key=lambda x: x.start_index)

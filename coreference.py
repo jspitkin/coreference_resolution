@@ -12,23 +12,11 @@ def main():
     listfile_path = sys.argv[1]
     response_directory = sys.argv[2]
 
-    responses = []
-    response = np.NounPhrase()
-    response.noun_phrase = "Jake"
-    response.coref = 2
-    response.id = 1
-    responses.append(response)
-    response = np.NounPhrase()
-    response.noun_phrase = "Curtis"
-    response.coref = 4
-    response.id = 3
-    responses.append(response)
-
-    for path in ioutil.get_files_to_check(listfile_path):
-        ioutil.write_response_file(response_directory, path, responses)
-
     noun_phrases = ioutil.get_noun_phrases('dev/b9.txt')
     anaphora_list = ioutil.get_initial_anaphora_list('dev/b9.crf')
+    relevant_noun_phrases = ioutil.get_relevant_noun_phrases(anaphora_list, noun_phrases)
+    nps = ioutil.get_noun_phrase_positions('dev/b9.crf', relevant_noun_phrases)
+    combined_list = ioutil.combine_anaphora_relevant_np(anaphora_list, nps)
 
     ioutil.get_relevant_noun_phrases(anaphora_list, noun_phrases)
 
