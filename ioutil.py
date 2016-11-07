@@ -18,7 +18,10 @@ def write_response_file(response_directory, crf_path, responses):
     path = response_directory + crf_path.split('/')[-1].split('.')[0] + ".response"
     response_string = "<TXT>\n"
     for response in responses:
-        response_string +=  '<COREF ID="' + str(response.id) + ' REF="' + str(response.coref) + '">' + response.noun_phrase + "</COREF>\n"
+        response_string +=  '<COREF ID="' + str(response.id) + '"'
+        if response.ref is not None:
+            response_string += ' REF="' + str(response.ref) + '"'
+        response_string +='>' + response.noun_phrase + "</COREF>\n"
     response_string += "</TXT>"
 
     with open(path, 'w') as file:
@@ -111,14 +114,9 @@ def combine_anaphora_relevant_np(anaphora_list, noun_phrase_list):
         combined_list.append(np)
     sorted_combined_list = sorted(combined_list, key=lambda x: x.start_index)
     return sorted_combined_list
-   # return combined_list.sort(key=lambda x: x.start_index)
 
 def assign_refs_for_similars(sorted_combined_list):
-
-
-
     for index, np, in enumerate(sorted_combined_list):
-
         np_words = np.noun_phrase.split()
         np_lower = [x.lower() for x in np_words]
         np_contained_words = set(np_lower)
@@ -134,4 +132,14 @@ def assign_refs_for_similars(sorted_combined_list):
                     inner_np.ref = np.id
     return sorted_combined_list
 
-
+def get_response_noun_phrases(assigned_list):
+    responses = []
+    related_ids = set()
+    for item in assigned_list:
+        if item.ref is not None:
+            responses.append(item)
+            related_ids.add(item.ref)
+    for item in assigned_list:
+        if item.id in related_ids:
+            responses.append(item)
+    return responses
