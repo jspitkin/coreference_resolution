@@ -42,6 +42,8 @@ def get_noun_phrases(path):
         noun_phrase = ""
         for word in subtree.leaves():
             noun_phrase += word[0] + " "
+        if '>' in noun_phrase or '<' in noun_phrase:
+            continue
         noun_phrases.append(noun_phrase.strip())
     return noun_phrases
 
