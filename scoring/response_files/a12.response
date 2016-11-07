@@ -1,77 +1,77 @@
 <TXT>
-<COREF ID="X43" REF="1">NTSB Chairman Jim Hall</COREF>
-<COREF ID="X32" REF="X27">flight</COREF>
-<COREF ID="X22">rudder</COREF>
-<COREF ID="X17" REF="X16">SEATTLE</COREF>
-<COREF ID="43" REF="X15">Benson</COREF>
-<COREF ID="48" REF="X19">Museum of Flight</COREF>
-<COREF ID="9">its investigation</COREF>
-<COREF ID="X44">the plane</COREF>
-<COREF ID="X20" REF="X19">museum</COREF>
-<COREF ID="X23" REF="X22">rudder</COREF>
-<COREF ID="X47">September</COREF>
-<COREF ID="14" REF="5">The board</COREF>
-<COREF ID="X45" REF="X44">the plane</COREF>
-<COREF ID="X34" REF="X22">the rudder</COREF>
-<COREF ID="45" REF="5">the board</COREF>
-<COREF ID="60" REF="X15">Benson</COREF>
-<COREF ID="23" REF="9">investigation</COREF>
-<COREF ID="X16">Seattle</COREF>
-<COREF ID="X33" REF="X22">the rudder</COREF>
-<COREF ID="X4" REF="6">Boeing Field</COREF>
-<COREF ID="X37">CRASH</COREF>
-<COREF ID="X11" REF="5">board</COREF>
-<COREF ID="X31" REF="X27">flight</COREF>
-<COREF ID="1">NTSB</COREF>
-<COREF ID="X12" REF="5">board</COREF>
-<COREF ID="X13">an official recommendation</COREF>
-<COREF ID="24" REF="X16">Seattle</COREF>
-<COREF ID="44" REF="X27">improved flight recorders</COREF>
-<COREF ID="2" REF="X37">CRASH</COREF>
-<COREF ID="54" REF="9">its</COREF>
-<COREF ID="X14" REF="X27">older-model flight</COREF>
-<COREF ID="X29" REF="X27">flight</COREF>
-<COREF ID="46" REF="X37">Pittsburgh crash</COREF>
-<COREF ID="X18" REF="X16">Seattle</COREF>
+<COREF ID="X35" REF="X21">The museum</COREF>
+<COREF ID="X18" REF="X23">older-model flight</COREF>
+<COREF ID="X41" REF="5">board</COREF>
 <COREF ID="50" REF="1">NTSB</COREF>
-<COREF ID="37" REF="X44">the plane</COREF>
+<COREF ID="26" REF="X36">Hall</COREF>
+<COREF ID="X1" REF="6">Boeing</COREF>
 <COREF ID="6">a Boeing 737</COREF>
-<COREF ID="49" REF="X44">the plane</COREF>
-<COREF ID="27" REF="X15">Benson</COREF>
-<COREF ID="X19">Museum</COREF>
-<COREF ID="X2" REF="5">safety</COREF>
-<COREF ID="39" REF="6">the 737</COREF>
-<COREF ID="X39" REF="X37">crash</COREF>
-<COREF ID="X21">Pittsburgh</COREF>
 <COREF ID="28">investigators</COREF>
-<COREF ID="X38" REF="X37">CRASH</COREF>
-<COREF ID="42" REF="X22">rudder and pedal position</COREF>
-<COREF ID="X3" REF="X44">another plane</COREF>
-<COREF ID="26" REF="X43">Hall</COREF>
-<COREF ID="X30" REF="X27">Flight</COREF>
-<COREF ID="18" REF="X21">Pittsburgh</COREF>
-<COREF ID="3" REF="1">NTSB</COREF>
-<COREF ID="X24" REF="X22">rudder</COREF>
-<COREF ID="X28" REF="X27">flight</COREF>
-<COREF ID="59" REF="X37">the crash</COREF>
-<COREF ID="5">National Transportation Safety Board</COREF>
-<COREF ID="X10" REF="X37">IN CRASH PROBE</COREF>
-<COREF ID="X6" REF="6">Boeing</COREF>
-<COREF ID="X46" REF="X13">an exhibit</COREF>
-<COREF ID="X40" REF="X37">crash</COREF>
-<COREF ID="17" REF="9">its</COREF>
-<COREF ID="16" REF="X27">Flight 427</COREF>
-<COREF ID="X15">Mike Benson</COREF>
-<COREF ID="X27">Flight</COREF>
-<COREF ID="57" REF="1">NTSB</COREF>
-<COREF ID="X25" REF="X22">rudder</COREF>
-<COREF ID="53" REF="X19">the museum</COREF>
-<COREF ID="X7" REF="6">Boeing</COREF>
-<COREF ID="55" REF="51">The tests</COREF>
+<COREF ID="23" REF="9">investigation</COREF>
+<COREF ID="X19" REF="5">safety</COREF>
+<COREF ID="46" REF="X42">Pittsburgh crash</COREF>
+<COREF ID="X40" REF="5">board</COREF>
+<COREF ID="X4" REF="X11">the rudder</COREF>
 <COREF ID="41" REF="28">investigators</COREF>
-<COREF ID="38" REF="X37">the crash</COREF>
-<COREF ID="58" REF="X47">last September</COREF>
-<COREF ID="X42" REF="X19">The museum</COREF>
-<COREF ID="X8" REF="X19">The museum</COREF>
-<COREF ID="51" REF="X44">an intact plane on which to conduct tests</COREF>
+<COREF ID="X23">Flight</COREF>
+<COREF ID="42" REF="X11">rudder and pedal position</COREF>
+<COREF ID="X31" REF="X37">another plane</COREF>
+<COREF ID="X15">Seattle</COREF>
+<COREF ID="X5">September</COREF>
+<COREF ID="18" REF="X47">Pittsburgh</COREF>
+<COREF ID="58" REF="X5">last September</COREF>
+<COREF ID="X2" REF="6">Boeing</COREF>
+<COREF ID="59" REF="X42">the crash</COREF>
+<COREF ID="X37">the plane</COREF>
+<COREF ID="X26" REF="X21">The museum</COREF>
+<COREF ID="54" REF="9">its</COREF>
+<COREF ID="X32" REF="X23">Flight</COREF>
+<COREF ID="51" REF="X37">an intact plane on which to conduct tests</COREF>
+<COREF ID="5">National Transportation Safety Board</COREF>
+<COREF ID="3" REF="1">NTSB</COREF>
+<COREF ID="38" REF="X42">the crash</COREF>
+<COREF ID="X20">Mike Benson</COREF>
+<COREF ID="37" REF="X37">the plane</COREF>
+<COREF ID="X13" REF="X11">rudder</COREF>
+<COREF ID="X21">Museum</COREF>
+<COREF ID="X14" REF="X11">rudder</COREF>
+<COREF ID="9">its investigation</COREF>
+<COREF ID="2" REF="X42">CRASH</COREF>
+<COREF ID="27" REF="X20">Benson</COREF>
+<COREF ID="X42">CRASH</COREF>
+<COREF ID="X27" REF="X42">IN CRASH PROBE</COREF>
+<COREF ID="X44" REF="X42">crash</COREF>
+<COREF ID="X33" REF="X23">flight</COREF>
+<COREF ID="60" REF="X20">Benson</COREF>
+<COREF ID="1">NTSB</COREF>
+<COREF ID="43" REF="X20">Benson</COREF>
+<COREF ID="57" REF="1">NTSB</COREF>
+<COREF ID="X34" REF="X23">flight</COREF>
+<COREF ID="44" REF="X23">improved flight recorders</COREF>
+<COREF ID="X36" REF="1">NTSB Chairman Jim Hall</COREF>
+<COREF ID="17" REF="9">its</COREF>
+<COREF ID="X45" REF="X42">crash</COREF>
+<COREF ID="X17" REF="X15">Seattle</COREF>
+<COREF ID="X12" REF="X11">rudder</COREF>
+<COREF ID="X22" REF="X21">museum</COREF>
+<COREF ID="39" REF="6">the 737</COREF>
+<COREF ID="X38" REF="X37">the plane</COREF>
+<COREF ID="X8">an official recommendation</COREF>
+<COREF ID="16" REF="X23">Flight 427</COREF>
+<COREF ID="X43" REF="X42">CRASH</COREF>
+<COREF ID="X16" REF="X15">SEATTLE</COREF>
+<COREF ID="24" REF="X15">Seattle</COREF>
+<COREF ID="X24" REF="X23">flight</COREF>
+<COREF ID="55" REF="51">The tests</COREF>
+<COREF ID="X25" REF="X23">flight</COREF>
+<COREF ID="X28" REF="6">Boeing Field</COREF>
+<COREF ID="45" REF="5">the board</COREF>
+<COREF ID="14" REF="5">The board</COREF>
+<COREF ID="48" REF="X21">Museum of Flight</COREF>
+<COREF ID="49" REF="X37">the plane</COREF>
+<COREF ID="X30" REF="X8">an exhibit</COREF>
+<COREF ID="53" REF="X21">the museum</COREF>
+<COREF ID="X47">Pittsburgh</COREF>
+<COREF ID="X3" REF="X11">the rudder</COREF>
+<COREF ID="X11">rudder</COREF>
 </TXT>

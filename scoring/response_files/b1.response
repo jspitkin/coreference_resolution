@@ -1,19 +1,19 @@
 <TXT>
-<COREF ID="26" REF="12">unions</COREF>
-<COREF ID="X17">the carrier</COREF>
-<COREF ID="11" REF="X4">Eastern</COREF>
-<COREF ID="8">they</COREF>
 <COREF ID="21" REF="12">the unions</COREF>
-<COREF ID="12">its unions</COREF>
-<COREF ID="X2">Date</COREF>
-<COREF ID="X12" REF="X4">Eastern</COREF>
+<COREF ID="X11" REF="X5">Eastern</COREF>
+<COREF ID="X4">the carrier</COREF>
 <COREF ID="9" REF="8">they</COREF>
-<COREF ID="X4">Eastern Air</COREF>
-<COREF ID="X13" REF="X4">Eastern</COREF>
-<COREF ID="27" REF="X17">the carrier</COREF>
-<COREF ID="3" REF="X4">Eastern Airlines</COREF>
-<COREF ID="X10" REF="X2">Date</COREF>
-<COREF ID="X11" REF="X4">Eastern</COREF>
-<COREF ID="X14" REF="X4">Eastern</COREF>
-<COREF ID="10" REF="X2">a meeting date</COREF>
+<COREF ID="X1">Date</COREF>
+<COREF ID="X6" REF="X1">Date</COREF>
+<COREF ID="10" REF="X1">a meeting date</COREF>
+<COREF ID="26" REF="12">unions</COREF>
+<COREF ID="X8" REF="X5">Eastern</COREF>
+<COREF ID="X5">Eastern Air</COREF>
+<COREF ID="27" REF="X4">the carrier</COREF>
+<COREF ID="11" REF="X5">Eastern</COREF>
+<COREF ID="8">they</COREF>
+<COREF ID="X9" REF="X5">Eastern</COREF>
+<COREF ID="3" REF="X5">Eastern Airlines</COREF>
+<COREF ID="12">its unions</COREF>
+<COREF ID="X10" REF="X5">Eastern</COREF>
 </TXT>
