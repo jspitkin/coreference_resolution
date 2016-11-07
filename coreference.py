@@ -1,5 +1,3 @@
-from __future__ import division
-from __future__ import print_function
 import NounPhrase as np
 import sys
 import ioutil
