@@ -24,7 +24,7 @@ def write_response_file(response_directory, crf_path, responses):
         response_string +='>' + response.noun_phrase + "</COREF>\n"
     response_string += "</TXT>"
 
-    with open(path, 'w') as file:
+    with open(path, 'w+') as file:
         file.write(response_string)
 
 def get_noun_phrases(path):
