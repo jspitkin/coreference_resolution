@@ -7,6 +7,11 @@ def get_file_as_string(path):
         file_input = file.read().replace('\n', ' ')
     return file_input
 
+def get_nounfile_as_string(path):
+    with open(path, 'r') as file:
+        file_input = file.read()
+    return file_input
+
 def get_files_to_check(path):
     files_to_check = []
     with open(path, 'r') as file:
@@ -28,23 +33,52 @@ def write_response_file(response_directory, crf_path, responses):
         file.write(response_string)
 
 def get_noun_phrases(path):
-    tokens = nltk.word_tokenize(get_file_as_string(path))
-    tokens_with_pos_tag = nltk.pos_tag(tokens)
-    grammar = """
-                NP: {<DT|PP\$>?<JJ>*<NN>}
-                    {<NNP>+}
-                    {<NN>+}
-    """
-    chunker = nltk.RegexpParser(grammar)
-    result = chunker.parse(tokens_with_pos_tag)
+
+    document = get_file_as_string(path)
+    document = document.replace("</COREF>", "")
+    document = document.replace("COREF ID=", "")
+
+    paragraphs = [p for p in document.split('\n') if p]
+
     noun_phrases = []
-    for subtree in result.subtrees(filter=lambda t: t.label() == 'NP'):
-        noun_phrase = ""
-        for word in subtree.leaves():
-            noun_phrase += word[0] + " "
-        if '>' in noun_phrase or '<' in noun_phrase:
-            continue
-        noun_phrases.append(noun_phrase.strip())
+
+    for paragraph in paragraphs:
+
+        tokens = nltk.word_tokenize(paragraph)
+        tokens_with_pos_tag = nltk.pos_tag(tokens)
+        grammar = """
+                    NP: {<DT|PP\$>?<JJ>*<NN>}
+                        {<NNP>+}
+                        {<NN>+}
+                        {<DT><CD><NNS>}
+                        {<NNS>+}
+                        {(<DT>?<RB>?)?<JJ|CD>*(<JJ|CD><,>)*<NN.*>+}
+                        {(<DT|PRP.>?<RB>?)?<JJ|CD>*(<JJ|CD><,>)*(<NN.*>)+}
+                        {<PRP>}
+        """
+        chunker = nltk.RegexpParser(grammar)
+        result = chunker.parse(tokens_with_pos_tag)
+        #print (result)
+
+        for subtree in result.subtrees(filter=lambda t: t.label() == 'NP'):
+            noun_phrase = ""
+            for word in subtree.leaves():
+                noun_phrase += word[0] + " "
+            if '>' in noun_phrase or '<' in noun_phrase:
+                    continue
+            noun_phrases.append(noun_phrase.strip())
+
+        # Named entity tagging
+        #print(nltk.ne_chunk(tokens_with_pos_tag, binary=True))
+
+    # Add all dates in the format dd/mm/yy as noun phrases
+    match = re.findall(r'(\d+/\d+/\d+)', document)
+    for m in match:
+        noun_phrases.append(m)
+
+    # Keep for debugging
+    #print (noun_phrases)
+
     return noun_phrases
 
 def get_initial_anaphora_list(path):
@@ -102,6 +136,11 @@ def get_relevant_noun_phrases(coref_list, noun_phrase_list):
 
 def combine_anaphora_relevant_np(anaphora_list, noun_phrase_list):
     combined_list = []
+
+    #noun_phrase_list = sorted(noun_phrase_list, key=lambda x: x.end_index)
+    #anaphora_list = sorted(anaphora_list, key=lambda x: x.end_index)
+
+
     id_index = 1
     for np in noun_phrase_list:
         already_in_list = False
@@ -127,6 +166,7 @@ def assign_refs_for_similars(sorted_combined_list):
             np_contained_words.remove("a")
         if("the" in np_contained_words):
             np_contained_words.remove("the")
+
         for inner_np in sorted_combined_list[index+1:]:
             inner_np_list = inner_np.noun_phrase.split()
             for s in inner_np_list:

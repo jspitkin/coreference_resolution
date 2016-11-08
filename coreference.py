@@ -14,11 +14,15 @@ def main():
         path = path.strip('\n')
         noun_phrases = ioutil.get_noun_phrases(path)
         anaphora_list = ioutil.get_initial_anaphora_list(path)
+
+        # Testing for phrases that contain parts of other phrases
         relevant_noun_phrases = ioutil.get_relevant_noun_phrases(anaphora_list, noun_phrases)
         nps = ioutil.get_noun_phrase_positions(path, relevant_noun_phrases)
         combined_list = ioutil.combine_anaphora_relevant_np(anaphora_list, nps)
         assigned_list = ioutil.assign_refs_for_similars(combined_list)
         assigned_list = ioutil.get_response_noun_phrases(assigned_list)
+
+        # Writing out the final file, all attempts at assignment should be combined before this
         ioutil.write_response_file(response_directory, path, assigned_list) 
 
 def print_usage():
