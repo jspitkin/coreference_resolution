@@ -1,5 +1,5 @@
 Jake Pitkin - u0891770
-Curtis Clements -
+Curtis Clements - u0764479
 
 Natural Language Processing
 Initial System Evaluation #1

@@ -2,6 +2,7 @@ import nltk
 import re
 import NounPhrase as np
 
+
 def get_file_as_string(path):
     with open(path, 'r') as file:
         file_input = file.read().replace('\n', ' ')
@@ -137,8 +138,8 @@ def get_relevant_noun_phrases(coref_list, noun_phrase_list):
 def combine_anaphora_relevant_np(anaphora_list, noun_phrase_list):
     combined_list = []
 
-    #noun_phrase_list = sorted(noun_phrase_list, key=lambda x: x.end_index)
-    #anaphora_list = sorted(anaphora_list, key=lambda x: x.end_index)
+    noun_phrase_list = sorted(noun_phrase_list, key=lambda x: x.end_index)
+    anaphora_list = sorted(anaphora_list, key=lambda x: x.end_index)
 
 
     id_index = 1

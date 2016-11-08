@@ -1,6 +1,9 @@
 import NounPhrase as np
 import sys
 import ioutil
+import nltk
+
+nltk.download("punkt")
 
 def main():
     if len(sys.argv) != 3:
