@@ -56,6 +56,7 @@ def get_noun_phrases(path):
                         {(<DT>?<RB>?)?<JJ|CD>*(<JJ|CD><,>)*<NN.*>+}
                         {(<DT|PRP.>?<RB>?)?<JJ|CD>*(<JJ|CD><,>)*(<NN.*>)+}
                         {<PRP>}
+                        {<PRP$>}
         """
         chunker = nltk.RegexpParser(grammar)
         result = chunker.parse(tokens_with_pos_tag)
@@ -141,7 +142,6 @@ def combine_anaphora_relevant_np(anaphora_list, noun_phrase_list):
     noun_phrase_list = sorted(noun_phrase_list, key=lambda x: x.end_index)
     anaphora_list = sorted(anaphora_list, key=lambda x: x.end_index)
 
-
     id_index = 1
     for np in noun_phrase_list:
         already_in_list = False
@@ -173,6 +173,29 @@ def assign_refs_for_similars(sorted_combined_list):
             for s in inner_np_list:
                 if(s.lower() in np_contained_words and inner_np.ref is None):
                     inner_np.ref = np.id
+    return sorted_combined_list
+
+def assign_date_to_today(sorted_combined_list, noun_phrases):
+
+    id_index = 1;
+
+    for np in noun_phrases:
+        match = re.findall(r'(\d+/\d+/\d+)', np.noun_phrase)
+        if match:
+            np.id = 'Q' + str(id_index)
+            id_index += 1
+            for nounp in sorted_combined_list:
+                if nounp.noun_phrase == "today":
+                    if(np.start_index < nounp.start_index):
+                        nounp.ref=np.id
+                        sorted_combined_list.append(np)
+                    # Ignore the else case for now...crf files have a date at the top
+                    # that is later referred to as "today"
+                    # else:
+                    #     np.ref=nounp.id
+                    #     sorted_combined_list.append(np)
+
+    sorted_combined_list = list(set(sorted_combined_list))
     return sorted_combined_list
 
 def get_response_noun_phrases(assigned_list):

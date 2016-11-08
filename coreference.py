@@ -3,7 +3,7 @@ import sys
 import ioutil
 import nltk
 
-nltk.download("punkt")
+#nltk.download("punkt")
 
 def main():
     if len(sys.argv) != 3:
@@ -24,6 +24,9 @@ def main():
         combined_list = ioutil.combine_anaphora_relevant_np(anaphora_list, nps)
         assigned_list = ioutil.assign_refs_for_similars(combined_list)
         assigned_list = ioutil.get_response_noun_phrases(assigned_list)
+
+        # Check dates
+        assigned_list = ioutil.assign_date_to_today(assigned_list, ioutil.get_noun_phrase_positions(path, noun_phrases))
 
         # Writing out the final file, all attempts at assignment should be combined before this
         ioutil.write_response_file(response_directory, path, assigned_list) 
