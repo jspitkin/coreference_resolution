@@ -96,15 +96,7 @@ def remove_common_words(noun_phrases):
         if len(np.noun_phrase.strip()) != 0 and np.noun_phrase != "i":
             return_list.append(np)
     return return_list
-
-def remove_titles(noun_phrases):
-    male_titles = ['mr', 'mr.']
-    female_titles = ['mrs', 'miss', 'mrs.', 'miss.']
-    return_phrases = []
-    for np in noun_phrases:
-        np_split = (np.noun_phrase).split()
-        
-
+                 
 def get_initial_anaphora_list(path):
     noun_phrase_list = []
     file_string = get_file_as_string(path)

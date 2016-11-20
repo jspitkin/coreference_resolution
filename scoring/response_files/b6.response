@@ -1,28 +1,28 @@
 <TXT>
-<COREF ID="X3" REF="X4">Offer</COREF>
 <COREF ID="X9" REF="X6">union</COREF>
-<COREF ID="X25" REF="X2">new contract</COREF>
-<COREF ID="6" REF="X6">Union</COREF>
-<COREF ID="X23" REF="11">we</COREF>
-<COREF ID="16" REF="X1">NBC</COREF>
-<COREF ID="X26" REF="X2">contract</COREF>
-<COREF ID="X10" REF="X1">NBC</COREF>
-<COREF ID="X16" REF="X5">strike</COREF>
-<COREF ID="17" REF="X6">union</COREF>
-<COREF ID="X14" REF="X1">NBC</COREF>
-<COREF ID="X2">Contract</COREF>
-<COREF ID="11">we</COREF>
-<COREF ID="18" REF="X6">union</COREF>
-<COREF ID="4" REF="X2">its latest contract offer</COREF>
-<COREF ID="X21" REF="X2">contract</COREF>
-<COREF ID="X17" REF="X2">contract</COREF>
-<COREF ID="15" REF="X5">strike</COREF>
-<COREF ID="X6">union</COREF>
-<COREF ID="X4" REF="X2">Contract Offer Into Effect</COREF>
 <COREF ID="X22" REF="X2">four-year contract</COREF>
-<COREF ID="19" REF="X1">NBC</COREF>
-<COREF ID="X8" REF="X6">union</COREF>
-<COREF ID="X18" REF="X2">contract</COREF>
-<COREF ID="X1">NBC</COREF>
 <COREF ID="X5">Strike Possible</COREF>
+<COREF ID="X4" REF="X2">Contract Offer Into Effect</COREF>
+<COREF ID="X17" REF="X2">contract</COREF>
+<COREF ID="X2">Contract</COREF>
+<COREF ID="4" REF="X2">its latest contract offer</COREF>
+<COREF ID="X16" REF="X5">strike</COREF>
+<COREF ID="X3" REF="X4">Offer</COREF>
+<COREF ID="X10" REF="X1">NBC</COREF>
+<COREF ID="X14" REF="X1">NBC</COREF>
+<COREF ID="6" REF="X6">Union</COREF>
+<COREF ID="11">we</COREF>
+<COREF ID="X25" REF="X2">contract</COREF>
+<COREF ID="15" REF="X5">strike</COREF>
+<COREF ID="X1">NBC</COREF>
+<COREF ID="X26" REF="X2">new contract</COREF>
+<COREF ID="19" REF="X1">NBC</COREF>
+<COREF ID="X18" REF="X2">contract</COREF>
+<COREF ID="X21" REF="X2">contract</COREF>
+<COREF ID="16" REF="X1">NBC</COREF>
+<COREF ID="18" REF="X6">union</COREF>
+<COREF ID="X23" REF="11">we</COREF>
+<COREF ID="X6">union</COREF>
+<COREF ID="17" REF="X6">union</COREF>
+<COREF ID="X8" REF="X6">union</COREF>
 </TXT>
