@@ -1,6 +1,8 @@
 import nltk
 import re
 import NounPhrase as np
+from nltk.corpus import names
+import random
 
 
 def get_file_as_string(path):
@@ -230,3 +232,18 @@ def get_response_noun_phrases(assigned_list):
             responses.add(item)
     response = list(responses)
     return response
+
+
+def gender_features(word):
+    features = {}
+    features["last_letter"] = word[-1].lower()
+    return features
+
+def gender_assign_name(name):
+    labeled_names = ([(name, 'male') for name in names.words('male.txt')]
+    + [(name, 'female') for name in names.words('female.txt')])
+    random.shuffle(labeled_names)
+    featuresets = [(gender_features(n), gender) for (n, gender) in labeled_names]
+    train_set, test_set = featuresets[500:], featuresets[:500]
+    classifier = nltk.NaiveBayesClassifier.train(train_set)
+    return(classifier.classify(gender_features(name)))

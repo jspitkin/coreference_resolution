@@ -3,7 +3,8 @@ import sys
 import ioutil
 import nltk
 
-#nltk.download("punkt")
+nltk.download("punkt")
+
 
 def main():
     if len(sys.argv) != 3:
@@ -36,7 +37,7 @@ def main():
         assigned_list = ioutil.assign_date_to_today(assigned_list, ioutil.get_noun_phrase_positions(path, noun_phrases))
 
         # Writing out the final file, all attempts at assignment should be combined before this
-        ioutil.write_response_file(response_directory, path, assigned_list) 
+        ioutil.write_response_file(response_directory, path, assigned_list)
 
 def print_usage():
     print("usage: python coreference.py <listfile> <responsedir>")
