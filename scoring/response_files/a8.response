@@ -1,99 +1,137 @@
 <TXT>
-<COREF ID="X40" REF="36">day</COREF>
-<COREF ID="X29" REF="30">traffic</COREF>
-<COREF ID="X5" REF="X4">a plane</COREF>
-<COREF ID="X12" REF="X27">Airport</COREF>
-<COREF ID="X53">Defense Nuclear Facilities Safety Board</COREF>
-<COREF ID="X45" REF="X43">Amarillo</COREF>
-<COREF ID="X9" REF="X43">Amarillo International</COREF>
-<COREF ID="X35" REF="X32">air</COREF>
-<COREF ID="X15">radioactive smoke</COREF>
-<COREF ID="X49">Oklahoma</COREF>
-<COREF ID="X31">Mike McNulty</COREF>
-<COREF ID="X36" REF="X32">air</COREF>
-<COREF ID="X16">FAA</COREF>
-<COREF ID="X10" REF="X43">Amarillo International</COREF>
-<COREF ID="X43">Amarillo</COREF>
-<COREF ID="X44" REF="X43">Amarillo</COREF>
-<COREF ID="X34" REF="X32">air</COREF>
-<COREF ID="X38" REF="X32">Air</COREF>
-<COREF ID="X17">military training</COREF>
-<COREF ID="X51" REF="X50">Pantex</COREF>
-<COREF ID="X37" REF="X32">Air</COREF>
-<COREF ID="X25" REF="X56">each flight</COREF>
-<COREF ID="X33" REF="X32">Air</COREF>
-<COREF ID="X18" REF="X56">The second flight</COREF>
-<COREF ID="X8" REF="X17">some military traffic</COREF>
-<COREF ID="X24" REF="X32">Air Force</COREF>
-<COREF ID="X50">PANTEX</COREF>
-<COREF ID="X30" REF="30">traffic</COREF>
-<COREF ID="X4">a plane</COREF>
-<COREF ID="X42">Texas</COREF>
-<COREF ID="X28" REF="X27">Dallas/Fort Worth Airport</COREF>
-<COREF ID="X22" REF="X21">plutonium</COREF>
-<COREF ID="X23" REF="X21">plutonium</COREF>
-<COREF ID="X32">air</COREF>
-<COREF ID="X27" REF="X43">Amarillo International Airport</COREF>
-<COREF ID="X21">PLUTONIUM</COREF>
-<COREF ID="X11" REF="X27">Airport</COREF>
-<COREF ID="X47" REF="7">the plant</COREF>
-<COREF ID="X26">the previous aircraft</COREF>
-<COREF ID="65" REF="X43">Amarillo</COREF>
-<COREF ID="23" REF="X53">a safety board</COREF>
-<COREF ID="X62" REF="X21">a plutonium</COREF>
-<COREF ID="12" REF="7">the plant</COREF>
-<COREF ID="50" REF="X27">About 25 percent of the airport traffic</COREF>
-<COREF ID="X55" REF="7">plant</COREF>
+<COREF ID="X75" REF="36">day</COREF>
+<COREF ID="X30" REF="X31">Board</COREF>
+<COREF ID="X21" REF="X2">flight</COREF>
+<COREF ID="X38" REF="X7">storage</COREF>
+<COREF ID="X89" REF="X2">The second flight</COREF>
+<COREF ID="27" REF="X25">the airport</COREF>
+<COREF ID="X40">radioactive smoke</COREF>
+<COREF ID="X27">military training</COREF>
+<COREF ID="X32" REF="X9">he</COREF>
+<COREF ID="X41" REF="X9">he</COREF>
+<COREF ID="X64" REF="X9">he</COREF>
+<COREF ID="X77" REF="X10">air</COREF>
+<COREF ID="66" REF="X9">he</COREF>
+<COREF ID="X35" REF="X5">plutonium</COREF>
+<COREF ID="X98" REF="X27">some military traffic</COREF>
+<COREF ID="X4" REF="X2">FLIGHT</COREF>
+<COREF ID="X36" REF="X5">plutonium</COREF>
+<COREF ID="X69">bunkers</COREF>
+<COREF ID="X52">Mike McNulty</COREF>
+<COREF ID="X7">STORAGE</COREF>
+<COREF ID="X62" REF="X2">flight</COREF>
+<COREF ID="X99" REF="30">traffic</COREF>
+<COREF ID="X79" REF="X10">Air</COREF>
+<COREF ID="X54" REF="X12">Amarillo International</COREF>
+<COREF ID="X103" REF="X34">a plane</COREF>
+<COREF ID="X24" REF="X10">Air</COREF>
+<COREF ID="X12">Amarillo</COREF>
+<COREF ID="X23" REF="X12">Amarillo International</COREF>
+<COREF ID="X44" REF="X9">he</COREF>
+<COREF ID="X53" REF="X12">Amarillo</COREF>
+<COREF ID="75" REF="X52">McNulty</COREF>
+<COREF ID="X85" REF="X2">flight</COREF>
+<COREF ID="X101">They</COREF>
+<COREF ID="X100" REF="X9">he</COREF>
+<COREF ID="X3">FAA</COREF>
+<COREF ID="X48" REF="X9">he</COREF>
+<COREF ID="X47" REF="7">plant</COREF>
+<COREF ID="X37" REF="X5">a plutonium</COREF>
+<COREF ID="X97" REF="X9">he</COREF>
+<COREF ID="X20" REF="X2">each flight</COREF>
+<COREF ID="X68" REF="X5">plutonium</COREF>
+<COREF ID="X66" REF="X9">he</COREF>
+<COREF ID="X95" REF="X9">he</COREF>
+<COREF ID="X1">PANTEX</COREF>
+<COREF ID="X6" REF="X5">PLUTONIUM</COREF>
+<COREF ID="X51" REF="X52">McNulty</COREF>
+<COREF ID="X46" REF="7">the plant</COREF>
+<COREF ID="X90" REF="X2">flight</COREF>
+<COREF ID="X10">air</COREF>
+<COREF ID="X81">Oklahoma</COREF>
 <COREF ID="74" REF="7">the plant</COREF>
-<COREF ID="X56">FLIGHT</COREF>
-<COREF ID="7" REF="X50">Pantex Weapons Plant</COREF>
-<COREF ID="35" REF="X65">That 60-day accounting</COREF>
-<COREF ID="69" REF="X21">the plutonium area</COREF>
-<COREF ID="X57" REF="X56">FLIGHT</COREF>
-<COREF ID="63" REF="49">he</COREF>
-<COREF ID="29">these planes</COREF>
-<COREF ID="X58" REF="X56">flight</COREF>
-<COREF ID="27" REF="X27">the airport</COREF>
-<COREF ID="48" REF="X42">Texas</COREF>
-<COREF ID="43" REF="X43">The Amarillo airport</COREF>
-<COREF ID="X59" REF="X56">flight</COREF>
-<COREF ID="57" REF="X32">air traffic controllers</COREF>
-<COREF ID="60" REF="X27">airport</COREF>
-<COREF ID="X60" REF="X56">flight</COREF>
-<COREF ID="X61" REF="X56">flight</COREF>
-<COREF ID="68" REF="29">these planes</COREF>
-<COREF ID="53" REF="X56">a flight pattern over the plutonium storage bunkers</COREF>
-<COREF ID="X2">STORAGE</COREF>
-<COREF ID="30" REF="X16">the FAA air traffic manager</COREF>
-<COREF ID="66" REF="49">he</COREF>
-<COREF ID="X63" REF="X26">the aircraft</COREF>
-<COREF ID="73" REF="X49">Oklahoma</COREF>
-<COREF ID="X64" REF="X53">Board</COREF>
-<COREF ID="41" REF="X21">plutonium</COREF>
-<COREF ID="X1">Energy Department</COREF>
-<COREF ID="X65">that scenario</COREF>
-<COREF ID="11" REF="X56">flight</COREF>
-<COREF ID="8" REF="X21">plutonium</COREF>
-<COREF ID="26" REF="X43">Amarillo</COREF>
-<COREF ID="X3" REF="X2">storage</COREF>
-<COREF ID="21" REF="X56">flight</COREF>
-<COREF ID="47" REF="X17">military planes</COREF>
-<COREF ID="1" REF="X50">PANTEX</COREF>
-<COREF ID="61" REF="X2">the nuclear storage area</COREF>
-<COREF ID="62" REF="X31">McNulty</COREF>
-<COREF ID="18" REF="X15">a highly radioactive element</COREF>
-<COREF ID="17" REF="X21">Plutonium</COREF>
-<COREF ID="45" REF="X31">McNulty</COREF>
-<COREF ID="59" REF="49">he</COREF>
-<COREF ID="79" REF="53">the bunkers</COREF>
-<COREF ID="67" REF="X31">McNulty</COREF>
-<COREF ID="40" REF="X1">the Energy Department</COREF>
-<COREF ID="75" REF="X31">McNulty</COREF>
-<COREF ID="49">he</COREF>
-<COREF ID="9" REF="X16">FAA</COREF>
-<COREF ID="13" REF="X1">Energy</COREF>
-<COREF ID="36" REF="29">25 planes a day</COREF>
-<COREF ID="56" REF="X31">McNulty</COREF>
-<COREF ID="39" REF="X50">Pantex</COREF>
+<COREF ID="X31">Defense Nuclear Facilities Safety Board</COREF>
+<COREF ID="X91" REF="X10">Air</COREF>
+<COREF ID="X56" REF="X10">air</COREF>
+<COREF ID="X92" REF="X25">Airport</COREF>
+<COREF ID="X55" REF="X9">he</COREF>
+<COREF ID="X60" REF="30">traffic</COREF>
+<COREF ID="68" REF="X28">these planes</COREF>
+<COREF ID="63" REF="X9">he</COREF>
+<COREF ID="X5">PLUTONIUM</COREF>
+<COREF ID="X22" REF="X12">Amarillo</COREF>
+<COREF ID="X83" REF="X28">planes</COREF>
+<COREF ID="X39" REF="X1">Pantex</COREF>
+<COREF ID="65" REF="X12">Amarillo</COREF>
+<COREF ID="X93" REF="X25">Dallas/Fort Worth Airport</COREF>
+<COREF ID="X102" REF="X9">he</COREF>
+<COREF ID="73" REF="X81">Oklahoma</COREF>
+<COREF ID="67" REF="X52">McNulty</COREF>
+<COREF ID="X67" REF="X5">plutonium</COREF>
+<COREF ID="X49" REF="X9">he</COREF>
+<COREF ID="X2">FLIGHT</COREF>
+<COREF ID="X34">a plane</COREF>
+<COREF ID="X26" REF="X25">Airport</COREF>
+<COREF ID="76" REF="X101">They</COREF>
+<COREF ID="X59" REF="X10">air</COREF>
+<COREF ID="X57">the previous aircraft</COREF>
+<COREF ID="X45" REF="X9">he</COREF>
+<COREF ID="X18">Energy Department</COREF>
+<COREF ID="X28">planes</COREF>
+<COREF ID="69" REF="X5">the plutonium area</COREF>
+<COREF ID="X43">that scenario</COREF>
+<COREF ID="X19" REF="X9">he</COREF>
+<COREF ID="11" REF="X2">flight</COREF>
+<COREF ID="X78" REF="X57">the aircraft</COREF>
+<COREF ID="48" REF="X13">Texas</COREF>
+<COREF ID="1" REF="X1">PANTEX</COREF>
+<COREF ID="41" REF="X5">plutonium</COREF>
+<COREF ID="18" REF="X40">a highly radioactive element</COREF>
+<COREF ID="59" REF="X9">he</COREF>
+<COREF ID="X29" REF="X9">he</COREF>
+<COREF ID="17" REF="X5">Plutonium</COREF>
+<COREF ID="X76" REF="X9">he</COREF>
+<COREF ID="X72" REF="X9">he</COREF>
+<COREF ID="12" REF="7">the plant</COREF>
+<COREF ID="39" REF="X1">Pantex</COREF>
+<COREF ID="29" REF="X28">these planes</COREF>
+<COREF ID="36" REF="X28">25 planes a day</COREF>
+<COREF ID="35" REF="X43">That 60-day accounting</COREF>
+<COREF ID="X17" REF="X9">he</COREF>
+<COREF ID="49" REF="X9">he</COREF>
+<COREF ID="X15" REF="X9">he</COREF>
+<COREF ID="61" REF="X7">the nuclear storage area</COREF>
+<COREF ID="7" REF="X1">Pantex Weapons Plant</COREF>
+<COREF ID="13" REF="X18">Energy</COREF>
+<COREF ID="57" REF="X10">air traffic controllers</COREF>
+<COREF ID="79" REF="X69">the bunkers</COREF>
+<COREF ID="60" REF="X25">airport</COREF>
+<COREF ID="50" REF="X25">About 25 percent of the airport traffic</COREF>
+<COREF ID="23" REF="X31">a safety board</COREF>
+<COREF ID="X86" REF="X9">he</COREF>
+<COREF ID="X73" REF="X9">he</COREF>
+<COREF ID="X11" REF="X9">he</COREF>
+<COREF ID="X82" REF="X9">he</COREF>
+<COREF ID="26" REF="X12">Amarillo</COREF>
+<COREF ID="X94" REF="X9">he</COREF>
+<COREF ID="X71" REF="X9">he</COREF>
+<COREF ID="40" REF="X18">the Energy Department</COREF>
+<COREF ID="X25" REF="X12">Amarillo International Airport</COREF>
+<COREF ID="9" REF="X3">FAA</COREF>
+<COREF ID="56" REF="X52">McNulty</COREF>
+<COREF ID="21" REF="X2">flight</COREF>
+<COREF ID="X80" REF="X10">Air Force</COREF>
+<COREF ID="45" REF="X52">McNulty</COREF>
+<COREF ID="43" REF="X12">The Amarillo airport</COREF>
+<COREF ID="X13">Texas</COREF>
+<COREF ID="X88" REF="X9">he</COREF>
+<COREF ID="X14" REF="X9">he</COREF>
+<COREF ID="30" REF="X3">the FAA air traffic manager</COREF>
+<COREF ID="8" REF="X5">plutonium</COREF>
 <COREF ID="42" REF="7">the former weapons assembly plant</COREF>
+<COREF ID="47" REF="X27">military planes</COREF>
+<COREF ID="X84" REF="X9">he</COREF>
+<COREF ID="53" REF="X2">a flight pattern over the plutonium storage bunkers</COREF>
+<COREF ID="62" REF="X52">McNulty</COREF>
+<COREF ID="X9">he</COREF>
 </TXT>

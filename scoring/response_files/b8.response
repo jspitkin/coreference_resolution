@@ -1,168 +1,354 @@
 <TXT>
-<COREF ID="104" REF="X11">UAW</COREF>
-<COREF ID="X298" REF="X14">auto</COREF>
-<COREF ID="111" REF="X1">Yesterday</COREF>
-<COREF ID="X17" REF="X14">Auto</COREF>
-<COREF ID="X302" REF="X311">this year</COREF>
-<COREF ID="X311">this morning</COREF>
-<COREF ID="102" REF="X321">Monday</COREF>
-<COREF ID="79" REF="X330">Chrysler</COREF>
-<COREF ID="X18" REF="X14">auto</COREF>
-<COREF ID="X292" REF="X290">a settlement</COREF>
-<COREF ID="X3" REF="X293">Canadian</COREF>
-<COREF ID="X291" REF="X290">a settlement</COREF>
-<COREF ID="85" REF="X329">the Ford-UAW talks</COREF>
-<COREF ID="X21" REF="X319">Canada</COREF>
-<COREF ID="82" REF="X329">Ford</COREF>
-<COREF ID="X22" REF="X11">UAW President Owen Bieber</COREF>
-<COREF ID="X307">source</COREF>
-<COREF ID="105" REF="81">GM</COREF>
-<COREF ID="X9" REF="X293">Canadian</COREF>
-<COREF ID="83" REF="X330">the Chrysler talks</COREF>
-<COREF ID="88" REF="X1">yesterday</COREF>
-<COREF ID="X312" REF="X311">this morning</COREF>
-<COREF ID="X12" REF="X329">Ford Motor Co.</COREF>
-<COREF ID="X297" REF="X14">Auto</COREF>
-<COREF ID="90" REF="X329">Ford</COREF>
-<COREF ID="X5" REF="X293">Canadian</COREF>
-<COREF ID="92" REF="5">It</COREF>
-<COREF ID="X2" REF="X1">yesterday</COREF>
-<COREF ID="X290">a settlement</COREF>
-<COREF ID="97" REF="4">The company</COREF>
-<COREF ID="X304" REF="X14">AUTO PARTS</COREF>
-<COREF ID="94" REF="X323">the job-security issue</COREF>
-<COREF ID="X23" REF="X293">New York Stock Exchange</COREF>
-<COREF ID="X16" REF="X14">auto</COREF>
-<COREF ID="X8" REF="X293">Canadian</COREF>
-<COREF ID="X301" REF="X293">the previous contract</COREF>
-<COREF ID="96" REF="X329">Ford</COREF>
-<COREF ID="X13" REF="X329">Ford Motor Co.</COREF>
-<COREF ID="X308" REF="X307">Source</COREF>
-<COREF ID="98" REF="4">the company</COREF>
-<COREF ID="X299" REF="X330">Chrysler Corp.</COREF>
-<COREF ID="103" REF="X335">the union</COREF>
-<COREF ID="109" REF="X330">Chrysler</COREF>
-<COREF ID="X305">a result</COREF>
-<COREF ID="81">GM</COREF>
-<COREF ID="X303" REF="X14">United Auto</COREF>
-<COREF ID="112" REF="X330">Chrysler</COREF>
-<COREF ID="X310">Weekend</COREF>
-<COREF ID="X20" REF="X319">Canada</COREF>
-<COREF ID="101" REF="X293">The contract</COREF>
-<COREF ID="71" REF="X330">Chrysler</COREF>
-<COREF ID="X14">AUTO</COREF>
-<COREF ID="108" REF="X329">Ford</COREF>
-<COREF ID="X6" REF="X293">Canadian</COREF>
-<COREF ID="91" REF="4">the company</COREF>
-<COREF ID="X15" REF="X14">AUTO</COREF>
-<COREF ID="X296" REF="X14">auto</COREF>
-<COREF ID="106" REF="X321">Monday</COREF>
-<COREF ID="X294" REF="X14">AUTO</COREF>
-<COREF ID="X26">Striking</COREF>
-<COREF ID="X11">UAW Progressing</COREF>
-<COREF ID="77" REF="X342">That plant</COREF>
-<COREF ID="78" REF="56">CAW</COREF>
-<COREF ID="X4" REF="X293">Canadian</COREF>
-<COREF ID="X295" REF="X14">AUTO</COREF>
-<COREF ID="X1">yesterday</COREF>
-<COREF ID="73" REF="X342">the plant</COREF>
-<COREF ID="93" REF="34">its</COREF>
-<COREF ID="X306" REF="X305">a result</COREF>
-<COREF ID="X19" REF="X319">Canada</COREF>
-<COREF ID="X7" REF="X293">Canadian</COREF>
-<COREF ID="X293">New Canadian Contract Offer</COREF>
-<COREF ID="76" REF="70">the strike</COREF>
-<COREF ID="113" REF="X329">Ford</COREF>
-<COREF ID="X333" REF="X330">Chrysler</COREF>
-<COREF ID="63" REF="X310">this weekend</COREF>
-<COREF ID="X352" REF="X293">Canadian unit</COREF>
-<COREF ID="X358" REF="X293">contract</COREF>
-<COREF ID="X318">Detroit Tuesday</COREF>
-<COREF ID="X332" REF="X330">Chrysler</COREF>
-<COREF ID="21" REF="X307">the source</COREF>
-<COREF ID="44" REF="X335">The union</COREF>
-<COREF ID="X351" REF="X293">offer</COREF>
-<COREF ID="X313" REF="X329">Henry Ford Hospital</COREF>
-<COREF ID="37" REF="X318">Tuesday</COREF>
+<COREF ID="X159" REF="X16">he</COREF>
+<COREF ID="X273" REF="X12">it</COREF>
+<COREF ID="X39" REF="X16">he</COREF>
+<COREF ID="X23" REF="X24">workers</COREF>
+<COREF ID="X43" REF="X18">United Auto</COREF>
+<COREF ID="X283" REF="X5">New York Stock Exchange</COREF>
+<COREF ID="X154" REF="X24">workers</COREF>
+<COREF ID="X162">Monday</COREF>
+<COREF ID="X186" REF="X16">he</COREF>
+<COREF ID="X218" REF="X12">it</COREF>
+<COREF ID="X238" REF="X12">it</COREF>
+<COREF ID="X280" REF="X12">it</COREF>
+<COREF ID="X17" REF="X16">he</COREF>
+<COREF ID="X284" REF="X12">it</COREF>
+<COREF ID="X224" REF="X12">it</COREF>
+<COREF ID="X170" REF="X33">yesterday</COREF>
+<COREF ID="X255" REF="X12">it</COREF>
+<COREF ID="X49" REF="X16">he</COREF>
+<COREF ID="X3" REF="X5">Contract</COREF>
+<COREF ID="X157" REF="X16">he</COREF>
+<COREF ID="X36" REF="X8">Ford</COREF>
+<COREF ID="X270" REF="X12">it</COREF>
+<COREF ID="X201" REF="X8">Ford</COREF>
+<COREF ID="X33">yesterday</COREF>
+<COREF ID="X108">pension</COREF>
+<COREF ID="X34" REF="X33">yesterday</COREF>
+<COREF ID="X265" REF="X12">it</COREF>
+<COREF ID="X140" REF="X108">pension</COREF>
+<COREF ID="X249" REF="X5">the contract</COREF>
+<COREF ID="X10" REF="X8">Ford Talks</COREF>
+<COREF ID="X8">Ford</COREF>
+<COREF ID="X73" REF="X8">Ford</COREF>
+<COREF ID="X214" REF="X12">it</COREF>
+<COREF ID="X20" REF="X18">AUTO PARTS</COREF>
+<COREF ID="X282" REF="X5">contract</COREF>
+<COREF ID="X149" REF="X16">he</COREF>
+<COREF ID="X228" REF="X5">contract</COREF>
+<COREF ID="X263" REF="X12">it</COREF>
+<COREF ID="X169" REF="X33">yesterday</COREF>
+<COREF ID="X126" REF="X107">adjustments</COREF>
+<COREF ID="X192" REF="X5">contract</COREF>
+<COREF ID="X261" REF="X12">it</COREF>
+<COREF ID="X269" REF="X5">contract</COREF>
+<COREF ID="X235" REF="X12">it</COREF>
+<COREF ID="X44" REF="X24">Workers</COREF>
+<COREF ID="X125" REF="X108">pension</COREF>
+<COREF ID="X107">adjustments</COREF>
+<COREF ID="X247" REF="X5">contract</COREF>
+<COREF ID="X229" REF="X5">the previous contract</COREF>
+<COREF ID="X203" REF="X162">Monday</COREF>
+<COREF ID="X6">We</COREF>
+<COREF ID="X65" REF="X16">he</COREF>
+<COREF ID="X70" REF="X16">he</COREF>
+<COREF ID="X240" REF="X24">workers</COREF>
+<COREF ID="X217" REF="X16">he</COREF>
+<COREF ID="X57">a settlement</COREF>
+<COREF ID="X278" REF="X6">we</COREF>
+<COREF ID="X144" REF="X6">we</COREF>
+<COREF ID="X227" REF="X16">he</COREF>
+<COREF ID="X118" REF="X16">he</COREF>
+<COREF ID="X178" REF="X24">workers</COREF>
+<COREF ID="X103" REF="X104">Canada</COREF>
+<COREF ID="X18">AUTO</COREF>
+<COREF ID="X54" REF="X16">he</COREF>
+<COREF ID="X131" REF="X104">Canada</COREF>
+<COREF ID="X61" REF="X63">President</COREF>
+<COREF ID="X32">negotiations</COREF>
+<COREF ID="X110" REF="X16">he</COREF>
+<COREF ID="X232" REF="X16">he</COREF>
+<COREF ID="X42" REF="X18">Auto</COREF>
+<COREF ID="X128" REF="X16">he</COREF>
+<COREF ID="X250" REF="X24">workers</COREF>
+<COREF ID="X246" REF="X16">he</COREF>
+<COREF ID="X106" REF="X6">we</COREF>
+<COREF ID="X76" REF="X8">Henry Ford Hospital</COREF>
+<COREF ID="X176" REF="X6">we</COREF>
+<COREF ID="X212" REF="X16">he</COREF>
+<COREF ID="X152" REF="X57">a settlement</COREF>
+<COREF ID="X72" REF="X16">He</COREF>
+<COREF ID="X180" REF="X6">we</COREF>
+<COREF ID="X163" REF="X24">workers</COREF>
+<COREF ID="X121" REF="X16">he</COREF>
+<COREF ID="X187" REF="X104">Canada</COREF>
+<COREF ID="X83" REF="X16">he</COREF>
+<COREF ID="X22" REF="X18">auto</COREF>
+<COREF ID="X19" REF="X18">AUTO</COREF>
+<COREF ID="X134" REF="X16">he</COREF>
+<COREF ID="X58" REF="X6">we</COREF>
+<COREF ID="X91" REF="X16">he</COREF>
+<COREF ID="X277" REF="X18">auto</COREF>
+<COREF ID="X85" REF="X16">he</COREF>
+<COREF ID="X62" REF="X6">we</COREF>
+<COREF ID="X243" REF="X16">he</COREF>
+<COREF ID="X252" REF="X6">we</COREF>
+<COREF ID="X137" REF="X16">he</COREF>
+<COREF ID="X96" REF="X16">he</COREF>
+<COREF ID="X98" REF="X16">he</COREF>
+<COREF ID="X279" REF="X57">a settlement</COREF>
+<COREF ID="X188" REF="X24">workers</COREF>
+<COREF ID="X132" REF="X1">Chrysler Canada</COREF>
+<COREF ID="X179" REF="X24">workers</COREF>
+<COREF ID="5" REF="X12">it</COREF>
+<COREF ID="X81">source</COREF>
+<COREF ID="X209" REF="X16">he</COREF>
+<COREF ID="X30" REF="X5">Canadian unit</COREF>
+<COREF ID="X37" REF="X8">Ford Motor Co.</COREF>
+<COREF ID="X35">this morning</COREF>
 <COREF ID="4">the company</COREF>
-<COREF ID="13" REF="X335">union</COREF>
-<COREF ID="39" REF="X335">The union</COREF>
-<COREF ID="X350" REF="X293">offer</COREF>
-<COREF ID="X336" REF="X335">union</COREF>
-<COREF ID="X334" REF="X330">Chrysler</COREF>
-<COREF ID="X365" REF="X22">President</COREF>
-<COREF ID="40" REF="X330">Chrysler Canada</COREF>
-<COREF ID="X341" REF="X323">issue</COREF>
-<COREF ID="70" REF="X293">the Canadian strike</COREF>
-<COREF ID="6" REF="X293">a new contract offer</COREF>
-<COREF ID="X330">Chrysler</COREF>
-<COREF ID="X339" REF="X323">issue</COREF>
-<COREF ID="62" REF="X293">a contract</COREF>
-<COREF ID="51" REF="26">the end of the week</COREF>
-<COREF ID="9">negotiations</COREF>
-<COREF ID="48" REF="X1">yesterday</COREF>
-<COREF ID="X357" REF="X293">contract</COREF>
-<COREF ID="X329">Ford Talks</COREF>
-<COREF ID="X349" REF="X293">offer</COREF>
-<COREF ID="56">CAW</COREF>
-<COREF ID="10" REF="X1">yesterday</COREF>
-<COREF ID="X362">pension</COREF>
-<COREF ID="68" REF="X293">a new pact</COREF>
-<COREF ID="15" REF="X335">union</COREF>
-<COREF ID="X331" REF="X330">Chrysler</COREF>
-<COREF ID="61" REF="X330">Chrysler</COREF>
-<COREF ID="X342">plant</COREF>
-<COREF ID="X327" REF="X1">yesterday</COREF>
-<COREF ID="X320" REF="X330">Chrysler Canada</COREF>
-<COREF ID="14" REF="9">negotiations</COREF>
-<COREF ID="66" REF="X330">Chrysler</COREF>
-<COREF ID="X364" REF="X362">pension</COREF>
-<COREF ID="X323">the main issue</COREF>
-<COREF ID="38" REF="X1">yesterday</COREF>
-<COREF ID="X360" REF="X293">the contract</COREF>
-<COREF ID="X335">union</COREF>
-<COREF ID="26" REF="X293">president of the Canadian Auto Workers union</COREF>
-<COREF ID="64" REF="X335">the union</COREF>
-<COREF ID="X344" REF="X342">plant</COREF>
-<COREF ID="22">He</COREF>
-<COREF ID="X340" REF="X323">issue</COREF>
-<COREF ID="67" REF="34">its</COREF>
-<COREF ID="5">it</COREF>
-<COREF ID="X363" REF="X362">pension</COREF>
-<COREF ID="57" REF="X330">Chrysler</COREF>
-<COREF ID="X325" REF="X324">the job-security</COREF>
-<COREF ID="X338" REF="X323">issue</COREF>
-<COREF ID="X324">the job-security</COREF>
-<COREF ID="25" REF="X11">UAW</COREF>
-<COREF ID="X328" REF="X1">yesterday</COREF>
-<COREF ID="X353" REF="X293">Canadian unit</COREF>
-<COREF ID="16" REF="X290">a settlement</COREF>
-<COREF ID="69" REF="4">company</COREF>
-<COREF ID="X345" REF="X342">plant</COREF>
-<COREF ID="X321">Monday</COREF>
-<COREF ID="X355" REF="X293">contract</COREF>
-<COREF ID="65" REF="X26">the striking workers</COREF>
-<COREF ID="54" REF="X1">yesterday</COREF>
-<COREF ID="X359" REF="X293">contract</COREF>
-<COREF ID="X316" REF="X330">Chrysler New Yorker</COREF>
-<COREF ID="X361" REF="X293">the contract</COREF>
-<COREF ID="34">its</COREF>
+<COREF ID="X25" REF="X24">workers</COREF>
+<COREF ID="X63" REF="X14">UAW President Owen Bieber</COREF>
+<COREF ID="X191" REF="X16">he</COREF>
+<COREF ID="X189" REF="X24">workers</COREF>
+<COREF ID="X196" REF="X16">he</COREF>
+<COREF ID="X254" REF="X16">he</COREF>
+<COREF ID="X147" REF="X139">issues</COREF>
+<COREF ID="X251" REF="X24">workers</COREF>
+<COREF ID="X68" REF="11">all day</COREF>
+<COREF ID="X202" REF="X8">Ford Motor Co.</COREF>
+<COREF ID="X104" REF="X1">Chrysler Canada</COREF>
+<COREF ID="X59" REF="X35">this morning</COREF>
+<COREF ID="X164" REF="X24">workers</COREF>
+<COREF ID="10" REF="X33">yesterday</COREF>
+<COREF ID="X241" REF="X24">workers</COREF>
+<COREF ID="13" REF="X47">union</COREF>
+<COREF ID="X46" REF="X24">Workers</COREF>
+<COREF ID="6" REF="X5">a new contract offer</COREF>
+<COREF ID="X199" REF="X5">Canadian unit</COREF>
+<COREF ID="9" REF="X32">negotiations</COREF>
 <COREF ID="11">the day</COREF>
-<COREF ID="X354" REF="X293">Contract</COREF>
-<COREF ID="X319" REF="X330">Chrysler Canada</COREF>
-<COREF ID="52" REF="22">he</COREF>
-<COREF ID="X356" REF="X293">contract</COREF>
-<COREF ID="24" REF="9">negotiations</COREF>
-<COREF ID="X322" REF="X321">Monday</COREF>
-<COREF ID="X317" REF="11">all day</COREF>
-<COREF ID="58" REF="X362">the pension issue</COREF>
-<COREF ID="X343" REF="X342">plant</COREF>
-<COREF ID="32" REF="X362">inflation-indexed pension payments</COREF>
-<COREF ID="28" REF="22">he</COREF>
-<COREF ID="X348" REF="X293">Offer</COREF>
-<COREF ID="35" REF="X329">the talks</COREF>
-<COREF ID="41" REF="X318">Tuesday</COREF>
-<COREF ID="18" REF="X335">The 57-year-old union leader</COREF>
-<COREF ID="29" REF="X293">the new offer</COREF>
+<COREF ID="X213" REF="X135">the two parties</COREF>
+<COREF ID="X259" REF="X16">he</COREF>
+<COREF ID="14" REF="X32">negotiations</COREF>
+<COREF ID="X155" REF="X24">workers</COREF>
+<COREF ID="X268" REF="X16">he</COREF>
+<COREF ID="X139">issues</COREF>
+<COREF ID="X276" REF="X16">he</COREF>
+<COREF ID="83" REF="X1">the Chrysler talks</COREF>
+<COREF ID="57" REF="X1">Chrysler</COREF>
+<COREF ID="X223" REF="X5">offer</COREF>
+<COREF ID="X124" REF="X5">offer</COREF>
+<COREF ID="X161">plant</COREF>
+<COREF ID="69" REF="4">company</COREF>
+<COREF ID="X130" REF="X1">Chrysler</COREF>
+<COREF ID="X1">Chrysler</COREF>
+<COREF ID="63" REF="X7">this weekend</COREF>
+<COREF ID="66" REF="X1">Chrysler</COREF>
+<COREF ID="58" REF="X108">the pension issue</COREF>
+<COREF ID="X166">a result</COREF>
+<COREF ID="76" REF="70">the strike</COREF>
+<COREF ID="X234" REF="X5">offer</COREF>
+<COREF ID="X4" REF="X5">Offer</COREF>
+<COREF ID="70" REF="X5">the Canadian strike</COREF>
+<COREF ID="71" REF="X1">Chrysler</COREF>
+<COREF ID="X173" REF="X161">plant</COREF>
+<COREF ID="73" REF="X161">the plant</COREF>
+<COREF ID="62" REF="X5">a contract</COREF>
+<COREF ID="X60" REF="X14">UAW</COREF>
+<COREF ID="X26" REF="X1">Chrysler</COREF>
+<COREF ID="91" REF="4">the company</COREF>
+<COREF ID="X167" REF="X1">Chrysler</COREF>
+<COREF ID="65" REF="X21">the striking workers</COREF>
+<COREF ID="82" REF="X8">Ford</COREF>
+<COREF ID="X122" REF="X123">issue</COREF>
+<COREF ID="X123">the main issue</COREF>
+<COREF ID="92" REF="X12">It</COREF>
+<COREF ID="64" REF="X47">the union</COREF>
+<COREF ID="X102" REF="X1">Chrysler</COREF>
+<COREF ID="56">CAW</COREF>
+<COREF ID="X237" REF="X35">this year</COREF>
+<COREF ID="X182" REF="X161">plant</COREF>
+<COREF ID="79" REF="X1">Chrysler</COREF>
+<COREF ID="X138" REF="X123">issue</COREF>
+<COREF ID="X21">Striking</COREF>
+<COREF ID="61" REF="X1">Chrysler</COREF>
+<COREF ID="85" REF="X10">the Ford-UAW talks</COREF>
+<COREF ID="X9" REF="X10">Talks</COREF>
+<COREF ID="77" REF="X161">That plant</COREF>
+<COREF ID="90" REF="X8">Ford</COREF>
+<COREF ID="88" REF="X33">yesterday</COREF>
+<COREF ID="X14">UAW</COREF>
+<COREF ID="X27" REF="X1">Chrysler Corp.</COREF>
+<COREF ID="15" REF="X47">union</COREF>
+<COREF ID="68" REF="X5">a new pact</COREF>
+<COREF ID="X165" REF="X161">plant</COREF>
+<COREF ID="67" REF="34">its</COREF>
+<COREF ID="X177" REF="X166">a result</COREF>
+<COREF ID="78" REF="56">CAW</COREF>
+<COREF ID="81">GM</COREF>
+<COREF ID="18" REF="X47">The 57-year-old union leader</COREF>
+<COREF ID="X160" REF="X5">Canadian</COREF>
+<COREF ID="16" REF="X57">a settlement</COREF>
+<COREF ID="25" REF="X14">UAW</COREF>
+<COREF ID="X111" REF="X5">Canadian</COREF>
+<COREF ID="X156" REF="X16">he</COREF>
+<COREF ID="26" REF="X5">president of the Canadian Auto Workers union</COREF>
+<COREF ID="X16">he</COREF>
+<COREF ID="X175" REF="X5">Canadian</COREF>
+<COREF ID="X82" REF="X16">he</COREF>
+<COREF ID="X109" REF="X16">he</COREF>
+<COREF ID="X90" REF="X16">he</COREF>
+<COREF ID="X272" REF="X32">negotiations</COREF>
+<COREF ID="X64" REF="X16">he</COREF>
+<COREF ID="22" REF="X16">He</COREF>
+<COREF ID="X53" REF="X16">he</COREF>
+<COREF ID="29" REF="X5">the new offer</COREF>
+<COREF ID="21" REF="X81">the source</COREF>
+<COREF ID="X136" REF="X16">he</COREF>
+<COREF ID="X153" REF="X5">Canadian</COREF>
+<COREF ID="40" REF="X1">Chrysler Canada</COREF>
+<COREF ID="28" REF="X16">he</COREF>
+<COREF ID="X2" REF="X5">Canadian</COREF>
+<COREF ID="X120" REF="X16">he</COREF>
+<COREF ID="41" REF="X80">Tuesday</COREF>
+<COREF ID="X71" REF="X16">He</COREF>
+<COREF ID="45" REF="X107">the adjustments</COREF>
+<COREF ID="X197" REF="X5">Canadian</COREF>
+<COREF ID="X47">union</COREF>
 <COREF ID="42" REF="4">a company</COREF>
+<COREF ID="X230" REF="32">payments</COREF>
+<COREF ID="X133" REF="X16">he</COREF>
+<COREF ID="X5">New Canadian Contract Offer</COREF>
+<COREF ID="44" REF="X47">The union</COREF>
+<COREF ID="X48" REF="X16">he</COREF>
+<COREF ID="32" REF="X108">inflation-indexed pension payments</COREF>
+<COREF ID="24" REF="X32">negotiations</COREF>
+<COREF ID="X117" REF="X16">he</COREF>
+<COREF ID="X168" REF="X1">Chrysler New Yorker</COREF>
+<COREF ID="X84" REF="X16">he</COREF>
+<COREF ID="48" REF="X33">yesterday</COREF>
+<COREF ID="X248" REF="X5">the contract</COREF>
+<COREF ID="X97" REF="X16">he</COREF>
+<COREF ID="X45" REF="X18">Auto Workers</COREF>
+<COREF ID="X145" REF="X32">negotiations</COREF>
+<COREF ID="51" REF="26">the end of the week</COREF>
+<COREF ID="X135">the two sides</COREF>
+<COREF ID="34">its</COREF>
+<COREF ID="50" REF="X6">We</COREF>
+<COREF ID="X148" REF="X16">he</COREF>
+<COREF ID="X28" REF="X5">Canadian</COREF>
+<COREF ID="35" REF="X10">the talks</COREF>
+<COREF ID="X95" REF="X16">he</COREF>
+<COREF ID="X24" REF="X18">auto workers</COREF>
+<COREF ID="X69" REF="X16">he</COREF>
+<COREF ID="X7">Weekend</COREF>
+<COREF ID="X112" REF="X47">union</COREF>
+<COREF ID="37" REF="X80">Tuesday</COREF>
+<COREF ID="38" REF="X33">yesterday</COREF>
+<COREF ID="X105" REF="X1">Chrysler Canada Ltd.</COREF>
+<COREF ID="39" REF="X47">The union</COREF>
+<COREF ID="52" REF="X16">he</COREF>
+<COREF ID="X127" REF="X16">he</COREF>
+<COREF ID="54" REF="X33">yesterday</COREF>
+<COREF ID="X38" REF="X16">he</COREF>
+<COREF ID="X211" REF="X16">he</COREF>
+<COREF ID="X242" REF="X16">he</COREF>
+<COREF ID="X271" REF="X12">it</COREF>
+<COREF ID="X281" REF="X12">it</COREF>
+<COREF ID="X190" REF="X16">he</COREF>
+<COREF ID="X266" REF="X12">it</COREF>
+<COREF ID="X158" REF="X16">he</COREF>
+<COREF ID="X262" REF="X12">it</COREF>
+<COREF ID="X231" REF="X16">he</COREF>
+<COREF ID="X11" REF="X10">Talks</COREF>
+<COREF ID="X226" REF="X16">he</COREF>
+<COREF ID="X185" REF="X16">he</COREF>
+<COREF ID="X205" REF="X10">Talks</COREF>
+<COREF ID="X253" REF="X16">he</COREF>
+<COREF ID="X267" REF="X16">he</COREF>
+<COREF ID="X208" REF="X16">he</COREF>
+<COREF ID="X216" REF="X16">he</COREF>
+<COREF ID="X245" REF="X16">he</COREF>
+<COREF ID="X285" REF="X12">it</COREF>
+<COREF ID="X220">the job-security</COREF>
+<COREF ID="X195" REF="X16">he</COREF>
+<COREF ID="X67" REF="X10">talks</COREF>
+<COREF ID="X258" REF="X16">he</COREF>
+<COREF ID="X275" REF="X16">he</COREF>
+<COREF ID="X264" REF="X12">it</COREF>
+<COREF ID="X257" REF="X220">the job-security</COREF>
+<COREF ID="X256" REF="X12">it</COREF>
+<COREF ID="X274" REF="X12">it</COREF>
+<COREF ID="X29" REF="X12">it</COREF>
+<COREF ID="X222" REF="X81">Source</COREF>
+<COREF ID="X114" REF="X12">it</COREF>
+<COREF ID="X183" REF="X12">it</COREF>
+<COREF ID="101" REF="X5">The contract</COREF>
+<COREF ID="X66" REF="X10">talks</COREF>
+<COREF ID="X89" REF="X12">it</COREF>
+<COREF ID="X221" REF="X123">issue</COREF>
+<COREF ID="94" REF="X123">the job-security issue</COREF>
+<COREF ID="X142" REF="X12">it</COREF>
+<COREF ID="X41" REF="X12">it</COREF>
+<COREF ID="X86" REF="X12">it</COREF>
+<COREF ID="X200" REF="X12">it</COREF>
+<COREF ID="99" REF="X135">the two sides</COREF>
+<COREF ID="X193" REF="X12">it</COREF>
+<COREF ID="111" REF="X33">Yesterday</COREF>
+<COREF ID="X219" REF="X12">it</COREF>
+<COREF ID="X88" REF="X12">it</COREF>
+<COREF ID="104" REF="X14">UAW</COREF>
+<COREF ID="X143" REF="X12">it</COREF>
+<COREF ID="X13" REF="X12">it</COREF>
+<COREF ID="X77" REF="X12">it</COREF>
+<COREF ID="X113" REF="X12">it</COREF>
+<COREF ID="55" REF="X139">About 200 local issues</COREF>
+<COREF ID="X94" REF="X12">it</COREF>
+<COREF ID="X51" REF="X12">it</COREF>
+<COREF ID="X52" REF="X12">it</COREF>
+<COREF ID="X206" REF="X12">it</COREF>
+<COREF ID="X115" REF="X12">it</COREF>
+<COREF ID="X184" REF="X12">it</COREF>
+<COREF ID="X87" REF="X12">it</COREF>
+<COREF ID="105" REF="81">GM</COREF>
+<COREF ID="X12">it</COREF>
+<COREF ID="X79" REF="X80">Tuesday</COREF>
+<COREF ID="X78" REF="X12">it</COREF>
+<COREF ID="X172" REF="X12">it</COREF>
+<COREF ID="93" REF="34">its</COREF>
+<COREF ID="X150" REF="X12">it</COREF>
+<COREF ID="X239" REF="X12">it</COREF>
+<COREF ID="103" REF="X47">the union</COREF>
+<COREF ID="102" REF="X162">Monday</COREF>
+<COREF ID="X40" REF="X12">it</COREF>
+<COREF ID="X56" REF="X12">it</COREF>
+<COREF ID="96" REF="X8">Ford</COREF>
+<COREF ID="113" REF="X8">Ford</COREF>
+<COREF ID="X171" REF="X12">it</COREF>
+<COREF ID="97" REF="4">The company</COREF>
+<COREF ID="X15" REF="X14">UAW Progressing</COREF>
+<COREF ID="X198" REF="X12">it</COREF>
+<COREF ID="X75" REF="X12">it</COREF>
+<COREF ID="X116" REF="X12">it</COREF>
+<COREF ID="109" REF="X1">Chrysler</COREF>
+<COREF ID="106" REF="X162">Monday</COREF>
+<COREF ID="X207" REF="X12">it</COREF>
+<COREF ID="X101" REF="X12">it</COREF>
+<COREF ID="X236" REF="X12">it</COREF>
+<COREF ID="X80">Detroit Tuesday</COREF>
+<COREF ID="X93" REF="X12">it</COREF>
+<COREF ID="X146" REF="X123">issue</COREF>
+<COREF ID="X225" REF="X12">it</COREF>
+<COREF ID="112" REF="X1">Chrysler</COREF>
+<COREF ID="X74" REF="X12">it</COREF>
+<COREF ID="98" REF="4">the company</COREF>
+<COREF ID="X31" REF="X12">it</COREF>
+<COREF ID="X55" REF="X12">it</COREF>
+<COREF ID="X194" REF="X12">it</COREF>
+<COREF ID="108" REF="X8">Ford</COREF>
+<COREF ID="X204" REF="X10">Talks</COREF>
+<COREF ID="X100" REF="X12">it</COREF>
+<COREF ID="X215" REF="X12">it</COREF>
+<COREF ID="X151" REF="X12">it</COREF>
 </TXT>
