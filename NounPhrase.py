@@ -5,6 +5,7 @@ class NounPhrase:
         self.id = None
         self.start_index = None
         self.end_index = None
+        self.gender = None
 
     def __str__(self):
         return_string = ""

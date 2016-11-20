@@ -22,6 +22,13 @@ def main():
         relevant_noun_phrases = ioutil.get_relevant_noun_phrases(anaphora_list, noun_phrases)
         nps = ioutil.get_noun_phrase_positions(path, relevant_noun_phrases)
         combined_list = ioutil.combine_anaphora_relevant_np(anaphora_list, nps)
+        
+        # Remove common words from the noun phrases
+        combined_list = ioutil.remove_common_words(combined_list)
+
+        # Remove titles and assign the gender of the following noun phrases
+        combined_list = ioutil.remove_titles(combined_list)
+        
         assigned_list = ioutil.assign_refs_for_similars(combined_list)
         assigned_list = ioutil.get_response_noun_phrases(assigned_list)
 

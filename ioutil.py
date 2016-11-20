@@ -79,9 +79,29 @@ def get_noun_phrases(path):
         noun_phrases.append(m)
 
     # Keep for debugging
-    #print (noun_phrases)
+    #print(noun_phrases)
 
     return noun_phrases
+
+def remove_common_words(noun_phrases):
+    remove_words = ['a', 'an', 'the', 'and', 'that']
+    return_list = []
+    for np in noun_phrases:
+        np_split = (np.noun_phrase).split()
+        result_np = [word for word in np_split if word.lower() not in remove_words]
+        result = ' '.join(result_np)
+        np.noun_phrase = result
+        if len(np.noun_phrase.strip()) != 0 and np.noun_phrase != "i":
+            return_list.append(np)
+    return return_list
+
+def remove_titles(noun_phrases):
+    male_titles = ['mr', 'mr.']
+    female_titles = ['mrs', 'miss', 'mrs.', 'miss.']
+    return_phrases = []
+    for np in noun_phrases:
+        np_split = (np.noun_phrase).split()
+        
 
 def get_initial_anaphora_list(path):
     noun_phrase_list = []
