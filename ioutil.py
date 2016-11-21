@@ -51,6 +51,8 @@ def get_noun_phrases(path):
                     NP: {<DT|PP\$>?<JJ>*<NN>}
                         {<NNP>+}
                         {<NN>+}
+                        {<PRP><NN>}
+                        {<PRP$>}
                         {<NNP><NNS>}
                         {<DT><NNP>}
                         {<DT><CD><NNS>}
@@ -58,8 +60,6 @@ def get_noun_phrases(path):
                         {<NNS>+}
                         {(<DT>?<RB>?)?<JJ|CD>*(<JJ|CD><,>)*<NN.*>+}
                         {(<DT|PRP.>?<RB>?)?<JJ|CD>*(<JJ|CD><,>)*(<NN.*>)+}
-                        {<PRP><NN>}
-                        {<PRP$>}
                         {<WP>}
                         {<NNP><POS><NNP>}
 
