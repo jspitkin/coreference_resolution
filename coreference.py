@@ -44,8 +44,8 @@ def main():
         # Check dates (lowering the score now)
         combined_list = ioutil.assign_date_to_today(combined_list, nps)
 
-        for np in combined_list:
-            print(np.noun_phrase)
+        # for np in combined_list:
+        #     print(np.noun_phrase)
 
         # Writing out the final file, all attempts at assignment should be combined before this
         ioutil.write_response_file(response_directory, path, combined_list)

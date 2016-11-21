@@ -1,39 +1,30 @@
 <TXT>
-<COREF ID="3" REF="1">it</COREF>
-<COREF ID="X3" REF="X4">Satellite</COREF>
-<COREF ID="X15" REF="1">digital</COREF>
-<COREF ID="X23" REF="X17">satellite</COREF>
-<COREF ID="11" REF="X18">new digital service</COREF>
-<COREF ID="X7" REF="3">it</COREF>
-<COREF ID="X5" REF="X4">COMMUNICATIONS</COREF>
-<COREF ID="12" REF="X10">price reductions</COREF>
-<COREF ID="X10" REF="1">reductions</COREF>
-<COREF ID="8" REF="X12">telephone company</COREF>
-<COREF ID="13" REF="11">Digital service</COREF>
-<COREF ID="X20" REF="11">it</COREF>
 <COREF ID="10" REF="6">AT@amp;T</COREF>
-<COREF ID="X2" REF="X3">it</COREF>
-<COREF ID="X11" REF="X6">Telephone</COREF>
-<COREF ID="X18" REF="X9">service</COREF>
+<COREF ID="12" REF="X8">price reductions</COREF>
+<COREF ID="X14" REF="X6">communications</COREF>
+<COREF ID="X7" REF="1">service</COREF>
+<COREF ID="X9" REF="X5">Telephone</COREF>
+<COREF ID="X2" REF="X3">Satellite</COREF>
+<COREF ID="8" REF="X10">telephone company</COREF>
+<COREF ID="1" REF="X4">Communications Satellite Corp., Washington</COREF>
+<COREF ID="X5" REF="1">TELEPHONE</COREF>
 <COREF ID="X1" REF="1">Communications</COREF>
-<COREF ID="X14" REF="X15">it</COREF>
-<COREF ID="X17" REF="1">satellite</COREF>
-<COREF ID="4" REF="3">Comsat</COREF>
-<COREF ID="6" REF="5">AT@amp;T</COREF>
-<COREF ID="X12" REF="X11">Telephone @</COREF>
-<COREF ID="X8" REF="1">Communications</COREF>
-<COREF ID="7" REF="5">Comsat</COREF>
-<COREF ID="X21" REF="X8">communications</COREF>
-<COREF ID="9" REF="7">Comsat</COREF>
-<COREF ID="X19" REF="8">it</COREF>
-<COREF ID="X16" REF="X17">it</COREF>
-<COREF ID="14" REF="9">Comsat</COREF>
-<COREF ID="X9" REF="1">service</COREF>
-<COREF ID="X22" REF="X23">it</COREF>
-<COREF ID="X6" REF="1">TELEPHONE</COREF>
-<COREF ID="X13" REF="X12">it</COREF>
+<COREF ID="X3" REF="X1">Communications Satellite Corp.</COREF>
+<COREF ID="X10" REF="X9">Telephone @</COREF>
+<COREF ID="X8" REF="1">reductions</COREF>
+<COREF ID="X15" REF="X12">satellite</COREF>
 <COREF ID="5" REF="4">Comsat</COREF>
-<COREF ID="X4" REF="X1">Communications Satellite Corp.</COREF>
-<COREF ID="1" REF="X5">Communications Satellite Corp., Washington</COREF>
-<COREF ID="X24" REF="X22">it</COREF>
+<COREF ID="9" REF="7">Comsat</COREF>
+<COREF ID="4" REF="3">Comsat</COREF>
+<COREF ID="3" REF="1">it</COREF>
+<COREF ID="13" REF="11">Digital service</COREF>
+<COREF ID="X12" REF="1">satellite</COREF>
+<COREF ID="11" REF="X13">new digital service</COREF>
+<COREF ID="6" REF="5">AT@amp;T</COREF>
+<COREF ID="X6" REF="1">Communications</COREF>
+<COREF ID="X13" REF="X7">service</COREF>
+<COREF ID="14" REF="9">Comsat</COREF>
+<COREF ID="X4" REF="X3">COMMUNICATIONS</COREF>
+<COREF ID="7" REF="5">Comsat</COREF>
+<COREF ID="X11" REF="1">digital</COREF>
 </TXT>

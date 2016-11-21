@@ -51,15 +51,22 @@ def get_noun_phrases(path):
                     NP: {<DT|PP\$>?<JJ>*<NN>}
                         {<NNP>+}
                         {<NN>+}
+                        {<NNP><NNS>}
+                        {<DT><NNP>}
                         {<DT><CD><NNS>}
+                        {<CD><NNS>}
                         {<NNS>+}
                         {(<DT>?<RB>?)?<JJ|CD>*(<JJ|CD><,>)*<NN.*>+}
                         {(<DT|PRP.>?<RB>?)?<JJ|CD>*(<JJ|CD><,>)*(<NN.*>)+}
-                        {<PRP>}
+                        {<PRP><NN>}
                         {<PRP$>}
+                        {<WP>}
+                        {<NNP><POS><NNP>}
+
         """
         chunker = nltk.RegexpParser(grammar)
         result = chunker.parse(tokens_with_pos_tag)
+        # print (result)
 
         for subtree in result.subtrees(filter=lambda t: t.label() == 'NP'):
             noun_phrase = ""
@@ -77,7 +84,7 @@ def get_noun_phrases(path):
     return noun_phrases
 
 def remove_common_words(noun_phrases):
-    remove_words = ['a', 'an', 'the', 'and', 'of', 'at', 'in', 'of', 'only', 'on']
+    remove_words = ['a', 'an', 'the', 'and', 'of', 'at', 'in', 'of', 'only', 'on', '>', '<']
     return_list = []
     for np in noun_phrases:
         np_split = (np.noun_phrase).split()
