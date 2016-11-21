@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # Scoring program for CS 5340/6340 coreference resolution project. 
-# Usage: ./new-coref-scorer.py -d [response dir] [key dir] -v
+# Usage: ./coref-scorer.py -d [response dir] [key dir] -v
 #
 import sys
 import re
@@ -29,7 +29,8 @@ class Entity:
       self.end = -1
 
    def __str__(self):
-      return "%s (%s)" % (self.text, self.id)
+      return "{'ID':"+self.id+",'text':'" + self.text + "','referrent':"+str(self.referents)+"}"
+      # return "%s (%s)" % (self.text, self.id)
 
    def getId(self):
       return self.id
@@ -152,6 +153,8 @@ def score(resolutions, keys):
             #non-anchor anaphor.
             if antecedent.id in map(lambda x : x.id, k):
                correct += 1
+               if VERBOSE:
+                  print anaphor , " -> ", antecedent
                if pronounCheck(anaphor.text.lower()):
                   pronouns += 1
                elif commonCheck(anaphor.text):
@@ -163,6 +166,8 @@ def score(resolutions, keys):
             #anchor antecedent case.
             if spans(antecedent.text, k):
                correct += 1
+               if VERBOSE:
+                  print anaphor , " -> ", antecedent
                if pronounCheck(anaphor.text.lower()):
                   pronouns += 1
                elif commonCheck(anaphor.text):
@@ -218,6 +223,7 @@ def main(args):
 
    if ("-v" in args) or ("-V" in args):
       VERBOSE = True
+
 
    #read in files
    filelst = []

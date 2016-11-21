@@ -4,7 +4,6 @@ import NounPhrase as np
 from nltk.corpus import names
 import random
 
-
 def get_file_as_string(path):
     with open(path, 'r') as file:
         file_input = file.read().replace('\n', ' ')
@@ -31,7 +30,6 @@ def write_response_file(response_directory, crf_path, responses):
             response_string += ' REF="' + str(response.ref) + '"'
         response_string +='>' + response.noun_phrase + "</COREF>\n"
     response_string += "</TXT>"
-
     with open(path, 'w+') as file:
         file.write(response_string)
 
@@ -62,7 +60,6 @@ def get_noun_phrases(path):
         """
         chunker = nltk.RegexpParser(grammar)
         result = chunker.parse(tokens_with_pos_tag)
-        #print (result)
 
         for subtree in result.subtrees(filter=lambda t: t.label() == 'NP'):
             noun_phrase = ""
@@ -72,16 +69,10 @@ def get_noun_phrases(path):
                     continue
             noun_phrases.append(noun_phrase.strip())
 
-        # Named entity tagging
-        #print(nltk.ne_chunk(tokens_with_pos_tag, binary=True))
-
     # Add all dates in the format dd/mm/yy as noun phrases
     match = re.findall(r'(\d+/\d+/\d+)', document)
     for m in match:
         noun_phrases.append(m)
-
-    # Keep for debugging
-    #print(noun_phrases)
 
     return noun_phrases
 
@@ -113,6 +104,7 @@ def get_initial_anaphora_list(path):
             item.id = noun_id[0]
             item.start_index = m.start()
             item.end_index = m.end()
+            item.anaphora = True
             noun_phrase_list.append(item)
     return noun_phrase_list
 
@@ -153,6 +145,7 @@ def get_relevant_noun_phrases(coref_list, noun_phrase_list):
 def combine_anaphora_relevant_np(anaphora_list, noun_phrase_list):
     combined_list = []
 
+    first_found_anaphora_id = int(anaphora_list[0].id)
     noun_phrase_list = sorted(noun_phrase_list, key=lambda x: x.end_index)
     anaphora_list = sorted(anaphora_list, key=lambda x: x.end_index)
 
@@ -164,6 +157,7 @@ def combine_anaphora_relevant_np(anaphora_list, noun_phrase_list):
                 already_in_list = True
         if not already_in_list:
             np.id = 'X' + str(id_index)
+            np.ref = first_found_anaphora_id
             id_index += 1
             combined_list.append(np)
     for np in anaphora_list:
@@ -171,23 +165,44 @@ def combine_anaphora_relevant_np(anaphora_list, noun_phrase_list):
     sorted_combined_list = sorted(combined_list, key=lambda x: x.start_index)
     return sorted_combined_list
 
+def assign_refs_for_pronouns(sorted_combined_list):
+    current_anaphora = None
+    pronouns = ['he', 'she', 'it', 'her', 'him']
+    assigned_match = False
+    for index, np, in enumerate(sorted_combined_list):
+        if current_anaphora is None:
+            if np.anaphora:
+                current_anaphora = np
+            else:
+                continue
+        if np.anaphora is True:
+            assigned_match = False
+            current_anaphora = np
+            continue
+        if (np.noun_phrase).lower().strip() in pronouns:
+            assigned_match = True
+            np.ref = current_anaphora.id
+
+def assign_previous(anaphora_list):
+    previous_item = None
+    for item in anaphora_list:
+        if previous_item is None:
+            previous_item = item
+        else:
+            item.ref = previous_item.id
+            previous_item = item
+
 def assign_refs_for_similars(sorted_combined_list):
     for index, np, in enumerate(sorted_combined_list):
         np_words = np.noun_phrase.split()
         np_lower = [x.lower() for x in np_words]
         np_contained_words = set(np_lower)
 
-        if("a" in np_contained_words):
-            np_contained_words.remove("a")
-        if("the" in np_contained_words):
-            np_contained_words.remove("the")
-
         for inner_np in sorted_combined_list[index+1:]:
             inner_np_list = inner_np.noun_phrase.split()
             for s in inner_np_list:
-                if(s.lower() in np_contained_words and inner_np.ref is None):
+                if(s.lower() in np_contained_words):
                     inner_np.ref = np.id
-    return sorted_combined_list
 
 def assign_date_to_today(sorted_combined_list, noun_phrases):
 
@@ -239,3 +254,18 @@ def gender_assign_name(name):
     train_set, test_set = featuresets[500:], featuresets[:500]
     classifier = nltk.NaiveBayesClassifier.train(train_set)
     return(classifier.classify(gender_features(name)))
+
+def it_assigner(combined_list):
+    male_pronouns = ["he","him"]
+    female_pronouns = ["she", "her"]
+    pronouns_it = ["it"]
+
+    combined_list = sorted(combined_list, key=lambda x: x.start_index)
+    prev_np = None
+
+    for np in combined_list:
+        if np.noun_phrase == "it":
+            np.gender = "it"
+            if prev_np is not None:
+                np.ref = prev_np.id
+        prev_np = np

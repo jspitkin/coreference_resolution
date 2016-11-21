@@ -18,7 +18,6 @@ def main():
         path = path.strip('\n')
         noun_phrases = ioutil.get_noun_phrases(path)
         anaphora_list = ioutil.get_initial_anaphora_list(path)
-
         # Testing for phrases that contain parts of other phrases
         relevant_noun_phrases = ioutil.get_relevant_noun_phrases(anaphora_list, noun_phrases)
         nps = ioutil.get_noun_phrase_positions(path, relevant_noun_phrases)
@@ -27,17 +26,17 @@ def main():
         # Remove common words from the noun phrases
         combined_list = ioutil.remove_common_words(combined_list)
 
-        for entry in combined_list:
-            print(entry.noun_phrase)
-
-        assigned_list = ioutil.assign_refs_for_similars(combined_list)
-        assigned_list = ioutil.get_response_noun_phrases(assigned_list)
+        ioutil.assign_previous(combined_list)
+        ioutil.it_assigner(combined_list)
+        ioutil.assign_refs_for_pronouns(combined_list)
+        ioutil.assign_refs_for_similars(combined_list)
+        response_list = ioutil.get_response_noun_phrases(combined_list)
 
         # Check dates
-        assigned_list = ioutil.assign_date_to_today(assigned_list, ioutil.get_noun_phrase_positions(path, noun_phrases))
+        #ioutil.assign_date_to_today(combined_list, ioutil.get_noun_phrase_positions(path, noun_phrases))
 
         # Writing out the final file, all attempts at assignment should be combined before this
-        ioutil.write_response_file(response_directory, path, assigned_list)
+        ioutil.write_response_file(response_directory, path, response_list)
 
 def print_usage():
     print("usage: python coreference.py <listfile> <responsedir>")

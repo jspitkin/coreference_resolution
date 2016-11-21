@@ -1,124 +1,140 @@
 <TXT>
-<COREF ID="X11" REF="X10">employees</COREF>
-<COREF ID="14">company</COREF>
-<COREF ID="30" REF="11">they</COREF>
-<COREF ID="X80" REF="X5">he</COREF>
-<COREF ID="X14" REF="X10">employees</COREF>
-<COREF ID="8">vice president for human resources</COREF>
-<COREF ID="3" REF="X4">formal grievance procedure</COREF>
-<COREF ID="7" REF="X1">Chrysler</COREF>
-<COREF ID="X52" REF="X10">employees</COREF>
-<COREF ID="X59" REF="X15">Several management</COREF>
 <COREF ID="17" REF="3">formal impartial internal mechanism</COREF>
-<COREF ID="X56" REF="X17">United Auto Workers</COREF>
-<COREF ID="11">they</COREF>
-<COREF ID="12" REF="X15">management</COREF>
-<COREF ID="X64" REF="X10">employees</COREF>
-<COREF ID="X86" REF="X5">he</COREF>
-<COREF ID="X21" REF="X1">Chrysler Motors</COREF>
-<COREF ID="27" REF="X42">move</COREF>
-<COREF ID="X61" REF="X10">employees</COREF>
-<COREF ID="X88" REF="X5">he</COREF>
-<COREF ID="16" REF="X10">these employees</COREF>
-<COREF ID="X92" REF="X5">he</COREF>
-<COREF ID="X82" REF="X5">he</COREF>
-<COREF ID="21">its</COREF>
-<COREF ID="X95" REF="X83">problem</COREF>
-<COREF ID="X94" REF="X5">he</COREF>
-<COREF ID="X96" REF="6">we</COREF>
-<COREF ID="22" REF="X17">auto maker</COREF>
-<COREF ID="6">We</COREF>
-<COREF ID="X98" REF="X5">he</COREF>
-<COREF ID="24" REF="21">its</COREF>
-<COREF ID="X3" REF="X4">Process</COREF>
-<COREF ID="X39">final arbitration</COREF>
-<COREF ID="X25" REF="X10">Employees</COREF>
-<COREF ID="25" REF="X1">Chrysler</COREF>
-<COREF ID="X99" REF="X5">he</COREF>
-<COREF ID="29" REF="X4">formal grievance procedure with third-party arbitration</COREF>
-<COREF ID="X6" REF="X1">Chrysler</COREF>
-<COREF ID="X1">Chrysler</COREF>
-<COREF ID="X20" REF="X1">Chrysler</COREF>
+<COREF ID="X99" REF="X98">he</COREF>
+<COREF ID="6" REF="X11">We</COREF>
+<COREF ID="X73" REF="X68">management</COREF>
+<COREF ID="31" REF="X62">policy</COREF>
+<COREF ID="16" REF="X25">these employees</COREF>
+<COREF ID="X36" REF="X35">it</COREF>
+<COREF ID="X98" REF="X94">he</COREF>
+<COREF ID="X79" REF="X75">he</COREF>
+<COREF ID="X12" REF="X9">it</COREF>
+<COREF ID="30" REF="11">they</COREF>
+<COREF ID="37" REF="X65">company</COREF>
+<COREF ID="29" REF="X39">formal grievance procedure with third-party arbitration</COREF>
+<COREF ID="X82" REF="X80">he</COREF>
+<COREF ID="38" REF="X64">arbitration for nonunion employees</COREF>
+<COREF ID="X23" REF="X12">it</COREF>
+<COREF ID="X29" REF="X27">it</COREF>
 <COREF ID="X32" REF="3">procedure</COREF>
-<COREF ID="23" REF="21">its</COREF>
-<COREF ID="X83">problem</COREF>
-<COREF ID="X41" REF="X1">Chrysler</COREF>
-<COREF ID="X103" REF="X10">employees</COREF>
-<COREF ID="19" REF="X4">process</COREF>
-<COREF ID="X84" REF="X5">he</COREF>
-<COREF ID="X4">Create Grievance Process</COREF>
-<COREF ID="X76" REF="X1">Chrysler</COREF>
-<COREF ID="X60" REF="X10">employees</COREF>
-<COREF ID="X77">spokesman</COREF>
-<COREF ID="X66" REF="X5">he</COREF>
-<COREF ID="X72" REF="X5">he</COREF>
-<COREF ID="X79" REF="X5">he</COREF>
-<COREF ID="X35" REF="X8">it</COREF>
-<COREF ID="32" REF="X8">It</COREF>
-<COREF ID="X69" REF="X8">it</COREF>
-<COREF ID="43" REF="X1">Chrysler</COREF>
-<COREF ID="X7" REF="X5">he</COREF>
-<COREF ID="44" REF="X28">its system</COREF>
-<COREF ID="X58" REF="X15">management</COREF>
-<COREF ID="X68" REF="X15">management</COREF>
-<COREF ID="X101" REF="X15">management</COREF>
-<COREF ID="X102" REF="X10">employees</COREF>
-<COREF ID="X47" REF="X5">he</COREF>
-<COREF ID="38" REF="X10">arbitration for nonunion employees</COREF>
-<COREF ID="X43" REF="X5">he</COREF>
-<COREF ID="X81" REF="31">policy</COREF>
-<COREF ID="X10">employees</COREF>
-<COREF ID="X55" REF="X8">it</COREF>
-<COREF ID="33" REF="8">vice president</COREF>
-<COREF ID="X91" REF="X77">spokesman</COREF>
-<COREF ID="X33" REF="X5">he</COREF>
-<COREF ID="X70" REF="X8">it</COREF>
-<COREF ID="49" REF="X8">It</COREF>
-<COREF ID="X27" REF="X8">it</COREF>
-<COREF ID="X53" REF="X5">he</COREF>
-<COREF ID="37" REF="14">company</COREF>
-<COREF ID="X73" REF="X15">management</COREF>
-<COREF ID="X24" REF="X10">Employees</COREF>
-<COREF ID="X54" REF="X5">he</COREF>
-<COREF ID="41" REF="X90">IBM</COREF>
+<COREF ID="22" REF="X19">auto maker</COREF>
+<COREF ID="X40" REF="X37">neutral third party</COREF>
+<COREF ID="8" REF="X15">vice president for human resources</COREF>
+<COREF ID="X67" REF="32">potential</COREF>
+<COREF ID="X17" REF="8">auto</COREF>
+<COREF ID="X53" REF="X47">he</COREF>
+<COREF ID="X56" REF="22">United Auto Workers</COREF>
+<COREF ID="X30" REF="X28">traditional union</COREF>
+<COREF ID="X38" REF="X36">final arbitration</COREF>
+<COREF ID="X54" REF="X53">he</COREF>
 <COREF ID="X65" REF="14">major private company</COREF>
-<COREF ID="31">policy</COREF>
-<COREF ID="X28">system</COREF>
-<COREF ID="X26" REF="X5">he</COREF>
-<COREF ID="X97" REF="X8">it</COREF>
-<COREF ID="X8">it</COREF>
-<COREF ID="X37" REF="X8">it</COREF>
-<COREF ID="X90">IBM</COREF>
-<COREF ID="X38" REF="X39">arbitration</COREF>
-<COREF ID="X23" REF="X8">it</COREF>
-<COREF ID="X17">auto</COREF>
-<COREF ID="X46" REF="X8">it</COREF>
-<COREF ID="X45" REF="X8">it</COREF>
-<COREF ID="50" REF="X4">four-step grievance process</COREF>
-<COREF ID="X63" REF="X10">employees</COREF>
-<COREF ID="X51" REF="X10">employees</COREF>
-<COREF ID="X18" REF="X17">auto</COREF>
-<COREF ID="X9" REF="X8">it</COREF>
-<COREF ID="X13" REF="X10">employees</COREF>
-<COREF ID="X15">management</COREF>
-<COREF ID="X5">HE</COREF>
-<COREF ID="X31" REF="X4">grievance</COREF>
-<COREF ID="X16" REF="X5">he</COREF>
-<COREF ID="X36" REF="X8">it</COREF>
-<COREF ID="X89" REF="X15">management</COREF>
-<COREF ID="X62" REF="X5">he</COREF>
-<COREF ID="X12" REF="X8">it</COREF>
-<COREF ID="X71" REF="X5">he</COREF>
-<COREF ID="X74" REF="X15">management</COREF>
-<COREF ID="39" REF="X5">he</COREF>
-<COREF ID="42" REF="X77">spokesman</COREF>
-<COREF ID="X75" REF="X5">he</COREF>
+<COREF ID="14" REF="X27">company</COREF>
+<COREF ID="X75" REF="X72">he</COREF>
+<COREF ID="X80" REF="39">he</COREF>
+<COREF ID="X8" REF="3">it</COREF>
+<COREF ID="X92" REF="X88">he</COREF>
+<COREF ID="X26" REF="X16">he</COREF>
+<COREF ID="X88" REF="X86">he</COREF>
+<COREF ID="33" REF="8">vice president</COREF>
+<COREF ID="X96" REF="6">we</COREF>
 <COREF ID="X2" REF="X4">Grievance</COREF>
-<COREF ID="48" REF="31">policy</COREF>
-<COREF ID="X29" REF="X8">it</COREF>
-<COREF ID="46" REF="X1">Chrysler</COREF>
-<COREF ID="X42">move</COREF>
-<COREF ID="X50" REF="X8">it</COREF>
-<COREF ID="X49" REF="X8">it</COREF>
-<COREF ID="X57" REF="X5">he</COREF>
+<COREF ID="11" REF="X25">they</COREF>
+<COREF ID="X7" REF="X5">he</COREF>
+<COREF ID="X9" REF="X8">it</COREF>
+<COREF ID="X16" REF="X7">he</COREF>
+<COREF ID="X66" REF="X62">he</COREF>
+<COREF ID="12" REF="X15">management</COREF>
+<COREF ID="X27" REF="X23">it</COREF>
+<COREF ID="X72" REF="X71">he</COREF>
+<COREF ID="27" REF="X42">move</COREF>
+<COREF ID="24" REF="23">its</COREF>
+<COREF ID="X86" REF="X84">he</COREF>
+<COREF ID="3" REF="X2">formal grievance procedure</COREF>
+<COREF ID="X71" REF="X66">he</COREF>
+<COREF ID="19" REF="X3">process</COREF>
+<COREF ID="X84" REF="X82">he</COREF>
+<COREF ID="23" REF="21">its</COREF>
+<COREF ID="X47" REF="X43">he</COREF>
+<COREF ID="X33" REF="X26">he</COREF>
+<COREF ID="X94" REF="X92">he</COREF>
+<COREF ID="25" REF="X41">Chrysler</COREF>
+<COREF ID="X5" REF="X3">HE</COREF>
+<COREF ID="7" REF="X6">Chrysler</COREF>
+<COREF ID="28" REF="X57">white-collar ranks</COREF>
+<COREF ID="X43" REF="X33">he</COREF>
+<COREF ID="32" REF="X55">It</COREF>
+<COREF ID="X57" REF="X54">he</COREF>
+<COREF ID="X62" REF="X57">he</COREF>
+<COREF ID="X35" REF="X29">it</COREF>
+<COREF ID="10" REF="X23">here</COREF>
+<COREF ID="21" REF="X43">its</COREF>
+<COREF ID="X37" REF="X36">it</COREF>
+<COREF ID="X44" REF="X42">turmoil</COREF>
+<COREF ID="X50" REF="X49">it</COREF>
+<COREF ID="X87" REF="X84">attention</COREF>
+<COREF ID="X78" REF="37">couple</COREF>
+<COREF ID="X24" REF="X14">Employees</COREF>
+<COREF ID="X46" REF="X45">it</COREF>
+<COREF ID="X31" REF="3">grievance</COREF>
+<COREF ID="X59" REF="X58">management</COREF>
+<COREF ID="X69" REF="32">it</COREF>
+<COREF ID="41" REF="X90">IBM</COREF>
+<COREF ID="X21" REF="X20">Chrysler Motors</COREF>
+<COREF ID="X10" REF="X9">employees</COREF>
+<COREF ID="X39" REF="X38">arbitration</COREF>
+<COREF ID="42" REF="X91">spokesman</COREF>
+<COREF ID="43" REF="X76">Chrysler</COREF>
+<COREF ID="X85" REF="X83">complaint</COREF>
+<COREF ID="X13" REF="X11">employees</COREF>
+<COREF ID="X68" REF="X59">management</COREF>
+<COREF ID="X93" REF="X91">employee</COREF>
+<COREF ID="44" REF="24">its system</COREF>
+<COREF ID="X97" REF="X70">it</COREF>
+<COREF ID="X45" REF="X37">it</COREF>
+<COREF ID="X51" REF="16">employees</COREF>
+<COREF ID="X49" REF="X46">it</COREF>
+<COREF ID="X90" REF="X89">IBM</COREF>
+<COREF ID="46" REF="43">Chrysler</COREF>
+<COREF ID="X74" REF="X73">management</COREF>
+<COREF ID="X103" REF="X102">employees</COREF>
+<COREF ID="X4" REF="X1">Create Grievance Process</COREF>
+<COREF ID="48" REF="X81">policy</COREF>
+<COREF ID="X52" REF="X51">employees</COREF>
+<COREF ID="X25" REF="X24">Employees</COREF>
+<COREF ID="X81" REF="31">policy</COREF>
+<COREF ID="X55" REF="X50">it</COREF>
+<COREF ID="X70" REF="X69">it</COREF>
+<COREF ID="39" REF="X79">he</COREF>
+<COREF ID="X60" REF="X52">employees</COREF>
+<COREF ID="X58" REF="12">Several management</COREF>
+<COREF ID="X91" REF="X77">spokesman</COREF>
+<COREF ID="X3" REF="X4">Process</COREF>
+<COREF ID="X63" REF="X61">employees</COREF>
+<COREF ID="49" REF="X97">It</COREF>
+<COREF ID="X42" REF="X41">move</COREF>
+<COREF ID="X64" REF="X63">employees</COREF>
+<COREF ID="X1" REF="3">Chrysler</COREF>
+<COREF ID="50" REF="29">four-step grievance process</COREF>
+<COREF ID="X61" REF="X60">employees</COREF>
+<COREF ID="X6" REF="X1">Chrysler</COREF>
+<COREF ID="X20" REF="7">Chrysler</COREF>
+<COREF ID="X48" REF="X46">wake</COREF>
+<COREF ID="X22" REF="X21">speech</COREF>
+<COREF ID="51" REF="50">UAW</COREF>
+<COREF ID="X95" REF="X83">problem</COREF>
+<COREF ID="X15" REF="X14">management</COREF>
+<COREF ID="X11" REF="X10">employees</COREF>
+<COREF ID="X100" REF="46">slide</COREF>
+<COREF ID="X19" REF="X16">maker</COREF>
+<COREF ID="X101" REF="X89">management</COREF>
+<COREF ID="X102" REF="38">employees</COREF>
+<COREF ID="X34" REF="X32">first time</COREF>
+<COREF ID="X41" REF="X21">Chrysler</COREF>
+<COREF ID="X18" REF="X17">auto</COREF>
+<COREF ID="X89" REF="X74">management</COREF>
+<COREF ID="X83" REF="X82">problem</COREF>
+<COREF ID="X76" REF="25">Chrysler</COREF>
+<COREF ID="X77" REF="X76">spokesman</COREF>
+<COREF ID="X14" REF="X13">employees</COREF>
+<COREF ID="X28" REF="14">system</COREF>
 </TXT>
