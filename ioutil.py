@@ -77,7 +77,7 @@ def get_noun_phrases(path):
     return noun_phrases
 
 def remove_common_words(noun_phrases):
-    remove_words = ['a', 'an', 'the', 'and', 'that']
+    remove_words = ['a', 'an', 'the', 'and']
     return_list = []
     for np in noun_phrases:
         np_split = (np.noun_phrase).split()
@@ -211,6 +211,7 @@ def assign_refs_for_similars(sorted_combined_list):
 def assign_date_to_today(sorted_combined_list, noun_phrases):
 
     id_index = 1;
+    dates = ["today"]
 
     for np in noun_phrases:
         match = re.findall(r'(\d+/\d+/\d+)', np.noun_phrase)
@@ -218,7 +219,7 @@ def assign_date_to_today(sorted_combined_list, noun_phrases):
             np.id = 'Q' + str(id_index)
             id_index += 1
             for nounp in sorted_combined_list:
-                if nounp.noun_phrase == "today":
+                if nounp.noun_phrase  in dates :
                     if(np.start_index < nounp.start_index):
                         nounp.ref=np.id
                         sorted_combined_list.append(np)
@@ -273,3 +274,62 @@ def it_assigner(combined_list):
             if prev_np is not None:
                 np.ref = prev_np.id
         prev_np = np
+
+def get_appositives(path):
+    appositives_list = []
+    file_string = get_file_as_string(path)
+    pattern = '[,]* <COREF ID="[\d]+">(.*?)<\/COREF>[,]*'
+    regex = re.compile(pattern, re.IGNORECASE)
+    for m in regex.finditer(file_string):
+        noun_id = re.findall('<COREF ID="(.*?)">', m.group())
+        noun_phrase = re.findall('[\,] <COREF ID="[\d]+">(.*?)<\/COREF>[\,]', m.group())
+        if len(noun_phrase) > 0 and len(noun_id) > 0:
+            item = np.NounPhrase()
+            item.noun_phrase = noun_phrase[0]
+            item.id = noun_id[0]
+            item.start_index = m.start()
+            item.end_index = m.end()
+            item.anaphora = "app"
+            appositives_list.append(item)
+            #print(item.noun_phrase + "\n")
+
+    return appositives_list
+
+def match_appositive_and_np(appositives_list, noun_phrase_list, combined_list2):
+
+    combined_list = []
+    real_appositives = []
+    for np in appositives_list:
+        combined_list.append(np)
+    for np in noun_phrase_list:
+        combined_list.append(np)
+
+    id_index = 1
+
+    combined_list = sorted(combined_list, key=lambda x: x.start_index)
+
+    prev_np = None
+
+    for np in combined_list:
+        if np.anaphora == "app":
+
+            prev_np.id = 'A' + str(id_index)
+            id_index += 1
+            np.ref = prev_np.id
+            real_appositives.append(np)
+            real_appositives.append(prev_np)
+
+        prev_np = np
+
+    for np in real_appositives:
+        for np2 in combined_list2:
+            if np.id == np2.id:
+                np2.ref = np.ref
+            elif "A" in np.id:
+                combined_list2.append(np)
+
+    combined_list2 = list(set(combined_list2))
+
+    return combined_list2
+
+
