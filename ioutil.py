@@ -77,7 +77,7 @@ def get_noun_phrases(path):
     return noun_phrases
 
 def remove_common_words(noun_phrases):
-    remove_words = ['a', 'an', 'the', 'and']
+    remove_words = ['a', 'an', 'the', 'and', 'of', 'at', 'in', 'of', 'only', 'on']
     return_list = []
     for np in noun_phrases:
         np_split = (np.noun_phrase).split()
@@ -129,6 +129,14 @@ def get_noun_phrase_positions(path, noun_phrases):
 
 def get_relevant_noun_phrases(coref_list, noun_phrase_list):
     coref_set = set()
+    coref_set.add("he")
+    coref_set.add("she")
+    coref_set.add("her")
+    coref_set.add("his")
+    coref_set.add("we")
+    coref_set.add("they")
+
+
     relevant_noun_phrases = []
     for noun_phrase in coref_list:
         words = noun_phrase.noun_phrase.split()
@@ -138,6 +146,7 @@ def get_relevant_noun_phrases(coref_list, noun_phrase_list):
         words = noun_phrase.split()
         for word in words:
             if word.lower() in coref_set:
+
                 relevant_noun_phrases.append(noun_phrase)
                 break
     return relevant_noun_phrases
@@ -167,7 +176,7 @@ def combine_anaphora_relevant_np(anaphora_list, noun_phrase_list):
 
 def assign_refs_for_pronouns(sorted_combined_list):
     current_anaphora = None
-    pronouns = ['he', 'she', 'it', 'her', 'him']
+    pronouns = ['he', 'she', 'it', 'her', 'him', 'they']
     assigned_match = False
     for index, np, in enumerate(sorted_combined_list):
         if current_anaphora is None:
@@ -244,7 +253,6 @@ def get_response_noun_phrases(assigned_list):
             responses.add(item)
     response = list(responses)
     return response
-
 
 def gender_features(word):
     features = {}

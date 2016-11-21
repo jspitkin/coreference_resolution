@@ -19,6 +19,10 @@ def main():
         noun_phrases = ioutil.get_noun_phrases(path)
         anaphora_list = ioutil.get_initial_anaphora_list(path)
         # Testing for phrases that contain parts of other phrases
+
+        # Remove common phrases in the anaphora_list before getting relevant_noun_phrases
+        anaphora_list = ioutil.remove_common_words(anaphora_list)
+
         relevant_noun_phrases = ioutil.get_relevant_noun_phrases(anaphora_list, noun_phrases)
 
         nps = ioutil.get_noun_phrase_positions(path, relevant_noun_phrases)
@@ -37,12 +41,11 @@ def main():
         appositives = ioutil.get_appositives(path)
         combined_list = ioutil.match_appositive_and_np(appositives, nps, combined_list)
 
-
-
         # Check dates (lowering the score now)
-        #combined_list = ioutil.assign_date_to_today(combined_list, nps)
+        combined_list = ioutil.assign_date_to_today(combined_list, nps)
 
-
+        for np in combined_list:
+            print(np.noun_phrase)
 
         # Writing out the final file, all attempts at assignment should be combined before this
         ioutil.write_response_file(response_directory, path, combined_list)
