@@ -142,6 +142,7 @@ def get_relevant_noun_phrases(coref_list, noun_phrase_list):
     coref_set.add("his")
     coref_set.add("we")
     coref_set.add("they")
+    coref_set.add("our")
 
 
     relevant_noun_phrases = []
