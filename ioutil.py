@@ -278,7 +278,7 @@ def it_assigner(combined_list):
 def get_appositives(path):
     appositives_list = []
     file_string = get_file_as_string(path)
-    pattern = '[,]* <COREF ID="[\d]+">(.*?)<\/COREF>[,]*'
+    pattern = '[,]* <COREF ID="[\d]+">(.*?)<\/COREF>[,.]*'
     regex = re.compile(pattern, re.IGNORECASE)
     for m in regex.finditer(file_string):
         noun_id = re.findall('<COREF ID="(.*?)">', m.group())

@@ -1,34 +1,34 @@
 <TXT>
+<COREF ID="15" REF="14">unit of Big Board</COREF>
+<COREF ID="X3" REF="X2">Talks Between Big Board</COREF>
+<COREF ID="X2" REF="1">Talks</COREF>
+<COREF ID="18" REF="1">Federal Mediation Conciliation Service</COREF>
+<COREF ID="2" REF="1">New York Stock Exchange</COREF>
+<COREF ID="1" REF="X1">federal mediator</COREF>
 <COREF ID="17" REF="11">union</COREF>
-<COREF ID="X4" REF="X3">Big Board</COREF>
-<COREF ID="8" REF="X10">spokesman</COREF>
-<COREF ID="X14" REF="1">contract</COREF>
-<COREF ID="X1" REF="1">Mediator</COREF>
-<COREF ID="5" REF="1">mediator</COREF>
-<COREF ID="11" REF="4">members of Office Professional Employees International Union Local 153</COREF>
+<COREF ID="19" REF="17">union</COREF>
+<COREF ID="X6" REF="X5">Union</COREF>
 <COREF ID="X10" REF="1">spokesman</COREF>
-<COREF ID="12" REF="9">exchange</COREF>
-<COREF ID="9" REF="2">exchange</COREF>
+<COREF ID="3" REF="2">clerical operations staff members</COREF>
 <COREF ID="7" REF="X3">talks</COREF>
 <COREF ID="20" REF="19">union</COREF>
-<COREF ID="X6" REF="X5">Union</COREF>
-<COREF ID="13" REF="12">exchange</COREF>
-<COREF ID="18" REF="1">Federal Mediation Conciliation Service</COREF>
-<COREF ID="14" REF="X9">Big Board</COREF>
-<COREF ID="15" REF="14">unit of Big Board</COREF>
-<COREF ID="1" REF="X1">federal mediator</COREF>
-<COREF ID="3" REF="2">clerical operations staff members</COREF>
-<COREF ID="19" REF="17">union</COREF>
-<COREF ID="X12" REF="1">walkout</COREF>
-<COREF ID="X9" REF="X4">Big Board</COREF>
-<COREF ID="X8" REF="1">two sides</COREF>
-<COREF ID="X13" REF="13">New York Futures Exchange</COREF>
-<COREF ID="X11" REF="1">event</COREF>
-<COREF ID="X5" REF="1">Union</COREF>
-<COREF ID="2" REF="1">New York Stock Exchange</COREF>
-<COREF ID="X3" REF="X2">Talks Between Big Board</COREF>
-<COREF ID="X7" REF="1">news</COREF>
 <COREF ID="10" REF="9">workers</COREF>
+<COREF ID="X11" REF="1">event</COREF>
+<COREF ID="5" REF="1">mediator</COREF>
+<COREF ID="X8" REF="1">two sides</COREF>
+<COREF ID="12" REF="9">exchange</COREF>
+<COREF ID="X5" REF="1">Union</COREF>
+<COREF ID="9" REF="2">exchange</COREF>
+<COREF ID="X1" REF="1">Mediator</COREF>
+<COREF ID="13" REF="12">exchange</COREF>
+<COREF ID="14" REF="X9">Big Board</COREF>
+<COREF ID="11" REF="4">members of Office Professional Employees International Union Local 153</COREF>
+<COREF ID="X7" REF="1">news</COREF>
+<COREF ID="X14" REF="1">contract</COREF>
+<COREF ID="X4" REF="X3">Big Board</COREF>
+<COREF ID="X9" REF="X4">Big Board</COREF>
+<COREF ID="X13" REF="13">New York Futures Exchange</COREF>
+<COREF ID="8" REF="X10">spokesman</COREF>
 <COREF ID="4" REF="X6">union</COREF>
-<COREF ID="X2" REF="1">Talks</COREF>
+<COREF ID="X12" REF="1">walkout</COREF>
 </TXT>
