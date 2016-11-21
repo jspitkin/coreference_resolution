@@ -291,7 +291,7 @@ def get_appositives(path):
             item.end_index = m.end()
             item.anaphora = "app"
             appositives_list.append(item)
-            #print(item.noun_phrase + "\n")
+            #print(item.noun_phrase)
 
     return appositives_list
 
@@ -328,6 +328,7 @@ def match_appositive_and_np(appositives_list, noun_phrase_list, combined_list2):
             elif "A" in np.id:
                 combined_list2.append(np)
 
+    #something is wrong here, thousands of lines are getting added :(
     combined_list2 = list(set(combined_list2))
 
     return combined_list2
