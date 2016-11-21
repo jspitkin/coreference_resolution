@@ -27,9 +27,9 @@ def main():
         combined_list = ioutil.remove_common_words(combined_list)
 
         ioutil.assign_previous(combined_list)
+        ioutil.assign_refs_for_similars(combined_list)
         ioutil.it_assigner(combined_list)
         ioutil.assign_refs_for_pronouns(combined_list)
-        ioutil.assign_refs_for_similars(combined_list)
         response_list = ioutil.get_response_noun_phrases(combined_list)
 
         # Check dates
