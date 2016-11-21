@@ -1,29 +1,29 @@
 <TXT>
-<COREF ID="X11" REF="X10">Communications</COREF>
-<COREF ID="X18" REF="X17">Communications Workers</COREF>
-<COREF ID="6" REF="X10">contracts</COREF>
-<COREF ID="11" REF="17">unions</COREF>
-<COREF ID="10" REF="8">company</COREF>
-<COREF ID="9" REF="6">existing contracts</COREF>
-<COREF ID="X14" REF="9">end</COREF>
-<COREF ID="14" REF="X15">Western Union</COREF>
-<COREF ID="8" REF="X12">communications systems company</COREF>
-<COREF ID="X7" REF="X5">Western Union</COREF>
-<COREF ID="X1" REF="6">Western Union</COREF>
-<COREF ID="16" REF="10">company</COREF>
-<COREF ID="X13" REF="8">agreement</COREF>
-<COREF ID="X6" REF="X4">Western Union Corp.</COREF>
-<COREF ID="X12" REF="X11">Communications Workers</COREF>
-<COREF ID="X17" REF="8">Communications</COREF>
+<COREF ID="X1" REF="1">Western Union</COREF>
 <COREF ID="X3" REF="X1">Western Union Corp.</COREF>
 <COREF ID="X2" REF="X3">Union</COREF>
-<COREF ID="12" REF="11">accord</COREF>
-<COREF ID="X10" REF="X8">contracts</COREF>
-<COREF ID="X16" REF="14">country</COREF>
-<COREF ID="X4" REF="X2">Western Union</COREF>
-<COREF ID="X5" REF="X6">Union</COREF>
-<COREF ID="X15" REF="X8">union</COREF>
-<COREF ID="X8" REF="X9">Union</COREF>
+<COREF ID="1" REF="X2">Western Union Corp.</COREF>
+<COREF ID="3" REF="1">Western Union Telegraph Co.</COREF>
+<COREF ID="X4" REF="1">contracts</COREF>
+<COREF ID="X5" REF="3">United Telegraph</COREF>
+<COREF ID="X6" REF="X5">United Telegraph Workers</COREF>
+<COREF ID="X7" REF="1">Communications</COREF>
+<COREF ID="X8" REF="X7">Communications Workers</COREF>
+<COREF ID="6" REF="X4">contracts</COREF>
 <COREF ID="17" REF="6">unions</COREF>
-<COREF ID="X9" REF="X7">Western Union Telegraph Co.</COREF>
+<COREF ID="8" REF="X8">communications systems company</COREF>
+<COREF ID="X9" REF="1">agreement</COREF>
+<COREF ID="9" REF="6">existing contracts</COREF>
+<COREF ID="X10" REF="1">end</COREF>
+<COREF ID="10" REF="8">company</COREF>
+<COREF ID="11" REF="17">unions</COREF>
+<COREF ID="12" REF="11">accord</COREF>
+<COREF ID="X11" REF="X6">United Telegraph</COREF>
+<COREF ID="X12" REF="X11">United Telegraph Workers</COREF>
+<COREF ID="X13" REF="3">union</COREF>
+<COREF ID="14" REF="X13">Western Union</COREF>
+<COREF ID="X14" REF="1">country</COREF>
+<COREF ID="X15" REF="8">Communications</COREF>
+<COREF ID="X16" REF="X15">Communications Workers</COREF>
+<COREF ID="16" REF="10">company</COREF>
 </TXT>

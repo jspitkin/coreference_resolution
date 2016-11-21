@@ -30,13 +30,12 @@ def main():
         ioutil.assign_refs_for_similars(combined_list)
         ioutil.it_assigner(combined_list)
         ioutil.assign_refs_for_pronouns(combined_list)
-        response_list = ioutil.get_response_noun_phrases(combined_list)
 
         # Check dates
         #ioutil.assign_date_to_today(combined_list, ioutil.get_noun_phrase_positions(path, noun_phrases))
 
         # Writing out the final file, all attempts at assignment should be combined before this
-        ioutil.write_response_file(response_directory, path, response_list)
+        ioutil.write_response_file(response_directory, path, combined_list)
 
 def print_usage():
     print("usage: python coreference.py <listfile> <responsedir>")

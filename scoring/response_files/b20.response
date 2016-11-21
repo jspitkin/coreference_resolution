@@ -1,198 +1,191 @@
 <TXT>
-<COREF ID="X50" REF="X49">it</COREF>
-<COREF ID="68" REF="X108">they</COREF>
-<COREF ID="X113" REF="X61">Mr. Subroto</COREF>
-<COREF ID="67" REF="48">its</COREF>
-<COREF ID="X63" REF="X64">Emirates</COREF>
-<COREF ID="X90" REF="X54">barrels</COREF>
-<COREF ID="X18" REF="X17">this month</COREF>
-<COREF ID="X48" REF="X38">OPEC</COREF>
-<COREF ID="X46" REF="X44">ruler</COREF>
-<COREF ID="X100" REF="X93">Emirates</COREF>
-<COREF ID="X43" REF="X42">Sheik Zayed Al Nahyyan</COREF>
-<COREF ID="X49" REF="X9">recent renunciation</COREF>
+<COREF ID="X1" REF="2">OPEC</COREF>
+<COREF ID="X2" REF="X1">OPEC Appears</COREF>
+<COREF ID="X4" REF="2">Price War</COREF>
+<COREF ID="X3" REF="X4">War</COREF>
+<COREF ID="X5" REF="2">Output</COREF>
 <COREF ID="X6" REF="X5">Output Sags</COREF>
-<COREF ID="X82" REF="X47">senior oil</COREF>
-<COREF ID="71" REF="63">OPEC</COREF>
-<COREF ID="X127" REF="15">cartel</COREF>
-<COREF ID="X78" REF="X79">Emirates</COREF>
+<COREF ID="X7" REF="2">Quota</COREF>
+<COREF ID="X8" REF="2">Violator</COREF>
+<COREF ID="2">Organization of Petroleum Exporting Countries</COREF>
+<COREF ID="X9" REF="2">brink</COREF>
+<COREF ID="3" REF="X3">possible price war</COREF>
+<COREF ID="X10" REF="3">recent major price</COREF>
+<COREF ID="X11" REF="2">sharp rise</COREF>
+<COREF ID="X12" REF="X2">OPEC</COREF>
+<COREF ID="X13" REF="2">production</COREF>
+<COREF ID="7" REF="X6">total cartel output</COREF>
+<COREF ID="X14" REF="2">barrels</COREF>
+<COREF ID="X15" REF="2">day</COREF>
+<COREF ID="X16" REF="2">year</COREF>
+<COREF ID="X17" REF="X14">barrels</COREF>
+<COREF ID="X18" REF="X15">day</COREF>
+<COREF ID="X19" REF="2">this month</COREF>
+<COREF ID="10" REF="7">United Arab Emirates</COREF>
+<COREF ID="11" REF="X8">OPEC's most notable quota violator</COREF>
+<COREF ID="X20" REF="11">it</COREF>
+<COREF ID="X21" REF="11">it</COREF>
+<COREF ID="X23" REF="7">own output</COREF>
+<COREF ID="X22" REF="X23">output</COREF>
+<COREF ID="X24" REF="X17">barrels</COREF>
+<COREF ID="X25" REF="X18">day</COREF>
+<COREF ID="X26" REF="2">others</COREF>
+<COREF ID="15" REF="7">cartel</COREF>
+<COREF ID="X27" REF="2">Saudi Arabia</COREF>
+<COREF ID="16" REF="10">Emirates</COREF>
+<COREF ID="X28" REF="16">it</COREF>
+<COREF ID="X29" REF="16">it</COREF>
+<COREF ID="X30" REF="2">government</COREF>
+<COREF ID="X31" REF="2">gestures</COREF>
+<COREF ID="X32" REF="X12">OPEC</COREF>
+<COREF ID="X33" REF="2">yesterday</COREF>
+<COREF ID="19" REF="X31">gestures</COREF>
+<COREF ID="X34" REF="2">arrival</COREF>
+<COREF ID="X35" REF="2">Abu Dhabi</COREF>
+<COREF ID="X36" REF="X32">OPEC</COREF>
+<COREF ID="21" REF="19">Subroto</COREF>
+<COREF ID="22" REF="21">Mr. Subroto</COREF>
+<COREF ID="X37" REF="2">letter</COREF>
+<COREF ID="X38" REF="2">Sheik Zayed</COREF>
+<COREF ID="X39" REF="X38">Sheik Zayed Al Nahyyan</COREF>
+<COREF ID="23" REF="22">Emirates' ruler</COREF>
+<COREF ID="25" REF="11">Nigeria's oil minister OPEC's president</COREF>
+<COREF ID="29" REF="16">Emirates</COREF>
+<COREF ID="X40" REF="X10">recent renunciation</COREF>
+<COREF ID="X41" REF="29">it</COREF>
+<COREF ID="X42" REF="29">it</COREF>
+<COREF ID="X43" REF="11">assigned quota</COREF>
+<COREF ID="X44" REF="X43">quota</COREF>
+<COREF ID="X45" REF="X24">barrels</COREF>
+<COREF ID="X46" REF="X25">day</COREF>
+<COREF ID="X47" REF="2">chief conciliatory note</COREF>
+<COREF ID="X48" REF="2">round</COREF>
+<COREF ID="X49" REF="2">talks</COREF>
+<COREF ID="X50" REF="29">it</COREF>
+<COREF ID="X51" REF="29">it</COREF>
+<COREF ID="X52" REF="22">Mr. Subroto</COREF>
+<COREF ID="X53" REF="X52">Subroto</COREF>
+<COREF ID="33" REF="X39">Sheik Zayed</COREF>
+<COREF ID="X55" REF="29">Emirates</COREF>
+<COREF ID="X54" REF="X55">Emirates</COREF>
+<COREF ID="X56" REF="X36">OPEC</COREF>
+<COREF ID="X57" REF="33">it</COREF>
+<COREF ID="X58" REF="33">it</COREF>
+<COREF ID="X60" REF="X54">Emirates</COREF>
+<COREF ID="X59" REF="X60">Emirates</COREF>
+<COREF ID="X62" REF="2">official news</COREF>
+<COREF ID="X61" REF="X62">news</COREF>
+<COREF ID="X63" REF="2">agency</COREF>
+<COREF ID="37" REF="23">ruler</COREF>
+<COREF ID="38" REF="37">his country</COREF>
+<COREF ID="X64" REF="2">forefront</COREF>
+<COREF ID="40" REF="X56">OPEC</COREF>
+<COREF ID="X67" REF="2">stability</COREF>
+<COREF ID="X65" REF="40">it</COREF>
+<COREF ID="X66" REF="40">it</COREF>
+<COREF ID="X68" REF="2">market</COREF>
+<COREF ID="41" REF="X63">news agency</COREF>
+<COREF ID="42" REF="23">Emirates' production level</COREF>
+<COREF ID="X70" REF="25">senior oil</COREF>
+<COREF ID="X69" REF="X70">oil</COREF>
+<COREF ID="45" REF="X59">Emirates</COREF>
+<COREF ID="X72" REF="2">Dow Jones International Petroleum Report</COREF>
+<COREF ID="X71" REF="X72">Petroleum</COREF>
+<COREF ID="46" REF="X33">yesterday</COREF>
+<COREF ID="47" REF="X30">government</COREF>
+<COREF ID="48" REF="47">its</COREF>
+<COREF ID="49" REF="40">OPEC</COREF>
+<COREF ID="X73" REF="X44">quota</COREF>
+<COREF ID="50" REF="42">current production</COREF>
+<COREF ID="51" REF="50">target</COREF>
+<COREF ID="52" REF="50">Emirates' current production</COREF>
+<COREF ID="X74" REF="X45">barrels</COREF>
+<COREF ID="54" REF="X46">day</COREF>
+<COREF ID="X75" REF="X22">such excess output</COREF>
+<COREF ID="X76" REF="X75">output</COREF>
+<COREF ID="X78" REF="45">Emirates</COREF>
+<COREF ID="X77" REF="X78">Emirates</COREF>
+<COREF ID="56" REF="X77">it</COREF>
+<COREF ID="57" REF="49">OPEC</COREF>
+<COREF ID="X80" REF="2">world</COREF>
+<COREF ID="X79" REF="X80">world</COREF>
+<COREF ID="X81" REF="X69">oil</COREF>
+<COREF ID="X82" REF="2">markets</COREF>
+<COREF ID="X83" REF="X19">last month</COREF>
+<COREF ID="X84" REF="X77">Emirates</COREF>
+<COREF ID="X85" REF="57">it</COREF>
+<COREF ID="X86" REF="57">it</COREF>
+<COREF ID="60" REF="57">their</COREF>
+<COREF ID="61" REF="60">their quota</COREF>
+<COREF ID="63" REF="57">OPEC output</COREF>
+<COREF ID="65" REF="63">it</COREF>
+<COREF ID="X87" REF="65">it</COREF>
+<COREF ID="X88" REF="65">it</COREF>
+<COREF ID="66" REF="65">system</COREF>
+<COREF ID="X89" REF="2">result</COREF>
+<COREF ID="67" REF="48">its</COREF>
+<COREF ID="X90" REF="3">war</COREF>
+<COREF ID="X91" REF="67">it</COREF>
+<COREF ID="X92" REF="67">it</COREF>
+<COREF ID="68" REF="67">they</COREF>
 <COREF ID="69" REF="68">UAE</COREF>
-<COREF ID="X13" REF="7">barrels</COREF>
-<COREF ID="70" REF="X28">others</COREF>
-<COREF ID="X9" REF="3">recent major price</COREF>
-<COREF ID="104" REF="97">manager of petroleum analysis</COREF>
-<COREF ID="X20" REF="X7">notable quota</COREF>
-<COREF ID="X105" REF="66">result</COREF>
-<COREF ID="75" REF="X9">price</COREF>
-<COREF ID="X31" REF="X30">it</COREF>
-<COREF ID="X59" REF="X58">it</COREF>
-<COREF ID="87" REF="81">OPEC</COREF>
-<COREF ID="X19" REF="X11">OPEC</COREF>
-<COREF ID="X84" REF="2">Dow Jones International Petroleum Report</COREF>
-<COREF ID="91" REF="X29">Saudi Arabia</COREF>
-<COREF ID="X37" REF="X36">Abu Dhabi</COREF>
+<COREF ID="70" REF="X26">others</COREF>
+<COREF ID="X93" REF="2">Vienna-based consultant</COREF>
+<COREF ID="71" REF="63">OPEC</COREF>
+<COREF ID="X94" REF="71">it</COREF>
+<COREF ID="X95" REF="71">it</COREF>
+<COREF ID="72" REF="X53">Mr. Subroto</COREF>
+<COREF ID="X96" REF="72">it</COREF>
+<COREF ID="X97" REF="72">it</COREF>
+<COREF ID="73" REF="X35">Abu Dhabi</COREF>
 <COREF ID="74" REF="71">OPEC</COREF>
-<COREF ID="X97" REF="X81">oil</COREF>
-<COREF ID="X36" REF="19">arrival</COREF>
-<COREF ID="X56" REF="X55">chief conciliatory note</COREF>
-<COREF ID="X70" REF="X71">news</COREF>
-<COREF ID="90" REF="X49">recent run-up</COREF>
-<COREF ID="X136" REF="79">oil</COREF>
-<COREF ID="X10" REF="X9">sharp rise</COREF>
-<COREF ID="76" REF="X97">oil</COREF>
-<COREF ID="X132" REF="X90">barrels</COREF>
-<COREF ID="X23" REF="X22">it</COREF>
-<COREF ID="X30" REF="16">it</COREF>
-<COREF ID="X24" REF="X25">output</COREF>
-<COREF ID="X94" REF="X86">Emirates</COREF>
-<COREF ID="X4" REF="X3">War</COREF>
-<COREF ID="X109" REF="70">Vienna-based consultant</COREF>
-<COREF ID="77" REF="X100">Emirates</COREF>
+<COREF ID="75" REF="X10">price</COREF>
+<COREF ID="X98" REF="75">it</COREF>
+<COREF ID="X99" REF="75">it</COREF>
+<COREF ID="X100" REF="75">it</COREF>
+<COREF ID="X101" REF="75">it</COREF>
+<COREF ID="76" REF="X81">oil</COREF>
+<COREF ID="X102" REF="25">minister</COREF>
+<COREF ID="X103" REF="76">it</COREF>
+<COREF ID="X104" REF="76">it</COREF>
+<COREF ID="X105" REF="2">problem</COREF>
+<COREF ID="77" REF="X84">Emirates</COREF>
 <COREF ID="78" REF="61">quota</COREF>
 <COREF ID="79" REF="76">world oil prices</COREF>
-<COREF ID="X34" REF="X19">OPEC</COREF>
-<COREF ID="X15" REF="X14">year</COREF>
-<COREF ID="X38" REF="X34">OPEC</COREF>
-<COREF ID="X40" REF="21">Mr. Subroto</COREF>
-<COREF ID="X95" REF="X96">world</COREF>
-<COREF ID="X64" REF="29">Emirates</COREF>
-<COREF ID="X1" REF="2">OPEC</COREF>
-<COREF ID="X72" REF="X70">agency</COREF>
-<COREF ID="X138" REF="X88">current report</COREF>
-<COREF ID="106" REF="104">manager of petroleum planning</COREF>
-<COREF ID="X42" REF="X41">Sheik Zayed</COREF>
-<COREF ID="X89" REF="X88">production</COREF>
 <COREF ID="81" REF="74">OPEC</COREF>
-<COREF ID="X87" REF="45">Emirates</COREF>
-<COREF ID="X88" REF="50">current production</COREF>
-<COREF ID="108" REF="97">19 million barrels day</COREF>
-<COREF ID="X69" REF="X63">Emirates</COREF>
-<COREF ID="X123" REF="82">meeting</COREF>
-<COREF ID="X26" REF="X16">barrels</COREF>
-<COREF ID="X5" REF="X4">Output</COREF>
-<COREF ID="X44" REF="X45">Emirates</COREF>
-<COREF ID="101" REF="94">OPEC</COREF>
-<COREF ID="X77" REF="X75">market</COREF>
-<COREF ID="X76" REF="40">stability</COREF>
-<COREF ID="X99" REF="X18">last month</COREF>
 <COREF ID="82" REF="46">yesterday</COREF>
-<COREF ID="X33" REF="X32">gestures</COREF>
-<COREF ID="X57" REF="X56">round</COREF>
-<COREF ID="X25" REF="7">own output</COREF>
-<COREF ID="X68" REF="X69">Emirates</COREF>
-<COREF ID="83" REF="X121">It</COREF>
-<COREF ID="102" REF="X136">world oil markets</COREF>
-<COREF ID="X62" REF="X39">Mr. Subroto</COREF>
-<COREF ID="X81" REF="X82">oil</COREF>
-<COREF ID="73" REF="X37">Abu Dhabi</COREF>
-<COREF ID="X73" REF="38">forefront</COREF>
-<COREF ID="X93" REF="X94">Emirates</COREF>
-<COREF ID="X106" REF="3">war</COREF>
-<COREF ID="85" REF="69">talks in UAE</COREF>
-<COREF ID="X54" REF="X26">barrels</COREF>
-<COREF ID="X65" REF="X48">OPEC</COREF>
-<COREF ID="X86" REF="X87">Emirates</COREF>
-<COREF ID="X137" REF="X136">second half</COREF>
-<COREF ID="X8" REF="2">brink</COREF>
-<COREF ID="97" REF="X133">20 million barrels day in first week of month</COREF>
-<COREF ID="X22" REF="X21">it</COREF>
-<COREF ID="94" REF="88">OPEC output</COREF>
-<COREF ID="X131" REF="X89">production</COREF>
-<COREF ID="X79" REF="X68">Emirates</COREF>
-<COREF ID="110" REF="101">OPEC</COREF>
-<COREF ID="X80" REF="X12">production</COREF>
-<COREF ID="X45" REF="16">Emirates</COREF>
+<COREF ID="X106" REF="2">meeting</COREF>
+<COREF ID="83" REF="82">It</COREF>
 <COREF ID="84" REF="83">it</COREF>
-<COREF ID="X11" REF="X2">OPEC</COREF>
-<COREF ID="X83" REF="X84">Petroleum</COREF>
+<COREF ID="X107" REF="2">outcome</COREF>
+<COREF ID="85" REF="69">talks in UAE</COREF>
+<COREF ID="87" REF="81">OPEC</COREF>
 <COREF ID="88" REF="87">total OPEC output</COREF>
-<COREF ID="X47" REF="X46">oil</COREF>
-<COREF ID="X16" REF="X13">barrels</COREF>
-<COREF ID="X12" REF="X11">production</COREF>
-<COREF ID="X91" REF="X92">output</COREF>
-<COREF ID="X55" REF="X27">day</COREF>
-<COREF ID="48" REF="47">its</COREF>
-<COREF ID="X107" REF="X106">it</COREF>
-<COREF ID="3" REF="X4">possible price war</COREF>
-<COREF ID="X52" REF="X53">quota</COREF>
-<COREF ID="X21" REF="X20">quota</COREF>
-<COREF ID="X117" REF="X116">it</COREF>
-<COREF ID="X85" REF="X52">quota</COREF>
-<COREF ID="X115" REF="X114">it</COREF>
-<COREF ID="10" REF="X18">United Arab Emirates</COREF>
-<COREF ID="2" REF="X7">Organization of Petroleum Exporting Countries</COREF>
-<COREF ID="X133" REF="54">day</COREF>
-<COREF ID="7" REF="X6">total cartel output</COREF>
-<COREF ID="X27" REF="X17">day</COREF>
-<COREF ID="X118" REF="X117">it</COREF>
-<COREF ID="X104" REF="X103">it</COREF>
-<COREF ID="15" REF="7">cartel</COREF>
-<COREF ID="X67" REF="X66">it</COREF>
-<COREF ID="19" REF="X33">gestures</COREF>
-<COREF ID="65" REF="63">it</COREF>
-<COREF ID="66" REF="X104">system</COREF>
-<COREF ID="X98" REF="X97">markets</COREF>
-<COREF ID="X126" REF="X125">it</COREF>
-<COREF ID="X122" REF="X121">problem</COREF>
-<COREF ID="X53" REF="X21">assigned quota</COREF>
-<COREF ID="X125" REF="90">it</COREF>
-<COREF ID="40" REF="X65">OPEC</COREF>
-<COREF ID="X60" REF="X59">it</COREF>
-<COREF ID="X61" REF="X62">Subroto</COREF>
-<COREF ID="63" REF="57">OPEC output</COREF>
-<COREF ID="X116" REF="75">it</COREF>
-<COREF ID="X3" REF="X2">Price War</COREF>
-<COREF ID="21" REF="X38">Subroto</COREF>
-<COREF ID="X111" REF="X110">it</COREF>
-<COREF ID="33" REF="X43">Sheik Zayed</COREF>
-<COREF ID="X103" REF="65">it</COREF>
-<COREF ID="X121" REF="X120">it</COREF>
-<COREF ID="56" REF="X93">it</COREF>
-<COREF ID="29" REF="X44">Emirates</COREF>
-<COREF ID="X110" REF="71">it</COREF>
-<COREF ID="X39" REF="X40">Subroto</COREF>
-<COREF ID="41" REF="X72">news agency</COREF>
-<COREF ID="X130" REF="X129">it</COREF>
-<COREF ID="16" REF="10">Emirates</COREF>
-<COREF ID="X119" REF="X118">it</COREF>
-<COREF ID="38" REF="37">his country</COREF>
-<COREF ID="37" REF="X46">ruler</COREF>
-<COREF ID="X74" REF="X76">it</COREF>
-<COREF ID="X120" REF="76">it</COREF>
-<COREF ID="X7" REF="X6">Quota</COREF>
-<COREF ID="X41" REF="X39">letter</COREF>
-<COREF ID="57" REF="49">OPEC</COREF>
-<COREF ID="X129" REF="X128">it</COREF>
-<COREF ID="45" REF="X78">Emirates</COREF>
-<COREF ID="X92" REF="X24">such excess output</COREF>
-<COREF ID="X135" REF="X134">it</COREF>
-<COREF ID="X75" REF="X74">it</COREF>
-<COREF ID="46" REF="X35">yesterday</COREF>
-<COREF ID="X112" REF="X113">Subroto</COREF>
-<COREF ID="X28" REF="X27">others</COREF>
-<COREF ID="X51" REF="X50">it</COREF>
-<COREF ID="47" REF="X32">government</COREF>
-<COREF ID="X114" REF="X112">it</COREF>
-<COREF ID="60" REF="X102">their</COREF>
-<COREF ID="X128" REF="X127">Geneva-based consulting</COREF>
-<COREF ID="X35" REF="X34">yesterday</COREF>
-<COREF ID="X71" REF="X68">official news</COREF>
-<COREF ID="X14" REF="X13">day</COREF>
-<COREF ID="X108" REF="X107">it</COREF>
-<COREF ID="49" REF="40">OPEC</COREF>
-<COREF ID="X134" REF="97">it</COREF>
-<COREF ID="X102" REF="X101">it</COREF>
-<COREF ID="X2" REF="X1">OPEC Appears</COREF>
-<COREF ID="50" REF="X80">current production</COREF>
-<COREF ID="51" REF="50">target</COREF>
-<COREF ID="61" REF="60">their quota</COREF>
-<COREF ID="X124" REF="84">outcome</COREF>
-<COREF ID="X17" REF="X14">day</COREF>
-<COREF ID="X96" REF="57">world</COREF>
-<COREF ID="X101" REF="X100">it</COREF>
-<COREF ID="X32" REF="X31">government</COREF>
-<COREF ID="X58" REF="X57">talks</COREF>
-<COREF ID="54" REF="X55">day</COREF>
-<COREF ID="X29" REF="15">Saudi Arabia</COREF>
-<COREF ID="X66" REF="X65">it</COREF>
+<COREF ID="90" REF="X40">recent run-up</COREF>
+<COREF ID="X108" REF="90">it</COREF>
+<COREF ID="X109" REF="90">it</COREF>
+<COREF ID="91" REF="X27">Saudi Arabia</COREF>
+<COREF ID="92" REF="91">cartel's biggest producer</COREF>
+<COREF ID="X110" REF="2">Geneva-based consulting</COREF>
+<COREF ID="X111" REF="92">it</COREF>
+<COREF ID="X112" REF="92">it</COREF>
+<COREF ID="94" REF="88">OPEC output</COREF>
+<COREF ID="X113" REF="52">production</COREF>
+<COREF ID="X114" REF="X74">barrels</COREF>
+<COREF ID="X115" REF="54">day</COREF>
+<COREF ID="97" REF="X115">20 million barrels day in first week of month</COREF>
+<COREF ID="X116" REF="97">it</COREF>
+<COREF ID="X117" REF="97">it</COREF>
+<COREF ID="101" REF="94">OPEC</COREF>
+<COREF ID="X118" REF="79">oil</COREF>
+<COREF ID="X119" REF="2">second half</COREF>
+<COREF ID="X120" REF="52">current report</COREF>
+<COREF ID="102" REF="X118">world oil markets</COREF>
+<COREF ID="104" REF="97">manager of petroleum analysis</COREF>
+<COREF ID="X122" REF="2">Antonio M. Szabo</COREF>
+<COREF ID="X121" REF="X122">Szabo</COREF>
+<COREF ID="106" REF="104">manager of petroleum planning</COREF>
+<COREF ID="108" REF="97">19 million barrels day</COREF>
+<COREF ID="110" REF="101">OPEC</COREF>
+<COREF ID="111" REF="X121">Mr. Szabo</COREF>
 </TXT>

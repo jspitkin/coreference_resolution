@@ -92,7 +92,7 @@ def get_initial_anaphora_list(path):
     noun_phrase_list = []
     file_string = get_file_as_string(path)
 
-    pattern = '<COREF ID="[\d]+">[a-zA-Z\d\s-]+<\/COREF>'
+    pattern = '<COREF ID="[\d]+">(.*?)<\/COREF>'
     regex = re.compile(pattern, re.IGNORECASE)
 
     for m in regex.finditer(file_string):
@@ -186,6 +186,8 @@ def assign_refs_for_pronouns(sorted_combined_list):
 def assign_previous(anaphora_list):
     previous_item = None
     for item in anaphora_list:
+        if item.anaphora is False:
+            continue
         if previous_item is None:
             previous_item = item
         else:
@@ -194,6 +196,8 @@ def assign_previous(anaphora_list):
 
 def assign_refs_for_similars(sorted_combined_list):
     for index, np, in enumerate(sorted_combined_list):
+        if np.noun_phrase == 'he' or np.noun_phrase == 'she' or np.noun_phrase == 'it':
+            continue
         np_words = np.noun_phrase.split()
         np_lower = [x.lower() for x in np_words]
         np_contained_words = set(np_lower)

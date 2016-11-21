@@ -1,110 +1,114 @@
 <TXT>
-<COREF ID="X9" REF="X4">LABOR</COREF>
-<COREF ID="5" REF="X9">rise in labor costs wage settlements</COREF>
-<COREF ID="X25" REF="X24">year</COREF>
-<COREF ID="16" REF="X19">they</COREF>
-<COREF ID="X56" REF="X55">compensation</COREF>
-<COREF ID="X13" REF="X11">Labor Department</COREF>
-<COREF ID="X71" REF="X70">construction</COREF>
-<COREF ID="X59" REF="X58">it</COREF>
-<COREF ID="X37" REF="X36">contract</COREF>
-<COREF ID="X57" REF="36">pay</COREF>
-<COREF ID="X64" REF="X62">pay</COREF>
-<COREF ID="X8" REF="X6">Year</COREF>
-<COREF ID="X23" REF="5">wage</COREF>
-<COREF ID="14" REF="X12">department</COREF>
-<COREF ID="X2" REF="X1">Labor</COREF>
-<COREF ID="X42" REF="X32">they</COREF>
-<COREF ID="43" REF="26">Labor Department</COREF>
-<COREF ID="X53" REF="X54">labor</COREF>
-<COREF ID="X74" REF="61">year</COREF>
-<COREF ID="X32" REF="16">they</COREF>
-<COREF ID="17" REF="5">same as in 1980</COREF>
-<COREF ID="36" REF="X31">pay</COREF>
-<COREF ID="X49" REF="40">20 years</COREF>
-<COREF ID="X22" REF="X19">last year</COREF>
-<COREF ID="X11" REF="5">Labor</COREF>
-<COREF ID="X21" REF="X22">year</COREF>
-<COREF ID="X66" REF="X46">contract</COREF>
-<COREF ID="50" REF="44">officials</COREF>
-<COREF ID="X16" REF="X15">it</COREF>
-<COREF ID="35" REF="X25">last year</COREF>
-<COREF ID="X72" REF="X68">first contract</COREF>
-<COREF ID="28" REF="X24">first time</COREF>
-<COREF ID="X70" REF="X69">construction</COREF>
-<COREF ID="37" REF="X44">1986</COREF>
-<COREF ID="X5" REF="X3">Wage</COREF>
-<COREF ID="40" REF="X38">life of settlements</COREF>
-<COREF ID="X62" REF="X57">pay</COREF>
-<COREF ID="11" REF="X8">last year</COREF>
-<COREF ID="X15" REF="X14">pay</COREF>
-<COREF ID="X73" REF="X72">contract</COREF>
-<COREF ID="X54" REF="43">tighter labor</COREF>
-<COREF ID="X19" REF="X18">year</COREF>
-<COREF ID="X52" REF="34">wage</COREF>
-<COREF ID="X44" REF="5">rise</COREF>
-<COREF ID="X50" REF="X51">year</COREF>
-<COREF ID="X69" REF="40">settlements</COREF>
-<COREF ID="44" REF="43">Department officials</COREF>
-<COREF ID="X61" REF="X17">average increase</COREF>
-<COREF ID="X12" REF="X13">Department</COREF>
-<COREF ID="27" REF="X35">it</COREF>
-<COREF ID="X39" REF="X23">wage</COREF>
-<COREF ID="X45" REF="X37">first contract</COREF>
-<COREF ID="15" REF="X14">these costs</COREF>
-<COREF ID="34" REF="X39">wage</COREF>
-<COREF ID="X30" REF="17">same percentage</COREF>
-<COREF ID="X58" REF="X57">it</COREF>
-<COREF ID="13" REF="11">last year</COREF>
-<COREF ID="X4" REF="X2">Labor Costs</COREF>
-<COREF ID="X24" REF="X21">first year</COREF>
-<COREF ID="X47" REF="35">year</COREF>
-<COREF ID="X55" REF="X53">reason</COREF>
-<COREF ID="X48" REF="X47">year</COREF>
-<COREF ID="X7" REF="X5">Wage Agreements Leveled</COREF>
-<COREF ID="X26" REF="X25">contract</COREF>
-<COREF ID="X31" REF="X15">pay</COREF>
-<COREF ID="X75" REF="68">automobile</COREF>
-<COREF ID="X29" REF="X28">pact</COREF>
-<COREF ID="X67" REF="X66">contract</COREF>
-<COREF ID="26" REF="14">department</COREF>
-<COREF ID="X51" REF="X48">this year</COREF>
-<COREF ID="X46" REF="X45">contract</COREF>
-<COREF ID="X33" REF="X27">contract</COREF>
-<COREF ID="X68" REF="X67">contract</COREF>
 <COREF ID="X1" REF="5">Rise</COREF>
-<COREF ID="X27" REF="X26">contract</COREF>
-<COREF ID="51" REF="X53">labor</COREF>
-<COREF ID="53" REF="44">department</COREF>
-<COREF ID="X17" REF="14">increase</COREF>
-<COREF ID="X20" REF="X6">agreements</COREF>
-<COREF ID="X18" REF="13">each year</COREF>
-<COREF ID="X14" REF="5">costs</COREF>
+<COREF ID="X2" REF="5">Labor</COREF>
+<COREF ID="X3" REF="X2">Labor Costs</COREF>
+<COREF ID="X4" REF="X3">Costs</COREF>
+<COREF ID="X5" REF="5">Wage</COREF>
+<COREF ID="X7" REF="X5">Wage Agreements Leveled</COREF>
 <COREF ID="X6" REF="X7">Agreements</COREF>
-<COREF ID="58" REF="X42">they</COREF>
-<COREF ID="X60" REF="X43">agreements</COREF>
-<COREF ID="61" REF="X50">last year</COREF>
+<COREF ID="X8" REF="5">Year</COREF>
+<COREF ID="X9" REF="X3">LABOR</COREF>
+<COREF ID="5" REF="X9">rise in labor costs wage settlements</COREF>
 <COREF ID="X10" REF="5">decade</COREF>
-<COREF ID="71" REF="69">agreements reached last year</COREF>
-<COREF ID="X41" REF="X20">agreements</COREF>
-<COREF ID="X34" REF="26">Officials</COREF>
-<COREF ID="56" REF="X65">payments</COREF>
-<COREF ID="69" REF="68">first contract year</COREF>
-<COREF ID="X36" REF="X33">current contract</COREF>
+<COREF ID="11" REF="X8">last year</COREF>
+<COREF ID="X11" REF="5">Labor</COREF>
+<COREF ID="X12" REF="X11">Labor Department</COREF>
+<COREF ID="X13" REF="X12">Department</COREF>
+<COREF ID="X14" REF="5">costs</COREF>
+<COREF ID="X15" REF="5">pay</COREF>
+<COREF ID="X16" REF="11">it</COREF>
+<COREF ID="13" REF="11">last year</COREF>
+<COREF ID="14" REF="X13">department</COREF>
+<COREF ID="X17" REF="5">increase</COREF>
+<COREF ID="15" REF="X14">these costs</COREF>
+<COREF ID="X18" REF="13">each year</COREF>
+<COREF ID="X19" REF="X18">year</COREF>
+<COREF ID="16" REF="15">they</COREF>
+<COREF ID="17" REF="5">same as in 1980</COREF>
+<COREF ID="X20" REF="X6">agreements</COREF>
+<COREF ID="X21" REF="X19">last year</COREF>
+<COREF ID="X22" REF="X21">year</COREF>
+<COREF ID="X23" REF="5">wage</COREF>
+<COREF ID="X24" REF="X22">first year</COREF>
+<COREF ID="X25" REF="X24">year</COREF>
+<COREF ID="X27" REF="5">contract</COREF>
+<COREF ID="X26" REF="X27">contract</COREF>
+<COREF ID="X28" REF="5">life</COREF>
+<COREF ID="X29" REF="5">pact</COREF>
+<COREF ID="X30" REF="17">same percentage</COREF>
+<COREF ID="X31" REF="X15">pay</COREF>
+<COREF ID="X32" REF="16">they</COREF>
+<COREF ID="X33" REF="X26">contract</COREF>
+<COREF ID="26" REF="14">department</COREF>
+<COREF ID="X34" REF="5">Officials</COREF>
 <COREF ID="X35" REF="X34">Officials</COREF>
-<COREF ID="X3" REF="X4">Costs</COREF>
-<COREF ID="59" REF="58">wages</COREF>
-<COREF ID="X28" REF="X27">life</COREF>
-<COREF ID="X65" REF="X63">payments</COREF>
-<COREF ID="60" REF="51">labor</COREF>
-<COREF ID="65" REF="64">1987</COREF>
-<COREF ID="62" REF="56">these payments</COREF>
-<COREF ID="X63" REF="X62">payments</COREF>
-<COREF ID="X43" REF="X41">agreements</COREF>
-<COREF ID="63" REF="57">wage</COREF>
-<COREF ID="57" REF="X52">wage</COREF>
-<COREF ID="64" REF="X71">Construction</COREF>
-<COREF ID="68" REF="X74">last year</COREF>
-<COREF ID="X40" REF="X39">bargaining</COREF>
+<COREF ID="27" REF="X35">it</COREF>
+<COREF ID="28" REF="X24">first time</COREF>
+<COREF ID="X37" REF="X33">current contract</COREF>
+<COREF ID="X36" REF="X37">contract</COREF>
 <COREF ID="X38" REF="5">settlements</COREF>
+<COREF ID="X39" REF="X23">wage</COREF>
+<COREF ID="X40" REF="5">bargaining</COREF>
+<COREF ID="X41" REF="X20">agreements</COREF>
+<COREF ID="X42" REF="X32">they</COREF>
+<COREF ID="34" REF="X39">wage</COREF>
+<COREF ID="X43" REF="X41">agreements</COREF>
+<COREF ID="35" REF="X25">last year</COREF>
+<COREF ID="36" REF="X31">pay</COREF>
+<COREF ID="X44" REF="5">rise</COREF>
+<COREF ID="37" REF="36">1986</COREF>
+<COREF ID="X46" REF="X36">first contract</COREF>
+<COREF ID="X45" REF="X46">contract</COREF>
+<COREF ID="X47" REF="35">year</COREF>
+<COREF ID="40" REF="X38">life of settlements</COREF>
+<COREF ID="X48" REF="5">increases</COREF>
+<COREF ID="X50" REF="5">20 years</COREF>
+<COREF ID="X49" REF="X47">year</COREF>
+<COREF ID="43" REF="26">Labor Department</COREF>
+<COREF ID="44" REF="43">Department officials</COREF>
+<COREF ID="46" REF="X48">this year's higher wage increases</COREF>
+<COREF ID="X51" REF="43">tighter labor</COREF>
+<COREF ID="X52" REF="X51">labor</COREF>
+<COREF ID="X53" REF="5">reason</COREF>
+<COREF ID="X54" REF="5">compensation</COREF>
+<COREF ID="X55" REF="46">increases</COREF>
+<COREF ID="50" REF="44">officials</COREF>
+<COREF ID="51" REF="X52">labor</COREF>
+<COREF ID="X56" REF="36">pay</COREF>
+<COREF ID="X57" REF="51">it</COREF>
+<COREF ID="X58" REF="51">it</COREF>
+<COREF ID="X59" REF="X43">agreements</COREF>
+<COREF ID="53" REF="44">department</COREF>
+<COREF ID="X60" REF="X17">average increase</COREF>
+<COREF ID="X61" REF="X56">pay</COREF>
+<COREF ID="X62" REF="5">payments</COREF>
+<COREF ID="X63" REF="X61">pay</COREF>
+<COREF ID="X64" REF="X62">payments</COREF>
+<COREF ID="X66" REF="X45">contract</COREF>
+<COREF ID="X65" REF="X66">contract</COREF>
+<COREF ID="56" REF="X64">payments</COREF>
+<COREF ID="57" REF="46">wage</COREF>
+<COREF ID="X67" REF="X55">increases</COREF>
+<COREF ID="58" REF="X42">they</COREF>
+<COREF ID="59" REF="58">wages</COREF>
+<COREF ID="X68" REF="X67">increases</COREF>
+<COREF ID="60" REF="51">labor</COREF>
+<COREF ID="X69" REF="X65">contract</COREF>
+<COREF ID="61" REF="X49">last year</COREF>
+<COREF ID="62" REF="56">these payments</COREF>
+<COREF ID="63" REF="57">wage</COREF>
+<COREF ID="X70" REF="40">settlements</COREF>
+<COREF ID="X71" REF="5">construction</COREF>
+<COREF ID="X72" REF="X71">construction</COREF>
+<COREF ID="64" REF="X72">Construction</COREF>
+<COREF ID="65" REF="64">1987</COREF>
+<COREF ID="X73" REF="X68">increases</COREF>
+<COREF ID="X75" REF="X69">first contract</COREF>
+<COREF ID="X74" REF="X75">contract</COREF>
+<COREF ID="X76" REF="61">year</COREF>
+<COREF ID="68" REF="X76">last year</COREF>
+<COREF ID="X77" REF="5">automobile</COREF>
+<COREF ID="X78" REF="X73">increases</COREF>
+<COREF ID="69" REF="68">first contract year</COREF>
+<COREF ID="71" REF="69">agreements reached last year</COREF>
 </TXT>
