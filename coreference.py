@@ -33,16 +33,16 @@ def main():
         ioutil.assign_refs_for_pronouns(combined_list)
         ioutil.it_assigner(combined_list)
 
+        nps = ioutil.get_noun_phrase_positions(path, noun_phrases)
         appositives = ioutil.get_appositives(path)
-        combined_list = ioutil.match_appositive_and_np(appositives, ioutil.get_noun_phrase_positions(path, noun_phrases), combined_list)
+        combined_list = ioutil.match_appositive_and_np(appositives, nps, combined_list)
 
 
 
+        # Check dates (lowering the score now)
         #combined_list = ioutil.assign_date_to_today(combined_list, nps)
 
 
-        # Check dates
-        #ioutil.assign_date_to_today(combined_list, ioutil.get_noun_phrase_positions(path, noun_phrases))
 
         # Writing out the final file, all attempts at assignment should be combined before this
         ioutil.write_response_file(response_directory, path, combined_list)

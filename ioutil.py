@@ -263,13 +263,14 @@ def gender_assign_name(name):
 def it_assigner(combined_list):
     male_pronouns = ["he","him"]
     female_pronouns = ["she", "her"]
-    pronouns_it = ["it"]
+    pronouns_it = ["it", "its", "it's", "him"]
 
     combined_list = sorted(combined_list, key=lambda x: x.start_index)
     prev_np = None
 
+
     for np in combined_list:
-        if np.noun_phrase == "it":
+        if np.noun_phrase in pronouns_it:
             np.gender = "it"
             if prev_np is not None:
                 np.ref = prev_np.id
@@ -332,5 +333,8 @@ def match_appositive_and_np(appositives_list, noun_phrase_list, combined_list2):
     combined_list2 = list(set(combined_list2))
 
     return combined_list2
+
+
+
 
 
