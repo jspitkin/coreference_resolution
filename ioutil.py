@@ -228,10 +228,17 @@ def assign_refs_for_similars(sorted_combined_list):
             inner_np_list = inner_np.noun_phrase.split()
             for s in inner_np_list:
                 if(s.lower() in np_contained_words):
-                    inner_np.ref = np.id
-                    if np.similar is False:
+                    if "X" in np.id and "X" not in inner_np.id:
                         np.ref = inner_np.id
-                        np.similar = True
+                    elif "X" in inner_np.id and "X" not in np.id:
+                        inner_np.ref = np.id
+                    elif "X" not in inner_np.id and "X" not in np.id:
+                        np.ref = inner_np.id
+                        inner_np.ref = np.id
+
+                    # if np.similar is False:
+                    #     np.ref = inner_np.id
+                    #     np.similar = True
 
 def assign_date_to_today(sorted_combined_list, noun_phrases):
 
