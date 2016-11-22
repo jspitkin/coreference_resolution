@@ -1,62 +1,62 @@
 <TXT>
-<COREF ID="X29" REF="22">program</COREF>
-<COREF ID="X28" REF="34">Mediation Act</COREF>
-<COREF ID="21" REF="X19">it</COREF>
-<COREF ID="X14" REF="34">mediation</COREF>
-<COREF ID="X22" REF="39">1,000 farmers</COREF>
-<COREF ID="10" REF="5">I</COREF>
-<COREF ID="X12" REF="22">program</COREF>
-<COREF ID="X31" REF="22">program</COREF>
-<COREF ID="X4" REF="32">article</COREF>
-<COREF ID="22" REF="14">program</COREF>
-<COREF ID="30" REF="28">proposed amendments</COREF>
-<COREF ID="X16" REF="34">mediation</COREF>
-<COREF ID="X10" REF="34">mediation</COREF>
-<COREF ID="X1" REF="26">Minnesota</COREF>
-<COREF ID="X2" REF="34">Mediation</COREF>
-<COREF ID="X8" REF="34">Mediation Catches</COREF>
-<COREF ID="5" REF="34">Farm-debt mediation</COREF>
-<COREF ID="X30" REF="22">program</COREF>
-<COREF ID="X32" REF="26">Minnesota</COREF>
-<COREF ID="X6" REF="34">Mediation</COREF>
-<COREF ID="X20" REF="27">Chapter</COREF>
-<COREF ID="X19" REF="26">Minnesota</COREF>
-<COREF ID="X18" REF="39">farmers</COREF>
-<COREF ID="23" REF="34">mediation</COREF>
-<COREF ID="X21" REF="39">farmers</COREF>
-<COREF ID="39" REF="38">farmers</COREF>
-<COREF ID="31" REF="34">mediation</COREF>
-<COREF ID="11" REF="28">your</COREF>
-<COREF ID="X15" REF="34">mediation</COREF>
-<COREF ID="35" REF="34">it</COREF>
-<COREF ID="X3" REF="34">Mediation</COREF>
-<COREF ID="14" REF="22">Minnesotas program</COREF>
-<COREF ID="19" REF="38">It</COREF>
-<COREF ID="X7" REF="34">Mediation</COREF>
-<COREF ID="24" REF="34">mediation</COREF>
-<COREF ID="X23" REF="26">Minnesota</COREF>
-<COREF ID="25" REF="34">mediation</COREF>
-<COREF ID="17" REF="34">Minnesota mediation</COREF>
-<COREF ID="40" REF="39">continuing crisis</COREF>
-<COREF ID="X9" REF="26">Minnesota</COREF>
 <COREF ID="32" REF="28">article</COREF>
-<COREF ID="X24" REF="26">Minnesota Legislature</COREF>
-<COREF ID="X11" REF="34">mediation</COREF>
-<COREF ID="42" REF="40">Hubert H. Humphrey III</COREF>
-<COREF ID="28" REF="32">your article</COREF>
-<COREF ID="X25" REF="30">amendments</COREF>
-<COREF ID="26" REF="17">Minnesota</COREF>
+<COREF ID="X30" REF="22">program</COREF>
+<COREF ID="40" REF="39">continuing crisis</COREF>
 <COREF ID="16" REF="X13">it</COREF>
-<COREF ID="X17" REF="34">mediation</COREF>
-<COREF ID="27" REF="26">Chapter 12</COREF>
-<COREF ID="33" REF="32">they</COREF>
-<COREF ID="X5" REF="5">Farm-Debt</COREF>
+<COREF ID="10" REF="5">I</COREF>
 <COREF ID="X26" REF="34">Mediation</COREF>
-<COREF ID="X13" REF="20">creditors</COREF>
-<COREF ID="X27" REF="34">Mediation</COREF>
-<COREF ID="20" REF="19">creditors</COREF>
-<COREF ID="37" REF="35">itself</COREF>
-<COREF ID="X33" REF="26">Minnesota St. Paul</COREF>
+<COREF ID="X5" REF="5">Farm-Debt</COREF>
+<COREF ID="42" REF="40">Hubert H. Humphrey III</COREF>
+<COREF ID="5" REF="34">Farm-debt mediation</COREF>
+<COREF ID="X19" REF="26">Minnesota</COREF>
 <COREF ID="34" REF="31">mediation</COREF>
+<COREF ID="33" REF="32">they</COREF>
+<COREF ID="X25" REF="30">amendments</COREF>
+<COREF ID="X20" REF="27">Chapter</COREF>
+<COREF ID="22" REF="14">program</COREF>
+<COREF ID="X18" REF="39">farmers</COREF>
+<COREF ID="X29" REF="22">program</COREF>
+<COREF ID="24" REF="34">mediation</COREF>
+<COREF ID="X28" REF="34">Mediation Act</COREF>
+<COREF ID="X1" REF="26">Minnesota</COREF>
+<COREF ID="X9" REF="26">Minnesota</COREF>
+<COREF ID="11" REF="28">your</COREF>
+<COREF ID="17" REF="34">Minnesota mediation</COREF>
+<COREF ID="23" REF="34">mediation</COREF>
+<COREF ID="X8" REF="34">Mediation Catches</COREF>
+<COREF ID="X12" REF="22">program</COREF>
+<COREF ID="25" REF="34">mediation</COREF>
+<COREF ID="X21" REF="39">farmers</COREF>
+<COREF ID="14" REF="22">Minnesotas program</COREF>
+<COREF ID="X32" REF="26">Minnesota</COREF>
+<COREF ID="X2" REF="34">Mediation</COREF>
+<COREF ID="X3" REF="34">Mediation</COREF>
+<COREF ID="19" REF="38">It</COREF>
+<COREF ID="X13" REF="20">creditors</COREF>
+<COREF ID="X4" REF="32">article</COREF>
+<COREF ID="X31" REF="22">program</COREF>
+<COREF ID="X7" REF="34">Mediation</COREF>
+<COREF ID="37" REF="35">itself</COREF>
+<COREF ID="26" REF="17">Minnesota</COREF>
+<COREF ID="X11" REF="34">mediation</COREF>
+<COREF ID="20" REF="19">creditors</COREF>
+<COREF ID="X22" REF="39">1,000 farmers</COREF>
+<COREF ID="X24" REF="26">Minnesota Legislature</COREF>
+<COREF ID="35" REF="34">it</COREF>
+<COREF ID="X23" REF="26">Minnesota</COREF>
+<COREF ID="X17" REF="34">mediation</COREF>
+<COREF ID="X6" REF="34">Mediation</COREF>
+<COREF ID="27" REF="26">Chapter 12</COREF>
+<COREF ID="X15" REF="34">mediation</COREF>
+<COREF ID="X33" REF="26">Minnesota St. Paul</COREF>
+<COREF ID="28" REF="32">your article</COREF>
+<COREF ID="30" REF="28">proposed amendments</COREF>
+<COREF ID="X27" REF="34">Mediation</COREF>
 <COREF ID="38" REF="19">It</COREF>
+<COREF ID="21" REF="X19">it</COREF>
+<COREF ID="31" REF="34">mediation</COREF>
+<COREF ID="X10" REF="34">mediation</COREF>
+<COREF ID="X14" REF="34">mediation</COREF>
+<COREF ID="39" REF="38">farmers</COREF>
+<COREF ID="X16" REF="34">mediation</COREF>
 </TXT>

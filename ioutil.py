@@ -38,6 +38,8 @@ def get_noun_phrases(path):
     document = get_file_as_string(path)
     document = document.replace("</COREF>", "")
     document = document.replace("COREF ID=", "")
+    document.lower()
+
 
     paragraphs = [p for p in document.split('\n') if p]
 
@@ -101,6 +103,7 @@ def remove_common_words(noun_phrases):
 def get_initial_anaphora_list(path):
     noun_phrase_list = []
     file_string = get_file_as_string(path)
+
 
     pattern = '<COREF ID="[\d]+">(.*?)<\/COREF>'
     regex = re.compile(pattern, re.IGNORECASE)
