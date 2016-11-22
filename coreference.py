@@ -44,8 +44,8 @@ def main():
         ioutil.it_assigner(combined_list)
 
 
-        for no in combined_list:
-            print (no.noun_phrase)
+        # for no in combined_list:
+        #     print (no.noun_phrase)
 
 
         # Check dates

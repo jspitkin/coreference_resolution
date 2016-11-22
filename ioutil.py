@@ -71,9 +71,12 @@ def get_noun_phrases(path):
         for subtree in result.subtrees(filter=lambda t: t.label() == 'NP'):
             noun_phrase = ""
             for word in subtree.leaves():
+
                 noun_phrase += word[0] + " "
             if '>' in noun_phrase or '<' in noun_phrase:
                     continue
+            noun_phrase.replace("`", "")
+            noun_phrase.replace("'", "")
             noun_phrases.append(noun_phrase.strip())
 
     # Add all dates in the format dd/mm/yy as noun phrases
@@ -108,6 +111,8 @@ def get_initial_anaphora_list(path):
         if len(noun_phrase) > 0 and len(noun_id) > 0:
             item = np.NounPhrase()
             item.noun_phrase = noun_phrase[0]
+            item.noun_phrase = item.noun_phrase.replace("`", "")
+            item.noun_phrase = item.noun_phrase.replace("'", "")
             item.id = noun_id[0]
             item.start_index = m.start()
             item.end_index = m.end()
@@ -224,7 +229,7 @@ def assign_refs_for_similars(sorted_combined_list):
             for s in inner_np_list:
                 if(s.lower() in np_contained_words):
                     inner_np.ref = np.id
-                    if np.similar is False or inner_np.similar is False:
+                    if np.similar is False:
                         np.ref = inner_np.id
                         np.similar = True
 

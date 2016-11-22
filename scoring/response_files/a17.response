@@ -1,70 +1,70 @@
 <TXT>
-<COREF ID="26" REF="25">Vietnam veteran</COREF>
-<COREF ID="31" REF="50">He</COREF>
-<COREF ID="X11" REF="X19">Half Moon Bay Airport</COREF>
-<COREF ID="37" REF="X9">Jessica</COREF>
-<COREF ID="X3" REF="37">JESSICA</COREF>
-<COREF ID="X1" REF="48">REID</COREF>
-<COREF ID="X9" REF="37">Jessica Dubroff</COREF>
-<COREF ID="15" REF="50">He</COREF>
-<COREF ID="34" REF="X13">Auld</COREF>
-<COREF ID="X10" REF="X19">Half Moon Bay</COREF>
-<COREF ID="27" REF="12">his</COREF>
-<COREF ID="X12" REF="47">competent</COREF>
-<COREF ID="48" REF="46">Reid</COREF>
-<COREF ID="29" REF="X15">plane</COREF>
-<COREF ID="44" REF="33">flying</COREF>
-<COREF ID="X8" REF="37">Jessica</COREF>
-<COREF ID="X5" REF="51">use</COREF>
-<COREF ID="47" REF="X12">``an exceptional, competent pilot.''</COREF>
-<COREF ID="16" REF="15">real by-the-book guy</COREF>
-<COREF ID="13" REF="12">manager</COREF>
-<COREF ID="6" REF="48">Joe Reid</COREF>
-<COREF ID="41" REF="39">I</COREF>
-<COREF ID="38" REF="40">her</COREF>
-<COREF ID="46" REF="48">Reid</COREF>
-<COREF ID="17" REF="48">Reid</COREF>
-<COREF ID="X13" REF="34">Auld</COREF>
-<COREF ID="18" REF="17">broker Dean Witter Reynolds office Palo Alto</COREF>
-<COREF ID="10" REF="53">he</COREF>
-<COREF ID="19" REF="X19">president Half Moon Bay Pilots Association</COREF>
-<COREF ID="49" REF="X19">Half Moon Bay</COREF>
-<COREF ID="4" REF="48">JOE REID</COREF>
-<COREF ID="25" REF="48">Reid</COREF>
-<COREF ID="43" REF="42">she</COREF>
-<COREF ID="50" REF="31">He</COREF>
-<COREF ID="3" REF="2">FLIGHT-INSTRUCTOR</COREF>
-<COREF ID="51" REF="X18">member San Mateo County Airport Land Use Committee</COREF>
-<COREF ID="X4" REF="28">FLIGHT INSTRUCTOR</COREF>
-<COREF ID="20" REF="19">longtime friend</COREF>
-<COREF ID="23" REF="48">Reid</COREF>
-<COREF ID="X16" REF="X19">half way</COREF>
-<COREF ID="28" REF="X4">instructor</COREF>
-<COREF ID="53" REF="6">he</COREF>
-<COREF ID="39" REF="41">I</COREF>
-<COREF ID="30" REF="29">1975 single-engine Cessna 177B Cardinal</COREF>
-<COREF ID="11" REF="27">his</COREF>
-<COREF ID="24" REF="50">He</COREF>
-<COREF ID="40" REF="38">her</COREF>
-<COREF ID="1">FLIGHT-INSTRUCTO</COREF>
-<COREF ID="X2" REF="37">JESSICA</COREF>
-<COREF ID="X7" REF="37">Jessica</COREF>
-<COREF ID="X6" REF="X19">HALF MOON BAY</COREF>
-<COREF ID="12" REF="27">his</COREF>
-<COREF ID="X19" REF="52">Half Moon Bay</COREF>
-<COREF ID="22" REF="15">he</COREF>
-<COREF ID="32" REF="44">flying</COREF>
-<COREF ID="36" REF="48">Reid</COREF>
-<COREF ID="X14" REF="34">George Auld</COREF>
-<COREF ID="35" REF="6">Joe</COREF>
-<COREF ID="33" REF="44">flying</COREF>
-<COREF ID="X17" REF="51">airport</COREF>
-<COREF ID="X15" REF="29">small plane</COREF>
-<COREF ID="X18" REF="51">Coastside County Water District</COREF>
-<COREF ID="57" REF="52">active parishioners</COREF>
-<COREF ID="2" REF="48">REID</COREF>
-<COREF ID="52" REF="X19">chairman annual Half Moon Bay Fly-In Air Show</COREF>
-<COREF ID="62" REF="58">04-12-96</COREF>
-<COREF ID="58" REF="57">They</COREF>
+<COREF ID="31" REF="42">He</COREF>
 <COREF ID="42" REF="31">he</COREF>
+<COREF ID="4" REF="6">JOE REID</COREF>
+<COREF ID="48" REF="46">Reid</COREF>
+<COREF ID="6" REF="17">Joe Reid</COREF>
+<COREF ID="12" REF="27">his</COREF>
+<COREF ID="46" REF="48">Reid</COREF>
+<COREF ID="19" REF="X16">president Half Moon Bay Pilots Association</COREF>
+<COREF ID="25" REF="36">Reid</COREF>
+<COREF ID="X10" REF="X11">Half Moon Bay</COREF>
+<COREF ID="15" REF="22">He</COREF>
+<COREF ID="X3" REF="X7">JESSICA</COREF>
+<COREF ID="X11" REF="19">Half Moon Bay Airport</COREF>
+<COREF ID="10" REF="53">he</COREF>
+<COREF ID="29" REF="X15">plane</COREF>
+<COREF ID="27" REF="12">his</COREF>
+<COREF ID="X4" REF="28">FLIGHT INSTRUCTOR</COREF>
+<COREF ID="40" REF="38">her</COREF>
+<COREF ID="17" REF="23">Reid</COREF>
+<COREF ID="44" REF="33">flying</COREF>
+<COREF ID="50" REF="31">He</COREF>
+<COREF ID="X5" REF="51">use</COREF>
+<COREF ID="X8" REF="X9">Jessica</COREF>
+<COREF ID="32" REF="33">flying</COREF>
+<COREF ID="2" REF="4">REID</COREF>
+<COREF ID="28" REF="X4">instructor</COREF>
+<COREF ID="X6" REF="X10">HALF MOON BAY</COREF>
+<COREF ID="34" REF="X13">Auld</COREF>
+<COREF ID="1">FLIGHT-INSTRUCTO</COREF>
+<COREF ID="16" REF="15">real by-the-book guy</COREF>
+<COREF ID="51" REF="X18">member San Mateo County Airport Land Use Committee</COREF>
+<COREF ID="X7" REF="X8">Jessica</COREF>
+<COREF ID="41" REF="39">I</COREF>
+<COREF ID="13" REF="12">manager</COREF>
+<COREF ID="33" REF="44">flying</COREF>
+<COREF ID="43" REF="42">she</COREF>
+<COREF ID="X9" REF="37">Jessica Dubroff</COREF>
+<COREF ID="X1" REF="2">REID</COREF>
+<COREF ID="23" REF="25">Reid</COREF>
+<COREF ID="X18" REF="51">Coastside County Water District</COREF>
+<COREF ID="35" REF="6">Joe</COREF>
+<COREF ID="58" REF="57">They</COREF>
+<COREF ID="53" REF="6">he</COREF>
+<COREF ID="X15" REF="29">small plane</COREF>
+<COREF ID="X17" REF="51">airport</COREF>
+<COREF ID="62" REF="58">04-12-96</COREF>
+<COREF ID="24" REF="31">He</COREF>
+<COREF ID="11" REF="12">his</COREF>
+<COREF ID="X13" REF="34">Auld</COREF>
+<COREF ID="38" REF="40">her</COREF>
+<COREF ID="36" REF="46">Reid</COREF>
+<COREF ID="47" REF="X12">exceptional, competent pilot.</COREF>
+<COREF ID="X2" REF="X3">JESSICA</COREF>
+<COREF ID="26" REF="25">Vietnam veteran</COREF>
+<COREF ID="20" REF="19">longtime friend</COREF>
+<COREF ID="3" REF="2">FLIGHT-INSTRUCTOR</COREF>
+<COREF ID="X16" REF="49">half way</COREF>
+<COREF ID="X12" REF="47">competent</COREF>
+<COREF ID="30" REF="29">1975 single-engine Cessna 177B Cardinal</COREF>
+<COREF ID="52" REF="X19">chairman annual Half Moon Bay Fly-In Air Show</COREF>
+<COREF ID="X19" REF="52">Half Moon Bay</COREF>
+<COREF ID="37" REF="X9">Jessica</COREF>
+<COREF ID="X14" REF="X13">George Auld</COREF>
+<COREF ID="22" REF="15">he</COREF>
+<COREF ID="57" REF="52">active parishioners</COREF>
+<COREF ID="39" REF="41">I</COREF>
+<COREF ID="49" REF="52">Half Moon Bay</COREF>
+<COREF ID="18" REF="17">broker Dean Witter Reynolds office Palo Alto</COREF>
 </TXT>
