@@ -1,57 +1,57 @@
 <TXT>
-<COREF ID="X1" REF="35">CHINA</COREF>
-<COREF ID="10" REF="9">its</COREF>
-<COREF ID="39" REF="38">04-09-96</COREF>
-<COREF ID="X4" REF="35">China</COREF>
-<COREF ID="20" REF="38">department</COREF>
-<COREF ID="X21" REF="X20">helicopter</COREF>
-<COREF ID="X14" REF="17">search</COREF>
-<COREF ID="16" REF="28">Macau</COREF>
-<COREF ID="X17" REF="X20">helicopter</COREF>
-<COREF ID="X8" REF="35">China</COREF>
-<COREF ID="17" REF="X14">search</COREF>
-<COREF ID="28" REF="24">Macau</COREF>
-<COREF ID="22" REF="27">island</COREF>
-<COREF ID="26" REF="32">crash</COREF>
-<COREF ID="30" REF="23">Zhuhai</COREF>
-<COREF ID="X3" REF="35">China</COREF>
-<COREF ID="40" REF="32">HELO CRASH</COREF>
-<COREF ID="24" REF="28">Macau</COREF>
-<COREF ID="1">AIRCRASH</COREF>
-<COREF ID="13" REF="X20">helicopter</COREF>
-<COREF ID="19" REF="18">Mainland</COREF>
-<COREF ID="32" REF="26">likely cause crash</COREF>
-<COREF ID="X11" REF="30">Zhuhai</COREF>
-<COREF ID="4" REF="35">CHINA</COREF>
-<COREF ID="35" REF="25">China</COREF>
-<COREF ID="18" REF="17">Sikorsky 76</COREF>
-<COREF ID="5" REF="31">Two Chinese crew members</COREF>
-<COREF ID="X9" REF="35">China</COREF>
-<COREF ID="X2" REF="35">CHINA</COREF>
-<COREF ID="9" REF="8">aircraft</COREF>
-<COREF ID="25" REF="35">China</COREF>
-<COREF ID="34" REF="32">time</COREF>
-<COREF ID="X16" REF="38">Civil Aviation Department</COREF>
-<COREF ID="X13" REF="38">Civil Aviation Department</COREF>
-<COREF ID="21" REF="20">Daiwaishan</COREF>
-<COREF ID="8" REF="28">Macau</COREF>
-<COREF ID="2" REF="35">CHINA</COREF>
-<COREF ID="27" REF="22">island</COREF>
-<COREF ID="31" REF="5">crew</COREF>
-<COREF ID="X15" REF="38">Aviation</COREF>
-<COREF ID="X20" REF="X21">helicopter</COREF>
-<COREF ID="X12" REF="38">Aviation</COREF>
-<COREF ID="36" REF="35">country registration</COREF>
-<COREF ID="11" REF="X11">it</COREF>
-<COREF ID="X10" REF="X20">Helicopter</COREF>
-<COREF ID="29" REF="28">pilots</COREF>
-<COREF ID="X19" REF="38">aviation</COREF>
-<COREF ID="X7" REF="X20">helicopter</COREF>
-<COREF ID="23" REF="30">Zhuhai</COREF>
-<COREF ID="38" REF="X19">Civil Aviation Department</COREF>
-<COREF ID="X5" REF="35">South China Morning Post</COREF>
-<COREF ID="14" REF="37">incident</COREF>
-<COREF ID="X18" REF="27">Chinese island</COREF>
-<COREF ID="X6" REF="28">Macau</COREF>
 <COREF ID="37" REF="14">incident</COREF>
+<COREF ID="2" REF="4">CHINA</COREF>
+<COREF ID="16" REF="24">Macau</COREF>
+<COREF ID="X9" REF="25">China</COREF>
+<COREF ID="X19" REF="38">aviation</COREF>
+<COREF ID="X5" REF="X3">South China Morning Post</COREF>
+<COREF ID="1">AIRCRASH</COREF>
+<COREF ID="X12" REF="X16">Aviation</COREF>
+<COREF ID="X11" REF="23">Zhuhai</COREF>
+<COREF ID="40" REF="26">HELO CRASH</COREF>
+<COREF ID="17" REF="X14">search</COREF>
+<COREF ID="X7" REF="X10">helicopter</COREF>
+<COREF ID="32" REF="26">likely cause crash</COREF>
+<COREF ID="18" REF="17">Sikorsky 76</COREF>
+<COREF ID="4" REF="X5">CHINA</COREF>
+<COREF ID="5" REF="X18">Two Chinese crew members</COREF>
+<COREF ID="X8" REF="X9">China</COREF>
+<COREF ID="36" REF="35">country registration</COREF>
+<COREF ID="X18" REF="22">Chinese island</COREF>
+<COREF ID="9" REF="8">aircraft</COREF>
+<COREF ID="8" REF="16">Macau</COREF>
+<COREF ID="X15" REF="X19">Aviation</COREF>
+<COREF ID="19" REF="18">Mainland</COREF>
+<COREF ID="39" REF="38">04-09-96</COREF>
+<COREF ID="20" REF="38">department</COREF>
+<COREF ID="X10" REF="13">Helicopter</COREF>
+<COREF ID="X2" REF="2">CHINA</COREF>
+<COREF ID="21" REF="20">Daiwaishan</COREF>
+<COREF ID="X1" REF="X2">CHINA</COREF>
+<COREF ID="22" REF="27">island</COREF>
+<COREF ID="30" REF="23">Zhuhai</COREF>
+<COREF ID="X6" REF="8">Macau</COREF>
+<COREF ID="10" REF="9">its</COREF>
+<COREF ID="X21" REF="X20">helicopter</COREF>
+<COREF ID="38" REF="X19">Civil Aviation Department</COREF>
+<COREF ID="11" REF="X11">it</COREF>
+<COREF ID="X3" REF="X4">China</COREF>
+<COREF ID="28" REF="24">Macau</COREF>
+<COREF ID="23" REF="30">Zhuhai</COREF>
+<COREF ID="34" REF="32">time</COREF>
+<COREF ID="X17" REF="X21">helicopter</COREF>
+<COREF ID="X4" REF="X8">China</COREF>
+<COREF ID="X16" REF="X15">Civil Aviation Department</COREF>
+<COREF ID="X20" REF="X21">helicopter</COREF>
+<COREF ID="13" REF="X17">helicopter</COREF>
+<COREF ID="24" REF="28">Macau</COREF>
+<COREF ID="X14" REF="17">search</COREF>
+<COREF ID="29" REF="28">pilots</COREF>
+<COREF ID="X13" REF="X12">Civil Aviation Department</COREF>
+<COREF ID="25" REF="35">China</COREF>
+<COREF ID="14" REF="37">incident</COREF>
+<COREF ID="27" REF="22">island</COREF>
+<COREF ID="35" REF="25">China</COREF>
+<COREF ID="26" REF="32">crash</COREF>
+<COREF ID="31" REF="5">crew</COREF>
 </TXT>
