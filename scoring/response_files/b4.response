@@ -1,113 +1,113 @@
 <TXT>
-<COREF ID="26" REF="23">we</COREF>
-<COREF ID="X24" REF="3">Century Plaza</COREF>
-<COREF ID="X42" REF="X32">pilot</COREF>
-<COREF ID="X30" REF="3">strike</COREF>
-<COREF ID="58" REF="X29">United</COREF>
-<COREF ID="X12" REF="3">United</COREF>
-<COREF ID="59" REF="25">them</COREF>
-<COREF ID="X10" REF="X11">Ferris</COREF>
-<COREF ID="60" REF="X34">strike</COREF>
-<COREF ID="X18" REF="21">directors</COREF>
-<COREF ID="14" REF="X13">it</COREF>
-<COREF ID="61" REF="60">570 individuals</COREF>
-<COREF ID="82" REF="81">them</COREF>
-<COREF ID="X36" REF="3">court</COREF>
-<COREF ID="X16" REF="X12">United</COREF>
-<COREF ID="15" REF="X9">Journal article</COREF>
-<COREF ID="27" REF="26">our</COREF>
-<COREF ID="X37" REF="X38">Court</COREF>
-<COREF ID="62" REF="58">United</COREF>
-<COREF ID="83" REF="26">We</COREF>
-<COREF ID="28" REF="20">Mr. Ferris</COREF>
-<COREF ID="63" REF="62">they</COREF>
-<COREF ID="X39" REF="X37">court</COREF>
-<COREF ID="29" REF="A1">president United</COREF>
-<COREF ID="X26" REF="X20">pilot</COREF>
-<COREF ID="64" REF="62">United</COREF>
-<COREF ID="X40" REF="65">court</COREF>
-<COREF ID="X1" REF="3">WALL STREET JOURNAL</COREF>
-<COREF ID="X32" REF="X26">pilot</COREF>
-<COREF ID="84" REF="X43">our pilots</COREF>
-<COREF ID="31" REF="X15">its earnings</COREF>
-<COREF ID="85" REF="83">we</COREF>
-<COREF ID="X19" REF="3">financial counsel</COREF>
-<COREF ID="X20" REF="3">pilot</COREF>
-<COREF ID="X28" REF="36">United</COREF>
-<COREF ID="18" REF="15">Westin Hotels</COREF>
-<COREF ID="33" REF="X17">airline</COREF>
-<COREF ID="65" REF="X39">district court</COREF>
-<COREF ID="66" REF="64">United</COREF>
-<COREF ID="67" REF="61">570 pilots</COREF>
-<COREF ID="X11" REF="3">Richard Ferris</COREF>
-<COREF ID="34" REF="15">your article</COREF>
-<COREF ID="86" REF="85">their</COREF>
-<COREF ID="87" REF="85">We</COREF>
-<COREF ID="68" REF="66">United</COREF>
-<COREF ID="19" REF="18">Hertz</COREF>
-<COREF ID="X29" REF="X28">United</COREF>
-<COREF ID="69" REF="68">its</COREF>
-<COREF ID="88" REF="73">they</COREF>
-<COREF ID="89" REF="88">us</COREF>
-<COREF ID="36" REF="29">United</COREF>
-<COREF ID="37" REF="28">Mr. Ferris</COREF>
-<COREF ID="70" REF="X40">it</COREF>
-<COREF ID="X9" REF="3">article</COREF>
-<COREF ID="71" REF="67">570 pilots</COREF>
-<COREF ID="90" REF="84">our</COREF>
-<COREF ID="73" REF="63">they</COREF>
-<COREF ID="91" REF="74">United</COREF>
-<COREF ID="20" REF="10">Mr. Ferris</COREF>
-<COREF ID="38" REF="X19">independent counsel</COREF>
-<COREF ID="92" REF="91">Charled F. Luce</COREF>
-<COREF ID="21" REF="20">directors</COREF>
-<COREF ID="93" REF="X41">UAL</COREF>
-<COREF ID="74" REF="68">United</COREF>
-<COREF ID="94" REF="43">Century Plaza</COREF>
-<COREF ID="95" REF="93">UAL</COREF>
-<COREF ID="23" REF="21">We</COREF>
-<COREF ID="X4" REF="X3">UAL LABOR AIRLINES</COREF>
-<COREF ID="X31" REF="X30">strike</COREF>
-<COREF ID="75" REF="37">Mr. Ferris</COREF>
-<COREF ID="40" REF="8">UAL</COREF>
-<COREF ID="X7" REF="3">board</COREF>
-<COREF ID="X22" REF="X18">directors</COREF>
-<COREF ID="76" REF="X22">board directors</COREF>
-<COREF ID="X34" REF="X31">strike</COREF>
-<COREF ID="X25" REF="X24">Century Plaza Hotel</COREF>
-<COREF ID="78" REF="X42">1985 pilot strike</COREF>
-<COREF ID="81" REF="59">them</COREF>
-<COREF ID="24" REF="12">his</COREF>
-<COREF ID="X17" REF="X13">non-union airline</COREF>
-<COREF ID="41" REF="40">he</COREF>
-<COREF ID="X15" REF="3">earnings</COREF>
-<COREF ID="25" REF="24">them</COREF>
-<COREF ID="X6" REF="3">executive committee</COREF>
-<COREF ID="X14" REF="8">board</COREF>
-<COREF ID="42" REF="40">UAL</COREF>
-<COREF ID="X2" REF="X1">JOURNAL</COREF>
-<COREF ID="X8" REF="X2">Journal</COREF>
-<COREF ID="43" REF="X25">Century Plaza</COREF>
-<COREF ID="X23" REF="15">Journal</COREF>
-<COREF ID="X21" REF="3">pilots</COREF>
-<COREF ID="X35" REF="3">federal district</COREF>
-<COREF ID="X27" REF="X21">pilots</COREF>
-<COREF ID="44" REF="X23">Journal</COREF>
-<COREF ID="X33" REF="49">pilots</COREF>
-<COREF ID="48" REF="44">These</COREF>
-<COREF ID="X43" REF="71">pilots</COREF>
-<COREF ID="X38" REF="X36">U.S. Supreme Court</COREF>
-<COREF ID="X13" REF="3">competitive airline</COREF>
-<COREF ID="X3" REF="3">UAL</COREF>
-<COREF ID="49" REF="X27">pilots</COREF>
-<COREF ID="6" REF="X6">UAL's chief executive officer</COREF>
-<COREF ID="X5" REF="X4">UAL</COREF>
-<COREF ID="A1">J</COREF>
-<COREF ID="3">I</COREF>
-<COREF ID="8" REF="X7">UAL board</COREF>
-<COREF ID="10" REF="X10">Mr. Ferris</COREF>
-<COREF ID="11" REF="10">his</COREF>
 <COREF ID="56" REF="49">trainees</COREF>
-<COREF ID="12" REF="11">his</COREF>
-<COREF ID="X41" REF="42">ual</COREF>
+<COREF ID="X10" REF="75">Ferris</COREF>
+<COREF ID="42" REF="95">UAL</COREF>
+<COREF ID="X36" REF="X40">court</COREF>
+<COREF ID="58" REF="91">United</COREF>
+<COREF ID="14" REF="X13">it</COREF>
+<COREF ID="43" REF="94">Century Plaza</COREF>
+<COREF ID="59" REF="82">them</COREF>
+<COREF ID="X37" REF="X40">Court</COREF>
+<COREF ID="83" REF="87">We</COREF>
+<COREF ID="60" REF="78">strike</COREF>
+<COREF ID="15" REF="44">Journal article</COREF>
+<COREF ID="61" REF="71">570 individuals</COREF>
+<COREF ID="X39" REF="X40">court</COREF>
+<COREF ID="62" REF="91">United</COREF>
+<COREF ID="63" REF="88">they</COREF>
+<COREF ID="X40" REF="65">court</COREF>
+<COREF ID="X24" REF="94">Century Plaza</COREF>
+<COREF ID="84" REF="90">our pilots</COREF>
+<COREF ID="85" REF="87">we</COREF>
+<COREF ID="X30" REF="78">strike</COREF>
+<COREF ID="64" REF="91">United</COREF>
+<COREF ID="44" REF="X23">Journal</COREF>
+<COREF ID="X11" REF="75">Richard Ferris</COREF>
+<COREF ID="18" REF="15">Westin Hotels</COREF>
+<COREF ID="65" REF="X40">district court</COREF>
+<COREF ID="66" REF="91">United</COREF>
+<COREF ID="86" REF="85">their</COREF>
+<COREF ID="X4" REF="95">UAL LABOR AIRLINES</COREF>
+<COREF ID="87" REF="85">We</COREF>
+<COREF ID="67" REF="84">570 pilots</COREF>
+<COREF ID="88" REF="73">they</COREF>
+<COREF ID="19" REF="18">Hertz</COREF>
+<COREF ID="89" REF="88">us</COREF>
+<COREF ID="48" REF="44">These</COREF>
+<COREF ID="68" REF="91">United</COREF>
+<COREF ID="69" REF="68">its</COREF>
+<COREF ID="X34" REF="78">strike</COREF>
+<COREF ID="90" REF="84">our</COREF>
+<COREF ID="X20" REF="78">pilot</COREF>
+<COREF ID="91" REF="74">United</COREF>
+<COREF ID="70" REF="X40">it</COREF>
+<COREF ID="92" REF="91">Charled F. Luce</COREF>
+<COREF ID="X18" REF="76">directors</COREF>
+<COREF ID="20" REF="75">Mr. Ferris</COREF>
+<COREF ID="71" REF="84">570 pilots</COREF>
+<COREF ID="X1" REF="44">JOURNAL</COREF>
+<COREF ID="73" REF="88">they</COREF>
+<COREF ID="X26" REF="78">pilot</COREF>
+<COREF ID="X8" REF="44">Journal</COREF>
+<COREF ID="49" REF="84">pilots</COREF>
+<COREF ID="93" REF="95">UAL</COREF>
+<COREF ID="6" REF="X6">UAL's chief executive officer</COREF>
+<COREF ID="21" REF="76">directors</COREF>
+<COREF ID="94" REF="43">Century Plaza</COREF>
+<COREF ID="74" REF="91">United</COREF>
+<COREF ID="95" REF="93">UAL</COREF>
+<COREF ID="X23" REF="44">Journal</COREF>
+<COREF ID="75" REF="37">Mr. Ferris</COREF>
+<COREF ID="X32" REF="78">pilot</COREF>
+<COREF ID="23" REF="87">We</COREF>
+<COREF ID="3">I</COREF>
+<COREF ID="X9" REF="34">article</COREF>
+<COREF ID="76" REF="X22">board directors</COREF>
+<COREF ID="8" REF="95">UAL board</COREF>
+<COREF ID="78" REF="X42">1985 pilot strike</COREF>
+<COREF ID="X7" REF="76">board</COREF>
+<COREF ID="X42" REF="78">pilot</COREF>
+<COREF ID="X43" REF="84">pilots</COREF>
+<COREF ID="10" REF="75">Mr. Ferris</COREF>
+<COREF ID="24" REF="12">his</COREF>
+<COREF ID="81" REF="82">them</COREF>
+<COREF ID="X27" REF="84">pilots</COREF>
+<COREF ID="X21" REF="84">pilots</COREF>
+<COREF ID="11" REF="24">his</COREF>
+<COREF ID="25" REF="82">them</COREF>
+<COREF ID="12" REF="24">his</COREF>
+<COREF ID="82" REF="81">them</COREF>
+<COREF ID="X35" REF="65">federal district</COREF>
+<COREF ID="X33" REF="84">pilots</COREF>
+<COREF ID="A1">Jim Hartigan</COREF>
+<COREF ID="26" REF="87">we</COREF>
+<COREF ID="X38" REF="X40">U.S. Supreme Court</COREF>
+<COREF ID="X22" REF="76">directors</COREF>
+<COREF ID="X3" REF="95">UAL</COREF>
+<COREF ID="X13" REF="33">competitive airline</COREF>
+<COREF ID="X17" REF="33">non-union airline</COREF>
+<COREF ID="X5" REF="95">UAL</COREF>
+<COREF ID="X25" REF="94">Century Plaza Hotel</COREF>
+<COREF ID="X14" REF="76">board</COREF>
+<COREF ID="27" REF="90">our</COREF>
+<COREF ID="28" REF="75">Mr. Ferris</COREF>
+<COREF ID="X19" REF="38">financial counsel</COREF>
+<COREF ID="29" REF="A1">president United</COREF>
+<COREF ID="X6" REF="6">executive committee</COREF>
+<COREF ID="X2" REF="44">WALL STREET JOURNAL</COREF>
+<COREF ID="X31" REF="78">strike</COREF>
+<COREF ID="31" REF="69">its earnings</COREF>
+<COREF ID="33" REF="X17">airline</COREF>
+<COREF ID="34" REF="15">your article</COREF>
+<COREF ID="36" REF="91">United</COREF>
+<COREF ID="37" REF="75">Mr. Ferris</COREF>
+<COREF ID="X41" REF="95">ual</COREF>
+<COREF ID="38" REF="X19">independent counsel</COREF>
+<COREF ID="X15" REF="31">earnings</COREF>
+<COREF ID="X12" REF="91">United</COREF>
+<COREF ID="40" REF="95">UAL</COREF>
+<COREF ID="X16" REF="91">United</COREF>
+<COREF ID="41" REF="40">he</COREF>
+<COREF ID="X28" REF="91">United</COREF>
+<COREF ID="X29" REF="91">United</COREF>
 </TXT>

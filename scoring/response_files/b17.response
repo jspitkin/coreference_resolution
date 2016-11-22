@@ -1,44 +1,44 @@
 <TXT>
-<COREF ID="X12" REF="1">treaty</COREF>
-<COREF ID="8" REF="2">Mr. Reagan</COREF>
-<COREF ID="26" REF="X4">their summit</COREF>
-<COREF ID="27" REF="23">we</COREF>
-<COREF ID="X7" REF="1">Moscow</COREF>
-<COREF ID="X11" REF="1">START</COREF>
-<COREF ID="X19" REF="X20">treaty</COREF>
-<COREF ID="X10" REF="X9">arms</COREF>
-<COREF ID="25" REF="19">this Moscow summit</COREF>
-<COREF ID="2" REF="X1">President Reagan</COREF>
-<COREF ID="28" REF="25">other one Washington summit</COREF>
-<COREF ID="X2" REF="1">Arms</COREF>
-<COREF ID="X6" REF="1">Mikhail Gorbachev</COREF>
-<COREF ID="31" REF="16">Mr. Reagan</COREF>
-<COREF ID="32" REF="X19">it</COREF>
-<COREF ID="23" REF="21">we</COREF>
-<COREF ID="X14" REF="X15">agreement</COREF>
-<COREF ID="24" REF="11">START treaty</COREF>
-<COREF ID="3" REF="1">he</COREF>
+<COREF ID="X6" REF="16">Mikhail Gorbachev</COREF>
 <COREF ID="7" REF="26">here</COREF>
+<COREF ID="31" REF="16">Mr. Reagan</COREF>
+<COREF ID="11" REF="X19">treaty</COREF>
 <COREF ID="21" REF="1">he</COREF>
-<COREF ID="X15" REF="X13">agreement</COREF>
-<COREF ID="1">He</COREF>
-<COREF ID="4" REF="X3">strategic arms agreement</COREF>
-<COREF ID="X20" REF="24">treaty</COREF>
-<COREF ID="X16" REF="26">summit</COREF>
+<COREF ID="3" REF="1">he</COREF>
+<COREF ID="26" REF="28">their summit</COREF>
+<COREF ID="X15" REF="X14">agreement</COREF>
+<COREF ID="24" REF="X19">START treaty</COREF>
+<COREF ID="X3" REF="X10">Arms</COREF>
+<COREF ID="X13" REF="X14">agreement</COREF>
+<COREF ID="16" REF="31">Mr. Gorbachev</COREF>
+<COREF ID="8" REF="31">Mr. Reagan</COREF>
+<COREF ID="23" REF="27">we</COREF>
+<COREF ID="28" REF="25">other one Washington summit</COREF>
+<COREF ID="12" REF="31">Mr. Reagan</COREF>
+<COREF ID="X14" REF="X15">agreement</COREF>
+<COREF ID="X19" REF="X20">treaty</COREF>
+<COREF ID="14" REF="31">Mr. Reagan</COREF>
+<COREF ID="27" REF="23">we</COREF>
+<COREF ID="X17" REF="28">summit</COREF>
+<COREF ID="X18" REF="28">Washington</COREF>
+<COREF ID="X2" REF="X10">Arms</COREF>
+<COREF ID="X10" REF="X9">arms</COREF>
+<COREF ID="19" REF="28">Moscow summit</COREF>
+<COREF ID="1" REF="21">He</COREF>
 <COREF ID="13" REF="12">his</COREF>
-<COREF ID="16" REF="14">Mr. Gorbachev</COREF>
-<COREF ID="X1" REF="1">Reagan</COREF>
+<COREF ID="2" REF="31">President Reagan</COREF>
+<COREF ID="X11" REF="24">START</COREF>
+<COREF ID="X8" REF="25">this month</COREF>
+<COREF ID="X7" REF="25">Moscow</COREF>
+<COREF ID="X20" REF="X19">treaty</COREF>
+<COREF ID="X16" REF="28">summit</COREF>
+<COREF ID="25" REF="28">this Moscow summit</COREF>
+<COREF ID="4" REF="X14">strategic arms agreement</COREF>
+<COREF ID="X1" REF="31">Reagan</COREF>
+<COREF ID="X12" REF="X19">treaty</COREF>
+<COREF ID="X9" REF="X10">arms</COREF>
 <COREF ID="15" REF="1">he</COREF>
-<COREF ID="X9" REF="4">arms</COREF>
-<COREF ID="X18" REF="1">Washington</COREF>
-<COREF ID="X3" REF="X2">Arms</COREF>
-<COREF ID="14" REF="12">Mr. Reagan</COREF>
-<COREF ID="X4" REF="1">Summit</COREF>
-<COREF ID="19" REF="X17">Moscow summit</COREF>
-<COREF ID="X8" REF="1">this month</COREF>
-<COREF ID="12" REF="8">Mr. Reagan</COREF>
-<COREF ID="X17" REF="X16">summit</COREF>
-<COREF ID="X5" REF="X6">Gorbachev</COREF>
-<COREF ID="X13" REF="4">agreement</COREF>
-<COREF ID="11" REF="X12">treaty</COREF>
+<COREF ID="32" REF="X19">it</COREF>
+<COREF ID="X5" REF="16">Gorbachev</COREF>
+<COREF ID="X4" REF="28">Summit</COREF>
 </TXT>

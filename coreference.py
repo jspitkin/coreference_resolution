@@ -43,8 +43,15 @@ def main():
 
         ioutil.it_assigner(combined_list)
 
+
+        # for no in anaphora_list:
+        #     print (no.noun_phrase)
+
+
         # Check dates
         combined_list = ioutil.assign_date_to_today(combined_list, nps)
+
+
 
         # for np in combined_list:
         #     print(np.noun_phrase)

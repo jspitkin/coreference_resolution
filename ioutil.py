@@ -224,6 +224,7 @@ def assign_refs_for_similars(sorted_combined_list):
             for s in inner_np_list:
                 if(s.lower() in np_contained_words):
                     inner_np.ref = np.id
+                    np.ref = inner_np.id
 
 def assign_date_to_today(sorted_combined_list, noun_phrases):
 
