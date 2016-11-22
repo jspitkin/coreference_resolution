@@ -1,90 +1,90 @@
 <TXT>
-<COREF ID="7" REF="X15">Chrysler</COREF>
-<COREF ID="2" REF="7">Chrysler Corp.</COREF>
-<COREF ID="3" REF="X19">formal grievance procedure</COREF>
-<COREF ID="6" REF="3">We</COREF>
-<COREF ID="X15" REF="X16">Chrysler</COREF>
-<COREF ID="16" REF="26">these employees</COREF>
-<COREF ID="X1" REF="2">Chrysler</COREF>
-<COREF ID="X6" REF="X7">employees</COREF>
-<COREF ID="13" REF="18">Mr. St. John</COREF>
-<COREF ID="X46" REF="X47">employees</COREF>
-<COREF ID="X43" REF="41">IBM</COREF>
-<COREF ID="14" REF="X34">company</COREF>
-<COREF ID="15" REF="X21">"alternative disputes resolution" system</COREF>
-<COREF ID="8" REF="33">vice president for human resources</COREF>
-<COREF ID="X9" REF="12">management</COREF>
-<COREF ID="X3" REF="X2">Create Grievance Process</COREF>
-<COREF ID="17" REF="29">formal impartial internal mechanism</COREF>
-<COREF ID="X28" REF="X29">Several management</COREF>
-<COREF ID="43" REF="46">Chrysler</COREF>
-<COREF ID="32" REF="49">It</COREF>
-<COREF ID="X36" REF="X37">management</COREF>
-<COREF ID="X29" REF="X35">management</COREF>
-<COREF ID="X2" REF="3">Grievance</COREF>
-<COREF ID="X35" REF="X36">management</COREF>
-<COREF ID="33" REF="8">vice president</COREF>
-<COREF ID="X41" REF="X26">Corp.</COREF>
-<COREF ID="X45" REF="X42">management</COREF>
-<COREF ID="X14" REF="22">maker</COREF>
-<COREF ID="X8" REF="X17">employees</COREF>
-<COREF ID="X26" REF="X41">Corp.</COREF>
-<COREF ID="37" REF="X34">company</COREF>
-<COREF ID="18" REF="47">Mr. St. John</COREF>
-<COREF ID="X24" REF="25">Chrysler</COREF>
-<COREF ID="21" REF="X25">its</COREF>
-<COREF ID="X30" REF="X31">employees</COREF>
-<COREF ID="38" REF="X46">arbitration for nonunion employees</COREF>
-<COREF ID="X20" REF="29">procedure</COREF>
-<COREF ID="19" REF="50">process</COREF>
-<COREF ID="X32" REF="X33">employees</COREF>
-<COREF ID="X22" REF="29">arbitration</COREF>
-<COREF ID="12" REF="X28">management</COREF>
-<COREF ID="X23" REF="X22">final arbitration</COREF>
-<COREF ID="X38" REF="43">Chrysler</COREF>
-<COREF ID="X25" REF="27">move</COREF>
-<COREF ID="X4" REF="19">Process</COREF>
-<COREF ID="X10" REF="X11">Anthony P. St. John</COREF>
-<COREF ID="26" REF="28">about 31,000 white-collar employees U.S.</COREF>
-<COREF ID="24" REF="23">its</COREF>
-<COREF ID="39" REF="38">he</COREF>
-<COREF ID="28" REF="26">white-collar ranks</COREF>
-<COREF ID="X27" REF="22">United Auto Workers</COREF>
-<COREF ID="25" REF="X38">Chrysler</COREF>
-<COREF ID="X18" REF="16">Employees</COREF>
-<COREF ID="47" REF="18">Mr. St. John</COREF>
-<COREF ID="X7" REF="X8">employees</COREF>
-<COREF ID="27" REF="X25">move</COREF>
-<COREF ID="44" REF="24">its system</COREF>
-<COREF ID="10" REF="8">here</COREF>
-<COREF ID="X17" REF="X18">Employees</COREF>
-<COREF ID="X21" REF="15">disputes</COREF>
-<COREF ID="X11" REF="13">St. John</COREF>
-<COREF ID="23" REF="22">its</COREF>
-<COREF ID="50" REF="29">four-step grievance process</COREF>
-<COREF ID="29" REF="38">formal grievance procedure with third-party arbitration</COREF>
-<COREF ID="X31" REF="X32">employees</COREF>
-<COREF ID="48" REF="X40">policy</COREF>
-<COREF ID="X33" REF="38">employees</COREF>
-<COREF ID="49" REF="32">It</COREF>
-<COREF ID="X37" REF="X42">management</COREF>
-<COREF ID="42" REF="X44">spokesman</COREF>
-<COREF ID="51" REF="50">UAW</COREF>
-<COREF ID="X16" REF="X24">Chrysler Motors</COREF>
-<COREF ID="X47" REF="X46">employees</COREF>
-<COREF ID="X12" REF="X13">auto</COREF>
-<COREF ID="X34" REF="37">major private company</COREF>
-<COREF ID="41" REF="X43">IBM</COREF>
-<COREF ID="30" REF="11">they</COREF>
-<COREF ID="X5" REF="X6">employees</COREF>
-<COREF ID="22" REF="X27">auto maker</COREF>
-<COREF ID="X42" REF="X45">management</COREF>
-<COREF ID="X13" REF="22">auto</COREF>
-<COREF ID="46" REF="43">Chrysler</COREF>
 <COREF ID="11" REF="30">they</COREF>
-<COREF ID="X19" REF="29">grievance</COREF>
-<COREF ID="31" REF="X40">policy</COREF>
-<COREF ID="X39" REF="X44">spokesman</COREF>
-<COREF ID="X40" REF="48">policy</COREF>
+<COREF ID="44" REF="24">its system</COREF>
+<COREF ID="X28" REF="X45">Several management</COREF>
+<COREF ID="X47" REF="X46">employees</COREF>
+<COREF ID="7" REF="46">Chrysler</COREF>
+<COREF ID="42" REF="X44">spokesman</COREF>
+<COREF ID="X21" REF="15">disputes</COREF>
+<COREF ID="29" REF="50">formal grievance procedure with third-party arbitration</COREF>
+<COREF ID="10" REF="8">here</COREF>
+<COREF ID="15" REF="44">"alternative disputes resolution" system</COREF>
+<COREF ID="X39" REF="42">spokesman</COREF>
 <COREF ID="X44" REF="42">spokesman</COREF>
+<COREF ID="19" REF="50">process</COREF>
+<COREF ID="38" REF="X47">arbitration for nonunion employees</COREF>
+<COREF ID="13" REF="47">Mr. St. John</COREF>
+<COREF ID="14" REF="37">company</COREF>
+<COREF ID="47" REF="18">Mr. St. John</COREF>
+<COREF ID="6" REF="3">We</COREF>
+<COREF ID="X14" REF="22">maker</COREF>
+<COREF ID="16" REF="X47">these employees</COREF>
+<COREF ID="17" REF="29">formal impartial internal mechanism</COREF>
+<COREF ID="48" REF="X40">policy</COREF>
+<COREF ID="24" REF="23">its</COREF>
+<COREF ID="X7" REF="X47">employees</COREF>
+<COREF ID="X5" REF="X47">employees</COREF>
+<COREF ID="3" REF="50">formal grievance procedure</COREF>
+<COREF ID="50" REF="29">four-step grievance process</COREF>
+<COREF ID="12" REF="X45">management</COREF>
+<COREF ID="49" REF="32">It</COREF>
+<COREF ID="21" REF="X25">its</COREF>
+<COREF ID="39" REF="38">he</COREF>
+<COREF ID="X8" REF="X47">employees</COREF>
+<COREF ID="X17" REF="X47">Employees</COREF>
+<COREF ID="22" REF="X27">auto maker</COREF>
+<COREF ID="51" REF="50">UAW</COREF>
+<COREF ID="46" REF="43">Chrysler</COREF>
+<COREF ID="X2" REF="50">Grievance</COREF>
+<COREF ID="23" REF="22">its</COREF>
+<COREF ID="X19" REF="50">grievance</COREF>
+<COREF ID="25" REF="46">Chrysler</COREF>
+<COREF ID="26" REF="X47">about 31,000 white-collar employees U.S.</COREF>
+<COREF ID="28" REF="26">white-collar ranks</COREF>
+<COREF ID="2" REF="46">Chrysler Corp.</COREF>
+<COREF ID="27" REF="X25">move</COREF>
+<COREF ID="X3" REF="50">Create Grievance Process</COREF>
+<COREF ID="X18" REF="X47">Employees</COREF>
+<COREF ID="X16" REF="46">Chrysler Motors</COREF>
+<COREF ID="X1" REF="46">Chrysler</COREF>
+<COREF ID="X43" REF="41">IBM</COREF>
+<COREF ID="X6" REF="X47">employees</COREF>
+<COREF ID="X15" REF="46">Chrysler</COREF>
+<COREF ID="30" REF="11">they</COREF>
+<COREF ID="31" REF="48">policy</COREF>
+<COREF ID="X33" REF="X47">employees</COREF>
+<COREF ID="18" REF="47">Mr. St. John</COREF>
+<COREF ID="43" REF="46">Chrysler</COREF>
+<COREF ID="X25" REF="27">move</COREF>
+<COREF ID="X24" REF="46">Chrysler</COREF>
+<COREF ID="32" REF="49">It</COREF>
+<COREF ID="X38" REF="46">Chrysler</COREF>
+<COREF ID="33" REF="8">vice president</COREF>
+<COREF ID="37" REF="X34">company</COREF>
+<COREF ID="8" REF="38">vice president for human resources</COREF>
+<COREF ID="X22" REF="38">final arbitration</COREF>
+<COREF ID="X31" REF="X47">employees</COREF>
+<COREF ID="41" REF="X43">IBM</COREF>
+<COREF ID="X30" REF="X47">employees</COREF>
+<COREF ID="X27" REF="22">United Auto Workers</COREF>
+<COREF ID="X10" REF="47">St. John</COREF>
+<COREF ID="X35" REF="X45">management</COREF>
+<COREF ID="X12" REF="X27">auto</COREF>
+<COREF ID="X13" REF="X27">auto</COREF>
+<COREF ID="X20" REF="29">procedure</COREF>
+<COREF ID="X26" REF="X41">Corp.</COREF>
+<COREF ID="X11" REF="47">Anthony P. St. John</COREF>
+<COREF ID="X36" REF="X45">management</COREF>
+<COREF ID="X40" REF="48">policy</COREF>
+<COREF ID="X34" REF="37">major private company</COREF>
+<COREF ID="X37" REF="X45">management</COREF>
+<COREF ID="X4" REF="50">Process</COREF>
+<COREF ID="X23" REF="38">arbitration</COREF>
+<COREF ID="X32" REF="X47">employees</COREF>
+<COREF ID="X45" REF="X42">management</COREF>
+<COREF ID="X42" REF="X45">management</COREF>
+<COREF ID="X46" REF="X47">employees</COREF>
+<COREF ID="X41" REF="X26">Corp.</COREF>
+<COREF ID="X29" REF="X45">management</COREF>
+<COREF ID="X9" REF="X45">management</COREF>
 </TXT>
