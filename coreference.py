@@ -22,7 +22,7 @@ def main():
 
         # Remove common phrases in the anaphora_list before getting relevant_noun_phrases
         anaphora_list = ioutil.remove_common_words(anaphora_list)
-
+        
         relevant_noun_phrases = ioutil.get_relevant_noun_phrases(anaphora_list, noun_phrases)
 
         nps = ioutil.get_noun_phrase_positions(path, relevant_noun_phrases)
@@ -32,7 +32,13 @@ def main():
         # Remove common words from the noun phrases
         combined_list = ioutil.remove_common_words(combined_list)
 
+        # Find the best keyword for each noun phrase
+        ioutil.set_keyword(combined_list)
+
         ioutil.assign_previous(combined_list)
+
+        # Assign based on the best keyword
+        ioutil.assign_on_keyword(combined_list)
         ioutil.assign_refs_for_similars(combined_list)
         ioutil.assign_refs_for_pronouns(combined_list)
 
@@ -43,18 +49,15 @@ def main():
 
         ioutil.it_assigner(combined_list)
 
-
         # for no in combined_list:
         #     print (no.noun_phrase)
-
 
         # Check dates
         combined_list = ioutil.assign_date_to_today(combined_list, nps)
 
 
-
-        # for np in combined_list:
-        #     print(np.noun_phrase)
+        #for np in combined_list:
+            #print(np)
 
         # Writing out the final file, all attempts at assignment should be combined before this
         ioutil.write_response_file(response_directory, path, combined_list)

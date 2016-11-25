@@ -68,7 +68,6 @@ def get_noun_phrases(path):
         """
         chunker = nltk.RegexpParser(grammar)
         result = chunker.parse(tokens_with_pos_tag)
-        # print (result)
 
         for subtree in result.subtrees(filter=lambda t: t.label() == 'NP'):
             noun_phrase = ""
@@ -368,7 +367,17 @@ def match_appositive_and_np(appositives_list, noun_phrase_list, combined_list2):
 
     return combined_list2
 
+def set_keyword(anaphora_list):
+    for entry in anaphora_list:
+        longest_word = max(entry.noun_phrase.split(), key=len)
+        if longest_word[-1] == 's':
+            longest_word = longest_word[:-1]
+        entry.keyword = longest_word.lower().strip()
 
-
-
-
+def assign_on_keyword(anaphora_list):
+    for entry in anaphora_list:
+        for cross_entry in anaphora_list:
+            if entry.keyword == cross_entry.keyword:
+                if entry.id != cross_entry.id:
+                    entry.ref = cross_entry.id
+                    cross_entry.ref = entry.id

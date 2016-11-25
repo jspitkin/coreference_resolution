@@ -8,6 +8,7 @@ class NounPhrase:
         self.gender = None
         self.anaphora = False
         self.similar = False
+        self.keyword = None
 
     def __str__(self):
         return_string = ""
