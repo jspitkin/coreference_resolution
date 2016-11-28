@@ -28,7 +28,6 @@ def main():
         nps = ioutil.get_noun_phrase_positions(path, relevant_noun_phrases)
         combined_list = ioutil.combine_anaphora_relevant_np(anaphora_list, nps)
 
-
         # Remove common words from the noun phrases
         combined_list = ioutil.remove_common_words(combined_list)
 
@@ -49,8 +48,8 @@ def main():
 
         ioutil.it_assigner(combined_list)
 
-        # for no in combined_list:
-        #     print (no.noun_phrase)
+        #for no in combined_list:
+            #print (no.noun_phrase)
 
         # Check dates
         combined_list = ioutil.assign_date_to_today(combined_list, nps)

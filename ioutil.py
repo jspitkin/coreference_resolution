@@ -191,21 +191,21 @@ def combine_anaphora_relevant_np(anaphora_list, noun_phrase_list):
 
 def assign_refs_for_pronouns(sorted_combined_list):
     current_anaphora = None
+    for np in sorted_combined_list:
+        if np.anaphora:
+            current_anaphora = np
+            break
     pronouns = ['he', 'she', 'it', 'her', 'him', 'they']
     assigned_match = False
     for index, np, in enumerate(sorted_combined_list):
-        if current_anaphora is None:
-            if np.anaphora:
-                current_anaphora = np
-            else:
-                continue
         if np.anaphora is True:
             assigned_match = False
             current_anaphora = np
-            continue
         if (np.noun_phrase).lower().strip() in pronouns:
-            assigned_match = True
-            np.ref = current_anaphora.id
+            if np.id != current_anaphora.id:
+                assigned_match = True
+                np.ref = current_anaphora.id
+                current_anaphora.ref = np.id
 
 def assign_previous(anaphora_list):
     previous_item = None
@@ -220,8 +220,6 @@ def assign_previous(anaphora_list):
 
 def assign_refs_for_similars(sorted_combined_list):
     for index, np, in enumerate(sorted_combined_list):
-        if np.noun_phrase == 'he' or np.noun_phrase == 'she' or np.noun_phrase == 'it':
-            continue
         np_words = np.noun_phrase.split()
         np_lower = [x.lower() for x in np_words]
         np_contained_words = set(np_lower)
@@ -237,10 +235,6 @@ def assign_refs_for_similars(sorted_combined_list):
                     elif "X" not in inner_np.id and "X" not in np.id:
                         np.ref = inner_np.id
                         inner_np.ref = np.id
-
-                    # if np.similar is False:
-                    #     np.ref = inner_np.id
-                    #     np.similar = True
 
 def assign_date_to_today(sorted_combined_list, noun_phrases):
 
@@ -373,6 +367,13 @@ def set_keyword(anaphora_list):
         if longest_word[-1] == 's':
             longest_word = longest_word[:-1]
         entry.keyword = longest_word.lower().strip()
+    for entry in anaphora_list:
+        for word in entry.noun_phrase.split():
+            if word[0].isupper() and entry.keyword[0].isupper():
+                if len(word) > len(entry.keyword):
+                    entry.keyword = word
+            elif word[0].isupper() and not entry.keyword[0].isupper():
+                entry.keyword = word
 
 def assign_on_keyword(anaphora_list):
     for entry in anaphora_list:
