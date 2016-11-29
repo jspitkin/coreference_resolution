@@ -2,37 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15b40f3d-b449-4555-b5a4-f4c94dbfe037" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scoring/response_files/a10.response" afterPath="$PROJECT_DIR$/scoring/response_files/a10.response" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scoring/response_files/a11.response" afterPath="$PROJECT_DIR$/scoring/response_files/a11.response" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scoring/response_files/a12.response" afterPath="$PROJECT_DIR$/scoring/response_files/a12.response" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scoring/response_files/a13.response" afterPath="$PROJECT_DIR$/scoring/response_files/a13.response" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scoring/response_files/a14.response" afterPath="$PROJECT_DIR$/scoring/response_files/a14.response" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scoring/response_files/a15.response" afterPath="$PROJECT_DIR$/scoring/response_files/a15.response" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scoring/response_files/a16.response" afterPath="$PROJECT_DIR$/scoring/response_files/a16.response" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scoring/response_files/a17.response" afterPath="$PROJECT_DIR$/scoring/response_files/a17.response" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scoring/response_files/a8.response" afterPath="$PROJECT_DIR$/scoring/response_files/a8.response" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scoring/response_files/a9.response" afterPath="$PROJECT_DIR$/scoring/response_files/a9.response" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scoring/response_files/b1.response" afterPath="$PROJECT_DIR$/scoring/response_files/b1.response" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scoring/response_files/b10.response" afterPath="$PROJECT_DIR$/scoring/response_files/b10.response" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scoring/response_files/b11.response" afterPath="$PROJECT_DIR$/scoring/response_files/b11.response" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scoring/response_files/b12.response" afterPath="$PROJECT_DIR$/scoring/response_files/b12.response" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scoring/response_files/b13.response" afterPath="$PROJECT_DIR$/scoring/response_files/b13.response" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scoring/response_files/b14.response" afterPath="$PROJECT_DIR$/scoring/response_files/b14.response" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scoring/response_files/b15.response" afterPath="$PROJECT_DIR$/scoring/response_files/b15.response" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scoring/response_files/b16.response" afterPath="$PROJECT_DIR$/scoring/response_files/b16.response" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scoring/response_files/b17.response" afterPath="$PROJECT_DIR$/scoring/response_files/b17.response" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scoring/response_files/b18.response" afterPath="$PROJECT_DIR$/scoring/response_files/b18.response" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scoring/response_files/b19.response" afterPath="$PROJECT_DIR$/scoring/response_files/b19.response" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scoring/response_files/b2.response" afterPath="$PROJECT_DIR$/scoring/response_files/b2.response" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scoring/response_files/b20.response" afterPath="$PROJECT_DIR$/scoring/response_files/b20.response" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scoring/response_files/b3.response" afterPath="$PROJECT_DIR$/scoring/response_files/b3.response" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scoring/response_files/b4.response" afterPath="$PROJECT_DIR$/scoring/response_files/b4.response" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scoring/response_files/b5.response" afterPath="$PROJECT_DIR$/scoring/response_files/b5.response" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scoring/response_files/b6.response" afterPath="$PROJECT_DIR$/scoring/response_files/b6.response" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scoring/response_files/b7.response" afterPath="$PROJECT_DIR$/scoring/response_files/b7.response" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scoring/response_files/b8.response" afterPath="$PROJECT_DIR$/scoring/response_files/b8.response" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scoring/response_files/b9.response" afterPath="$PROJECT_DIR$/scoring/response_files/b9.response" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jake_curtis_final.zip" afterPath="" />
     </list>
     <ignored path="nlp_final.iws" />
     <ignored path=".idea/workspace.xml" />

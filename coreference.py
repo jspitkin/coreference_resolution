@@ -56,6 +56,11 @@ def main():
         # Check dates
         combined_list = ioutil.assign_date_to_today(combined_list, nps)
 
+        for entry in combined_list:
+            if entry is not None:
+                if entry.id == entry.ref:
+                    entry.ref = None
+
         # Writing out the final file, all attempts at assignment should be combined before this
         ioutil.write_response_file(response_directory, path, combined_list)
 
