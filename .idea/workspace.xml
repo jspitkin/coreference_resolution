@@ -2,8 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15b40f3d-b449-4555-b5a4-f4c94dbfe037" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/justb1.listfile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/one_file.listfile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/run_all_files.sh" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/coreference.py" afterPath="$PROJECT_DIR$/coreference.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ioutil.py" afterPath="$PROJECT_DIR$/ioutil.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scoring/response_files/a10.response" afterPath="$PROJECT_DIR$/scoring/response_files/a10.response" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scoring/response_files/a11.response" afterPath="$PROJECT_DIR$/scoring/response_files/a11.response" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scoring/response_files/a12.response" afterPath="$PROJECT_DIR$/scoring/response_files/a12.response" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scoring/response_files/a13.response" afterPath="$PROJECT_DIR$/scoring/response_files/a13.response" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scoring/response_files/a14.response" afterPath="$PROJECT_DIR$/scoring/response_files/a14.response" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scoring/response_files/a15.response" afterPath="$PROJECT_DIR$/scoring/response_files/a15.response" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scoring/response_files/a16.response" afterPath="$PROJECT_DIR$/scoring/response_files/a16.response" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scoring/response_files/a17.response" afterPath="$PROJECT_DIR$/scoring/response_files/a17.response" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scoring/response_files/a8.response" afterPath="$PROJECT_DIR$/scoring/response_files/a8.response" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scoring/response_files/a9.response" afterPath="$PROJECT_DIR$/scoring/response_files/a9.response" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scoring/response_files/b1.response" afterPath="$PROJECT_DIR$/scoring/response_files/b1.response" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scoring/response_files/b10.response" afterPath="$PROJECT_DIR$/scoring/response_files/b10.response" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scoring/response_files/b11.response" afterPath="$PROJECT_DIR$/scoring/response_files/b11.response" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scoring/response_files/b12.response" afterPath="$PROJECT_DIR$/scoring/response_files/b12.response" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scoring/response_files/b13.response" afterPath="$PROJECT_DIR$/scoring/response_files/b13.response" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scoring/response_files/b14.response" afterPath="$PROJECT_DIR$/scoring/response_files/b14.response" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scoring/response_files/b15.response" afterPath="$PROJECT_DIR$/scoring/response_files/b15.response" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scoring/response_files/b16.response" afterPath="$PROJECT_DIR$/scoring/response_files/b16.response" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scoring/response_files/b17.response" afterPath="$PROJECT_DIR$/scoring/response_files/b17.response" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scoring/response_files/b18.response" afterPath="$PROJECT_DIR$/scoring/response_files/b18.response" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scoring/response_files/b19.response" afterPath="$PROJECT_DIR$/scoring/response_files/b19.response" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scoring/response_files/b2.response" afterPath="$PROJECT_DIR$/scoring/response_files/b2.response" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scoring/response_files/b20.response" afterPath="$PROJECT_DIR$/scoring/response_files/b20.response" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scoring/response_files/b3.response" afterPath="$PROJECT_DIR$/scoring/response_files/b3.response" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scoring/response_files/b4.response" afterPath="$PROJECT_DIR$/scoring/response_files/b4.response" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scoring/response_files/b5.response" afterPath="$PROJECT_DIR$/scoring/response_files/b5.response" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scoring/response_files/b6.response" afterPath="$PROJECT_DIR$/scoring/response_files/b6.response" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scoring/response_files/b7.response" afterPath="$PROJECT_DIR$/scoring/response_files/b7.response" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scoring/response_files/b8.response" afterPath="$PROJECT_DIR$/scoring/response_files/b8.response" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scoring/response_files/b9.response" afterPath="$PROJECT_DIR$/scoring/response_files/b9.response" />
     </list>
     <ignored path="nlp_final.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,20 +59,16 @@
       <file leaf-file-name="coreference.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/coreference.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+            <state relative-caret-position="204">
+              <caret line="51" column="7" selection-start-line="51" selection-start-column="7" selection-end-line="51" selection-end-column="7" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
-                <marker date="1480380969000" expanded="true" signature="98:2103" ph="..." />
-                <marker date="1480380969000" expanded="true" signature="125:165" ph="..." />
-                <marker date="1480380969000" expanded="true" signature="294:2103" ph="..." />
-                <marker date="1480380969000" expanded="true" signature="451:599" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NounPhrase.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="NounPhrase.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/NounPhrase.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
@@ -50,10 +78,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ioutil.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ioutil.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ioutil.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
+            <state relative-caret-position="-3907">
               <caret line="147" column="24" selection-start-line="147" selection-start-column="24" selection-end-line="147" selection-end-column="24" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
@@ -71,8 +99,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/NounPhrase.py" />
-        <option value="$PROJECT_DIR$/coreference.py" />
         <option value="$PROJECT_DIR$/ioutil.py" />
+        <option value="$PROJECT_DIR$/coreference.py" />
       </list>
     </option>
   </component>
@@ -153,17 +181,25 @@
       <option name="presentableId" value="Default" />
       <updated>1480375513258</updated>
     </task>
+    <task id="LOCAL-00001" summary="Merge branch 'master' of https://github.com/jspitkin/coreference_resolution&#10;&#10;# Conflicts:&#10;#&#9;coreference.py&#10;#&#9;ioutil.py&#10;">
+      <created>1480381081237</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1480381081237</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32876712" sideWeight="0.503231" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32876712" sideWeight="0.49676898" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -190,40 +226,40 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Merge branch 'master' of https://github.com/jspitkin/coreference_resolution&#10;&#10;# Conflicts:&#10;#&#9;coreference.py&#10;#&#9;ioutil.py&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/jspitkin/coreference_resolution&#10;&#10;# Conflicts:&#10;#&#9;coreference.py&#10;#&#9;ioutil.py&#10;" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/NounPhrase.py">
+    <entry file="file://$PROJECT_DIR$/ioutil.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="-3907">
+          <caret line="147" column="24" selection-start-line="147" selection-start-column="24" selection-end-line="147" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/coreference.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+        <state relative-caret-position="204">
+          <caret line="51" column="7" selection-start-line="51" selection-start-column="7" selection-end-line="51" selection-end-column="7" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
-            <marker date="1480380969000" expanded="true" signature="98:2103" ph="..." />
-            <marker date="1480380969000" expanded="true" signature="125:165" ph="..." />
-            <marker date="1480380969000" expanded="true" signature="294:2103" ph="..." />
-            <marker date="1480380969000" expanded="true" signature="451:599" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ioutil.py">
+    <entry file="file://$PROJECT_DIR$/NounPhrase.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="147" column="24" selection-start-line="147" selection-start-column="24" selection-end-line="147" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="85">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

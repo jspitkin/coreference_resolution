@@ -49,7 +49,7 @@ def main():
         # Assign appositives
         nps = ioutil.get_noun_phrase_positions(path, noun_phrases)
         appositives = ioutil.get_appositives(path)
-        #combined_list = ioutil.match_appositive_and_np(appositives, nps, combined_list)
+        combined_list = ioutil.match_appositive_and_np(appositives, nps, combined_list)
 
         ioutil.it_assigner(combined_list)
 
