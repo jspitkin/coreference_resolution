@@ -91,6 +91,7 @@ def remove_common_words(noun_phrases):
     remove_words = ['a', 'an', 'the', 'and', 'of', 'at', 'in', 'of', 'only', 'on', '>', '<']
     return_list = []
     for np in noun_phrases:
+        np.noun_phrase.replace('-', ' ')
         np_split = (np.noun_phrase).split()
         result_np = [word for word in np_split if word.lower() not in remove_words]
         result = ' '.join(result_np)
@@ -181,7 +182,6 @@ def combine_anaphora_relevant_np(anaphora_list, noun_phrase_list):
                 already_in_list = True
         if not already_in_list:
             np.id = 'X' + str(id_index)
-            np.ref = first_found_anaphora_id
             id_index += 1
             combined_list.append(np)
     for np in anaphora_list:
@@ -196,24 +196,19 @@ def assign_refs_for_pronouns(sorted_combined_list):
             current_anaphora = np
             break
     pronouns = ['he', 'she', 'it', 'her', 'him', 'they']
-    assigned_match = False
     for index, np, in enumerate(sorted_combined_list):
         if np.anaphora is True:
-            assigned_match = False
             current_anaphora = np
         if (np.noun_phrase).lower().strip() in pronouns:
             if np.id != current_anaphora.id:
-                assigned_match = True
                 np.ref = current_anaphora.id
                 current_anaphora.ref = np.id
 
 def assign_previous(anaphora_list):
-    previous_item = None
-    for item in anaphora_list:
+    previous_item = anaphora_list[0]
+    for item in anaphora_list[1:]:
         if item.anaphora is False:
             continue
-        if previous_item is None:
-            previous_item = item
         else:
             item.ref = previous_item.id
             previous_item = item

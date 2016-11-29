@@ -44,19 +44,12 @@ def main():
         # Assign appositives
         nps = ioutil.get_noun_phrase_positions(path, noun_phrases)
         appositives = ioutil.get_appositives(path)
-        combined_list = ioutil.match_appositive_and_np(appositives, nps, combined_list)
+        #combined_list = ioutil.match_appositive_and_np(appositives, nps, combined_list)
 
         ioutil.it_assigner(combined_list)
 
-        #for no in combined_list:
-            #print (no.noun_phrase)
-
         # Check dates
         combined_list = ioutil.assign_date_to_today(combined_list, nps)
-
-
-        #for np in combined_list:
-            #print(np)
 
         # Writing out the final file, all attempts at assignment should be combined before this
         ioutil.write_response_file(response_directory, path, combined_list)
