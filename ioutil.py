@@ -285,7 +285,7 @@ def gender_assign_name(name):
 def it_assigner(combined_list):
     male_pronouns = ["he","him"]
     female_pronouns = ["she", "her"]
-    pronouns_it = ["it", "its", "it's", "him"]
+    pronouns_it = ["it", "its", "it's", "him", "It"]
 
     combined_list = sorted(combined_list, key=lambda x: x.start_index)
     prev_np = None
@@ -377,3 +377,47 @@ def assign_on_keyword(anaphora_list):
                 if entry.id != cross_entry.id:
                     entry.ref = cross_entry.id
                     cross_entry.ref = entry.id
+
+def assign_gender(combined_list):
+    male_pronouns = ["he","him", "Mr.", "mr.", "He", "chairman", "Mr", "men", "Him"]
+    female_pronouns = ["she", "Mrs.", "Miss", "her", "miss", "mrs", "women", "woman", "She", "Her"]
+    plural_pronouns = ["We", "we", "these", "They", "they", "two", "three", "four", "five", "six", "seven", "eight", "nine", "dozen", "hundreds", "both"]
+
+    combined_list = sorted(combined_list, key=lambda x: x.start_index)
+
+    for np in combined_list:
+
+        longest_word = max(np.noun_phrase.split(), key=len)
+
+
+        if np.noun_phrase in male_pronouns:
+            np.gender = "male"
+        elif np.noun_phrase in female_pronouns:
+            np.gender = "female"
+        elif np.noun_phrase in plural_pronouns:
+            np.gender = "plural"
+        elif longest_word[-1] == 's':
+            np.gender = "plural"
+
+def match_previous_gender(combined_list):
+
+    combined_list = sorted(combined_list, key=lambda x: x.start_index)
+    prev_male = None
+    prev_female = None
+    prev_plural = None
+
+    for np in combined_list:
+        if np.gender == "male":
+            if prev_male is not None:
+                np.ref = prev_male.id
+            prev_male = np
+        elif np.gender == "female":
+            if prev_female is not None:
+                np.ref = prev_female.id
+            prev_female = np
+        elif prev_plural == "plural":
+            if prev_plural is not None:
+                np.ref = prev_plural.id
+            prev_plural = np
+
+
