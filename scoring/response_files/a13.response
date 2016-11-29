@@ -1,50 +1,50 @@
 <TXT>
-<COREF ID="46" REF="44">03-27-96</COREF>
-<COREF ID="X6" REF="35">seven passengers</COREF>
 <COREF ID="X1" REF="26">AEROFLOT</COREF>
-<COREF ID="6" REF="26">Russian airline Aeroflot</COREF>
-<COREF ID="32" REF="A1">his 13-year-old sister</COREF>
-<COREF ID="7" REF="3">families</COREF>
-<COREF ID="X10" REF="26">Aeroflot</COREF>
 <COREF ID="2" REF="7">FAMILIES</COREF>
-<COREF ID="15" REF="38">he</COREF>
-<COREF ID="X8" REF="26">Aeroflot</COREF>
-<COREF ID="40" REF="39">it</COREF>
-<COREF ID="1" REF="26">AEROFLOT</COREF>
-<COREF ID="12" REF="X9">it</COREF>
-<COREF ID="17" REF="16">writ</COREF>
-<COREF ID="X2" REF="7">FAMILIES</COREF>
-<COREF ID="A1">Yana</COREF>
-<COREF ID="X4" REF="17">writ</COREF>
-<COREF ID="X14" REF="35">passengers</COREF>
-<COREF ID="22" REF="44">Hong Kong</COREF>
-<COREF ID="25" REF="24">defendant</COREF>
-<COREF ID="35" REF="X17">passengers</COREF>
-<COREF ID="42" REF="X18">Mr Miller</COREF>
-<COREF ID="38" REF="15">he</COREF>
-<COREF ID="X11" REF="44">Hong Kong</COREF>
-<COREF ID="27" REF="44">Hong Kong-bound aircraft</COREF>
-<COREF ID="31" REF="29">Eldar</COREF>
-<COREF ID="44" REF="41">family members who live outside Hong Kong</COREF>
-<COREF ID="16" REF="17">writ</COREF>
-<COREF ID="X13" REF="35">seven passengers</COREF>
-<COREF ID="X12" REF="44">Hong Kong Vassili Tkatchenko</COREF>
-<COREF ID="X15" REF="44">who</COREF>
-<COREF ID="39" REF="44">Hong Kong</COREF>
-<COREF ID="X5" REF="44">Hong Kong</COREF>
-<COREF ID="41" REF="44">Hong Kong</COREF>
-<COREF ID="X17" REF="35">passengers</COREF>
-<COREF ID="3" REF="7">FAMILIES</COREF>
-<COREF ID="29" REF="27">it</COREF>
-<COREF ID="24" REF="23">deaths</COREF>
-<COREF ID="19" REF="X16">Moscow Airbus A310 flight</COREF>
-<COREF ID="X16" REF="19">Moscow</COREF>
 <COREF ID="X3" REF="24">DEATHS</COREF>
-<COREF ID="X7" REF="35">passengers</COREF>
-<COREF ID="23" REF="22">It</COREF>
-<COREF ID="26" REF="6">Aeroflot</COREF>
-<COREF ID="X18" REF="42">Steve Miller</COREF>
+<COREF ID="X4" REF="17">writ</COREF>
+<COREF ID="44" REF="41">family members who live outside Hong Kong</COREF>
+<COREF ID="32" REF="A1">his 13-year-old sister</COREF>
 <COREF ID="37" REF="35">managing director</COREF>
-<COREF ID="43" REF="17">writs</COREF>
+<COREF ID="40" REF="39">it</COREF>
 <COREF ID="X9" REF="26">Aeroflot Airbus</COREF>
+<COREF ID="26" REF="6">Aeroflot</COREF>
+<COREF ID="17" REF="16">writ</COREF>
+<COREF ID="19" REF="X16">Moscow Airbus A310 flight</COREF>
+<COREF ID="23" REF="22">It</COREF>
+<COREF ID="1" REF="26">AEROFLOT</COREF>
+<COREF ID="X5" REF="44">Hong Kong</COREF>
+<COREF ID="X6" REF="35">passengers</COREF>
+<COREF ID="43" REF="17">writs</COREF>
+<COREF ID="6" REF="26">Russian airline Aeroflot</COREF>
+<COREF ID="A1">Yana</COREF>
+<COREF ID="X12" REF="44">Hong Kong Vassili Tkatchenko</COREF>
+<COREF ID="X13" REF="35">passengers</COREF>
+<COREF ID="X14" REF="35">seven passengers</COREF>
+<COREF ID="22" REF="44">Hong Kong</COREF>
+<COREF ID="X17" REF="35">passengers</COREF>
+<COREF ID="46" REF="44">03-27-96</COREF>
+<COREF ID="3" REF="7">FAMILIES</COREF>
+<COREF ID="38" REF="15">he</COREF>
+<COREF ID="42" REF="X18">Mr Miller</COREF>
+<COREF ID="41" REF="44">Hong Kong</COREF>
+<COREF ID="16" REF="17">writ</COREF>
+<COREF ID="X16" REF="19">Moscow</COREF>
+<COREF ID="X2" REF="7">FAMILIES</COREF>
+<COREF ID="7" REF="3">families</COREF>
+<COREF ID="12" REF="X8">it</COREF>
+<COREF ID="31" REF="29">Eldar</COREF>
+<COREF ID="39" REF="44">Hong Kong</COREF>
+<COREF ID="X7" REF="35">seven passengers</COREF>
+<COREF ID="27" REF="44">Hong Kong-bound aircraft</COREF>
+<COREF ID="X15" REF="44">who</COREF>
+<COREF ID="25" REF="24">defendant</COREF>
+<COREF ID="X18" REF="42">Steve Miller</COREF>
+<COREF ID="X11" REF="44">Hong Kong</COREF>
+<COREF ID="X10" REF="26">Aeroflot</COREF>
+<COREF ID="29" REF="27">it</COREF>
+<COREF ID="35" REF="X17">passengers</COREF>
+<COREF ID="X8" REF="26">Aeroflot</COREF>
+<COREF ID="24" REF="23">deaths</COREF>
+<COREF ID="15" REF="38">he</COREF>
 </TXT>
